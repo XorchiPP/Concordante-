@@ -1,29 +1,53 @@
 # Concordante
+### Matemáticas · Geometría · Información · Sistemas
 
-**Jorge Rosales Pérez · Concordante**
+**Jorge Rosales Pérez** · Investigador independiente · México
 
-Concordante es un programa independiente de investigación y desarrollo conceptual dirigido por **Jorge Rosales Pérez**. Explora relaciones entre matemática, geometría, computación, teoría de sistemas y modelos formales de información y experiencia.
+> Un programa de investigación para encontrar estructuras simples que expliquen relaciones complejas, conservar las pruebas y distinguir las posibilidades de los resultados demostrados.
 
-## Líneas generales
+Concordante reúne preguntas que aparecen en geometría, álgebra, computación y teoría de sistemas. Su objetivo es construir puentes precisos entre esos lenguajes: encontrar invariantes, estudiar simetrías, diseñar verificaciones reproducibles y saber cuándo una afirmación necesita más evidencia.
 
-- Estructuras geométricas, simetrías y teoría de raíces.
-- Combinatoria, sistemas discretos y representaciones matemáticas.
-- Modelos dinámicos y arquitecturas computacionales.
-- Puentes interdisciplinarios entre formalización, información y experiencia.
+## Explora el proyecto
 
-Este espacio reúne **únicamente materiales preparados y autorizados para circulación pública**. La investigación en curso, los manuscritos inéditos, el código interno, los datos reservados y los experimentos todavía sujetos a revisión se mantienen fuera de este repositorio.
+| Entrada | Qué encontrarás |
+|---|---|
+| [Investigación](INVESTIGACION.md) | Las principales preguntas y áreas del programa |
+| [Geometría y simetría](GEOMETRIA_Y_SIMETRIA.md) | Un recorrido accesible desde el hexágono hasta los sistemas de raíces |
+| [Sistemas y computación](SISTEMAS_Y_COMPUTACION.md) | Cómo pensar estados, relaciones, trazas e invariantes |
+| [Método Concordante](METODO.md) | De una intuición a una hipótesis verificable |
+| [Publicaciones](PUBLICACIONES.md) | Criterios y catálogo de materiales efectivamente liberados |
+| [Preguntas frecuentes](PREGUNTAS_FRECUENTES.md) | Alcance, lenguaje y límites de las investigaciones |
+| [Colaboración](COLABORACION.md) | Cómo proponer una revisión o conversación técnica |
+| [English overview](ENGLISH.md) | Project introduction in English |
 
-## Publicaciones
+## Cuatro ejes de trabajo
 
-Cada artículo o documento que se incorpore deberá identificar su versión, estado editorial, fecha, fuente y referencia de publicación cuando corresponda. Los resultados computacionales se distinguirán de las demostraciones generales y de las hipótesis todavía abiertas.
+**1. Geometría y simetría.** Figuras, redes, raíces, órbitas y transformaciones permiten reducir configuraciones extensas a estructuras examinables.
 
-## Autoría y derechos
+**2. Matemática discreta.** La combinatoria, la teoría de grafos y los sistemas finitos ayudan a formular preguntas exactas, producir certificados y distinguir una regularidad de una coincidencia.
 
-**Autor: Jorge Rosales Pérez**  
-**Proyecto: Concordante**
+**3. Sistemas dinámicos e información.** Se estudian las relaciones entre estado, memoria, contexto, evidencia y cambio, con especial atención a las invariancias y la reconstrucción.
 
-© 2026 Jorge Rosales Pérez — Concordante. **Todos los derechos reservados.**
+**4. Computación verificable.** Una prueba matemática, una simulación, un programa que enumera casos y una predicción empírica tienen alcances distintos. Concordante busca documentar esas diferencias explícitamente.
 
-Véanse [Autoría y derechos](AUTORIA_Y_DERECHOS.md) y [Política de publicación](POLITICA_DE_PUBLICACION.md).
+## Cómo leer los resultados
 
-Este repositorio tiene un historial independiente del laboratorio de investigación y no contiene una copia del archivo técnico reservado.
+| Etiqueta | Significado |
+|---|---|
+| **Teorema** | Enunciado demostrado bajo hipótesis escritas |
+| **Certificado computacional** | Resultado verificado para los casos y el programa indicados |
+| **Hipótesis** | Afirmación propuesta que requiere pruebas adicionales |
+| **Exploración** | Pregunta abierta, comparación o intuición |
+| **Publicado** | Documento ya liberado en una fuente pública identificable |
+
+La existencia de una pregunta importante no implica que exista una solución definitiva. Publicar resultados de forma trazable es tan importante como explorar nuevas conexiones.
+
+## Independencia y acceso
+
+Concordante es un proyecto de investigación independiente de **Jorge Rosales Pérez**. Esta página funciona como espacio público de presentación y lectura. Los manuscritos inéditos, modelos internos, programas en desarrollo y datos reservados se conservan en un repositorio de trabajo privado. Su contenido se divulga mediante una decisión editorial específica y con la atribución correspondiente.
+
+**Identidad del proyecto:** Jorge Rosales Pérez · Concordante  
+**ORCID:** [0009-0008-1679-7858](https://orcid.org/0009-0008-1679-7858)  
+**Autoría y derechos:** [consultar](AUTORIA_Y_DERECHOS.md) · [política de publicación](POLITICA_DE_PUBLICACION.md)
+
+© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
