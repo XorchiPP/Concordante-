@@ -1,0 +1,7 @@
+# GitBook Git Sync: solo la biblioteca pública Concordante.
+# El resto del repositorio público queda fuera de este espacio.
+root: ./gitbook/
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
