@@ -47,7 +47,7 @@ La existencia de una pregunta importante no implica que exista una solución def
 Concordante es un proyecto de investigación independiente de **Jorge Rosales Pérez**. Esta página funciona como espacio público de presentación y lectura. Los manuscritos inéditos, modelos internos, programas en desarrollo y datos reservados se conservan en un repositorio de trabajo privado. Su contenido se divulga mediante una decisión editorial específica y con la atribución correspondiente.
 
 **Identidad del proyecto:** Jorge Rosales Pérez · Concordante  
-**ORCID:** [0009-0008-1679-7858](https://orcid.org/0009-0008-1679-7858)  
+**ORCID:** [0009-0007-3442-648X](https://orcid.org/0009-0007-3442-648X)  
 **Autoría y derechos:** [consultar](AUTORIA_Y_DERECHOS.md) · [política de publicación](POLITICA_DE_PUBLICACION.md)
 
 © 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
