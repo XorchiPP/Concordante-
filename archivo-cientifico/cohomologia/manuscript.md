@@ -519,7 +519,7 @@ the complete computational dependencies below.
 | Wreath identification and LHS collapse | Basis change, Nakaoka and odd-index transfer | Written argument with classical theorem inputs |
 | Orbit and Betti series | Integer Burnside counts, Shapiro and recurrence | Bounded checker included |
 | Fiber equalities | Exact polynomial multiplication and integer determinant | Checker included |
-| Nine genuine global relations | Authentic group classes and detector matrices | Dependency bundle pending inclusion |
+| Global-class realization | Reconstructed six-detector data plus antecedent constructions | Restriction supplement included; realization remains a hypothesis |
 | Exported Gröbner basis and Hilbert identity | S-pairs and integer LCM lattice | Replayed for K; J⊆K checked, K⊆J pending |
 | Global generation | Fiber invariants, Shapiro and finite filtered lifting | Written argument conditional on authentic classes |
 
@@ -572,10 +572,7 @@ submission.
 
 This edition supplies normalized algebraic data, three dependency-free
 verifiers, exported Gröbner supports, recorded outputs and certificates,
-and the full written argument. The next reproducibility milestone is a
-public bundle of authentic global-class constructions, detector
-matrices, the reverse ideal-containment certificate, and their execution
-instructions with SHA-256 digests. The ring-isomorphism assertion
+and the full written argument. The restriction supplement supplies reconstructed six-detector supports and antecedent tables, with a bounded replay and SHA-256 digests. The remaining proof dependencies are the authentic global-class constructions and the reverse ideal-containment certificate. The antecedent CAS replay program is located; authentication of its output remains pending. The ring-isomorphism assertion
 remains conditional on these inputs. Archival identifiers and journal
 submission are subsequent editorial steps.
 

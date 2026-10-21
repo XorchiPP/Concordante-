@@ -33,10 +33,10 @@ Las salidas originales de esta edición están en verification_output.txt, buchb
 - Los 46 polinomios exportados forman una base de Gröbner de su ideal: 809 S-pares reducidos y 226 cubiertos por criterio del producto; las nueve relaciones reducen a cero.
 - Los 852 estados de la retícula de mínimos comunes múltiplos producen una identidad racional exacta con la serie declarada, por multiplicación cruzada en Z[t]. Esta identidad corresponde directamente al ideal exportado. Si J es el ideal de las nueve relaciones y K el ideal exportado, se verificó J⊆K. Identificar ambos requiere la contención inversa K⊆J.
 
-## Bundle pendiente exacto
+## Disponibilidad de restricciones y dependencias pendientes
 
-1. Construcción auténtica de las ocho clases globales y matrices de sus seis restricciones, con los subgrupos, la acción y los certificados de rango/detección en los grados necesarios.
-2. Certificados explícitos que expresen cada uno de los 46 polinomios exportados como combinación de las nueve relaciones originales, o una repetición independiente del cálculo CAS con salida verificable equivalente.
+1. [Suplemento de restricciones](restrictions/README.md): datos de seis detectores localizados, saneados y reconstruidos; 144 columnas comparadas y convención de fibra idéntica al manuscrito. La justificación antecedente de realización global de las ocho clases y la autenticación completa de detección permanecen como hipótesis separadas.
+2. El programa CAS antecedente está localizado y pendiente de reproducción/cotejo de su salida. Se requieren certificados explícitos que expresen cada uno de los 46 polinomios exportados como combinación de las nueve relaciones originales, o una repetición independiente del cálculo CAS con salida verificable equivalente.
 3. Para la tabla Steenrod, los datos originales de restricciones y verificadores de las 168 identidades, 28 reducciones de estabilidad y 128 identidades de Adem.
 4. Para la nota integral, el paquete de resoluciones, Bockstein y registros cíclicos correspondiente a los resultados aditivos transcritos.
 

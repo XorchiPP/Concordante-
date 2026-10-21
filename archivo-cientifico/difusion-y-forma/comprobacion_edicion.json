@@ -1,0 +1,13 @@
+{
+  "estado": "PASS",
+  "espectros_pequenos_error_maximo": {
+    "tri2": 7.105427357601002e-15,
+    "cube3": 2.4868995751603507e-14,
+    "flag3": 3.197442310920451e-14
+  },
+  "series_historicas_puntos_comprobados": 1000,
+  "series_error_redondeo_maximo": 4.999176805853267e-08,
+  "tiempo_emparejado_filas": 4,
+  "certificados": "Comprobación de campos seleccionados; homología, transportes LP y muestra aleatoria conservados como evidencia histórica.",
+  "alcance": "Funciones Fourier y ensamblaje de matrices pequeños; edición HTML y coherencia de datos. No se ejecutaron los experimentos completos."
+}

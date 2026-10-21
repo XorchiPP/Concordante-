@@ -1,0 +1,589 @@
+{
+  "D1": {
+    "K_at_t0": {
+      "coarse": 512,
+      "fine": 4096
+    },
+    "cannot_have_full_trace_identity": true,
+    "nonexact_lowest_mode": {
+      "coarse_lambda": 0.5857864376269049,
+      "fine_lambda": 0.15224093497742652,
+      "ratio": 3.847759065022572
+    },
+    "physical_time_comparison": [
+      {
+        "coarse_ds": 3.4081490513944677,
+        "coarse_heat_time": 1.5,
+        "coarse_trace": 7.354023769164007,
+        "difference": 0.34491468348222387,
+        "fine_ds": 3.063234367912244,
+        "fine_heat_time": 6,
+        "fine_trace": 6.466220819367905
+      },
+      {
+        "coarse_ds": 2.8303127032795605,
+        "coarse_heat_time": 3.0,
+        "coarse_trace": 2.4605633471873647,
+        "difference": 0.10863850516676576,
+        "fine_ds": 2.7216741981127948,
+        "fine_heat_time": 12,
+        "fine_trace": 2.3188250116142917
+      },
+      {
+        "coarse_ds": 1.1853429371453874,
+        "coarse_heat_time": 6.0,
+        "coarse_trace": 1.189414374287105,
+        "difference": 0.10582730646911642,
+        "fine_ds": 1.079515630676271,
+        "fine_heat_time": 24,
+        "fine_trace": 1.1635474828153463
+      },
+      {
+        "coarse_ds": 0.0745568694185322,
+        "coarse_heat_time": 12.0,
+        "coarse_trace": 1.0053219931027773,
+        "difference": 0.015843518009785236,
+        "fine_ds": 0.05871335140874697,
+        "fine_heat_time": 48,
+        "fine_trace": 1.0040280825388477
+      }
+    ]
+  },
+  "D2": {
+    "Lambda_minimization": "K(t) grows with Lambda and 1<=K<=N, so optimizing cutoff alone is degenerate.",
+    "explanation": "Delta K = 8192 t^3 + O(t^4), since trace A^3 is 6 times triangle count; not a proof that K2>K3 for every positive t.",
+    "scan": [
+      {
+        "Lambda": 10.0,
+        "difference_2D_minus_3D": 0.007716093340604857,
+        "ds_2D": 0.11878806301650152,
+        "ds_3D": 0.11880005999600028,
+        "t": 0.01,
+        "trace_2D": 3858.6326305782895,
+        "trace_3D": 3858.624914484949
+      },
+      {
+        "Lambda": 4.47213595499958,
+        "difference_2D_minus_3D": 0.7614592286900006,
+        "ds_2D": 0.5685470990862082,
+        "ds_3D": 0.5700374376072367,
+        "t": 0.05,
+        "trace_2D": 3057.982068043071,
+        "trace_3D": 3057.220608814381
+      },
+      {
+        "Lambda": 3.162277660168379,
+        "difference_2D_minus_3D": 4.564321917318011,
+        "ds_2D": 1.068911296135071,
+        "ds_3D": 1.080596027311305,
+        "t": 0.1,
+        "trace_2D": 2320.7835640443727,
+        "trace_3D": 2316.2192421270547
+      },
+      {
+        "Lambda": 2.0,
+        "difference_2D_minus_3D": 31.411998409493208,
+        "ds_2D": 2.1154052992793373,
+        "ds_3D": 2.2725011622575946,
+        "t": 0.25,
+        "trace_2D": 1130.6970828685655,
+        "trace_3D": 1099.2850844590723
+      },
+      {
+        "Lambda": 1.4142135623730951,
+        "difference_2D_minus_3D": 74.64857148281487,
+        "ds_2D": 2.582175308247706,
+        "ds_3D": 3.3216602046207946,
+        "t": 0.5,
+        "trace_2D": 488.50091094601333,
+        "trace_3D": 413.85233946319846
+      },
+      {
+        "Lambda": 1.0,
+        "difference_2D_minus_3D": 88.55988320391468,
+        "ds_2D": 2.2764365300724934,
+        "ds_3D": 3.626704104427978,
+        "t": 1,
+        "trace_2D": 208.83079435434286,
+        "trace_3D": 120.27091115042818
+      },
+      {
+        "Lambda": 0.7071067811865476,
+        "difference_2D_minus_3D": 62.14075434669358,
+        "ds_2D": 2.1003657585801956,
+        "ds_3D": 3.275457280745339,
+        "t": 2,
+        "trace_2D": 98.47223333961522,
+        "trace_3D": 36.33147899292163
+      },
+      {
+        "Lambda": 0.5,
+        "difference_2D_minus_3D": 35.99219873093328,
+        "ds_2D": 2.0452758366019936,
+        "ds_3D": 3.1085475388420285,
+        "t": 4,
+        "trace_2D": 48.07866271484147,
+        "trace_3D": 12.086463983908185
+      },
+      {
+        "Lambda": 0.408248290463863,
+        "difference_2D_minus_3D": 25.348787894585804,
+        "ds_2D": 2.0293114051438703,
+        "ds_3D": 3.063234367912244,
+        "t": 6,
+        "trace_2D": 31.81500871395371,
+        "trace_3D": 6.466220819367905
+      },
+      {
+        "Lambda": 0.31622776601683794,
+        "difference_2D_minus_3D": 15.979630884611645,
+        "ds_2D": 2.017200529283847,
+        "ds_3D": 2.9037709819779045,
+        "t": 10,
+        "trace_2D": 18.978663372289738,
+        "trace_3D": 2.999032487678093
+      },
+      {
+        "Lambda": 0.25,
+        "difference_2D_minus_3D": 10.200572671277312,
+        "ds_2D": 2.010621463245816,
+        "ds_3D": 2.1850284283332,
+        "t": 16,
+        "trace_2D": 11.823701131816915,
+        "trace_3D": 1.6231284605396026
+      },
+      {
+        "Lambda": 0.2041241452319315,
+        "difference_2D_minus_3D": 6.705024182248989,
+        "ds_2D": 2.0070345735840425,
+        "ds_3D": 1.079515630676271,
+        "t": 24,
+        "trace_2D": 7.868571665064335,
+        "trace_3D": 1.1635474828153463
+      },
+      {
+        "Lambda": 0.14433756729740643,
+        "difference_2D_minus_3D": 2.923384955958794,
+        "ds_2D": 2.0033698265834343,
+        "ds_3D": 0.05871335140874697,
+        "t": 48,
+        "trace_2D": 3.9274130384976416,
+        "trace_3D": 1.0040280825388477
+      }
+    ],
+    "small_t_difference_leading_coefficient": 8192.0,
+    "spectral_action": "Tr exp(-t L), t=1/Lambda^2, graph heat trace (not automatically a Connes spectral triple)",
+    "triangles_2D": 8192,
+    "triangles_3D": 0
+  },
+  "D3": {
+    "Boltzmann_reweighting": [
+      {
+        "P_cube": 0.012195121951219513,
+        "P_random_pool": 0.9756097560975616,
+        "P_triangle": 0.012195121951219513,
+        "beta": 0,
+        "effective_number_states_Shannon": 81.99999999999929
+      },
+      {
+        "P_cube": 0.011424903679295956,
+        "P_random_pool": 0.9848597611560362,
+        "P_triangle": 0.003715335164667711,
+        "beta": 1,
+        "effective_number_states_Shannon": 81.6233853947201
+      },
+      {
+        "P_cube": 0.008450553228444724,
+        "P_random_pool": 0.991518713245098,
+        "P_triangle": 3.073352645763069e-05,
+        "beta": 5,
+        "effective_number_states_Shannon": 80.00223373471276
+      },
+      {
+        "P_cube": 0.005641368678650469,
+        "P_random_pool": 0.9943585567041423,
+        "P_triangle": 7.461720726381352e-08,
+        "beta": 10,
+        "effective_number_states_Shannon": 77.06225023160042
+      },
+      {
+        "P_cube": 0.0008892868543985684,
+        "P_random_pool": 0.9991107131456014,
+        "P_triangle": 2.057810576283416e-18,
+        "beta": 30,
+        "effective_number_states_Shannon": 55.05883136774897
+      },
+      {
+        "P_cube": 2.6776416364354426e-07,
+        "P_random_pool": 0.9999997322358363,
+        "P_triangle": 4.388312302043867e-56,
+        "beta": 100,
+        "effective_number_states_Shannon": 14.479645690979348
+      }
+    ],
+    "action_K_time": 1,
+    "degree": 6,
+    "edge_count": 192,
+    "kind": "finite sampled library / diagnostic only, no thermodynamic ensemble or fixed point",
+    "n": 64,
+    "probe": [
+      {
+        "cube_K": 36.19182325158219,
+        "fraction_random_K_lt_cube": 0.0,
+        "random_K_max": 36.20754773237003,
+        "random_K_median": 36.20133385895626,
+        "random_K_min": 36.19682803833682,
+        "random_ds_max": 1.079723644006488,
+        "random_ds_median": 1.078983030408214,
+        "random_ds_min": 1.0779911338258215,
+        "t": 0.1,
+        "triangle_K": 36.262243188296885
+      },
+      {
+        "cube_K": 17.192305087476477,
+        "fraction_random_K_lt_cube": 0.0,
+        "random_K_max": 17.26977642092751,
+        "random_K_median": 17.2318177907688,
+        "random_K_min": 17.201610998342183,
+        "random_ds_max": 2.2666104201191004,
+        "random_ds_median": 2.25683554925625,
+        "random_ds_min": 2.2455219104575455,
+        "t": 0.25,
+        "triangle_K": 17.667142061533546
+      },
+      {
+        "cube_K": 6.550688280437315,
+        "fraction_random_K_lt_cube": 0.3375,
+        "random_K_max": 6.632652763492286,
+        "random_K_median": 6.56520294355705,
+        "random_K_min": 6.496462379716914,
+        "random_ds_max": 3.305127195292742,
+        "random_ds_median": 3.256130182786823,
+        "random_ds_min": 3.2151077715268594,
+        "t": 0.5,
+        "triangle_K": 7.632850483204436
+      },
+      {
+        "cube_K": 2.1416318094934814,
+        "fraction_random_K_lt_cube": 1.0,
+        "random_K_max": 2.1236200054398133,
+        "random_K_median": 2.0708793219574524,
+        "random_K_min": 2.005056269027613,
+        "random_ds_max": 3.0550955728424145,
+        "random_ds_median": 3.0087703150380753,
+        "random_ds_min": 2.944922981189078,
+        "t": 1,
+        "triangle_K": 3.264958422150365
+      },
+      {
+        "cube_K": 1.115050357430303,
+        "fraction_random_K_lt_cube": 1.0,
+        "random_K_max": 1.0999453026864747,
+        "random_K_median": 1.0822932330928103,
+        "random_K_min": 1.0667113127282382,
+        "random_ds_max": 0.7796023457932192,
+        "random_ds_median": 0.7145437279460478,
+        "random_ds_min": 0.6267092856588439,
+        "t": 2,
+        "triangle_K": 1.588799145155876
+      },
+      {
+        "cube_K": 1.0149649814117248,
+        "fraction_random_K_lt_cube": 1.0,
+        "random_K_max": 1.0140820976478435,
+        "random_K_median": 1.0086500889727166,
+        "random_K_min": 1.0060230616049655,
+        "random_ds_max": 0.15385098639332148,
+        "random_ds_median": 0.11184980809943086,
+        "random_ds_min": 0.08367124594775138,
+        "t": 3,
+        "triangle_K": 1.1790166519332097
+      },
+      {
+        "cube_K": 1.0020144645502524,
+        "fraction_random_K_lt_cube": 0.9625,
+        "random_K_max": 1.002381569810115,
+        "random_K_median": 1.0010511393951325,
+        "random_K_min": 1.0005997196908198,
+        "random_ds_max": 0.03272605182187625,
+        "random_ds_median": 0.017299865811880158,
+        "random_ds_min": 0.010917107945663808,
+        "t": 4,
+        "triangle_K": 1.0553441444487122
+      }
+    ],
+    "random_samples": 80,
+    "seed_list": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "warning": "A single d_s(t) close to 3 on a random regular graph does not establish a 3D plateau or manifold."
+  },
+  "D4": {
+    "Euler": 0,
+    "Ollivier_idleness0_edge_orbits": [
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "curvature_idleness0": 2.220446049250313e-16,
+        "edge_direction": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "degree": 14,
+    "f_vector": [
+      125,
+      875,
+      1500,
+      750
+    ],
+    "f_vector_general_m_ge5": [
+      "m^3",
+      "7m^3",
+      "12m^3",
+      "6m^3"
+    ],
+    "fairness_guard": "Genuine 3-manifold comparator, but 14-regular versus triangular 2-torus 6-regular; not same E.",
+    "family": "periodic Freudenthal-Kuhn flag 3-torus",
+    "flag_spectral": {
+      "12": {
+        "ds_at_t": {
+          "0.25": 4.146486028638372,
+          "0.5": 3.679371281599051,
+          "1": 3.2088008376703736,
+          "2": 2.9512851943446976,
+          "3": 2.200847929538508,
+          "4": 1.2360480401834848,
+          "5": 0.576649477650394,
+          "6": 0.24454002389409804
+        },
+        "n": 1728
+      },
+      "16": {
+        "ds_at_t": {
+          "0.25": 4.1464860286687815,
+          "0.5": 3.6793716592956214,
+          "1": 3.209577685096561,
+          "2": 3.089347291615761,
+          "3": 3.010216574618989,
+          "4": 2.7811968895001447,
+          "5": 2.341040100648668,
+          "6": 1.785019293124961
+        },
+        "n": 4096
+      },
+      "24": {
+        "ds_at_t": {
+          "0.25": 4.146486028668771,
+          "0.5": 3.6793716593041395,
+          "1": 3.209578176607922,
+          "2": 3.091153420245458,
+          "3": 3.058509906386123,
+          "4": 3.0427021179480187,
+          "5": 3.030013897786064,
+          "6": 3.008609625031453
+        },
+        "n": 13824
+      },
+      "8": {
+        "ds_at_t": {
+          "0.25": 4.146478037985521,
+          "0.5": 3.675984846439534,
+          "1": 2.9552581886964844,
+          "2": 0.9504163885177515,
+          "3": 0.14814984118654584,
+          "4": 0.019111807927334745,
+          "5": 0.002295513921531579,
+          "6": 0.0002645261217913743
+        },
+        "n": 512
+      }
+    },
+    "m": 5,
+    "mod2_betti": [
+      1,
+      3,
+      3,
+      1
+    ],
+    "mod2_boundary_ranks": [
+      124,
+      748,
+      749
+    ],
+    "n": 125,
+    "quadratic_form_Q": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        2,
+        4,
+        2
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "topological_basis": "all vertex links S2; f and mod2 homology match 3-torus; periodic cube triangulation supplies homeomorphism",
+    "vertex_link": {
+      "connected": true,
+      "edge_face_incidence": 2,
+      "euler": 2,
+      "f_vector": [
+        14,
+        36,
+        24
+      ],
+      "surface_link": "S2 by compact connected surface classification"
+    }
+  },
+  "copyright": "Concordante Lab · Xorch. © 2026. Todos los derechos reservados.",
+  "date": "2026-10-21",
+  "id": "difusión a escala finita",
+  "methods": "Fourier Laplacian / mod-2 incidence boundary ranks / transport LP / seeded regular graph controls",
+  "prior_work": [
+    "comparación de geometrías",
+    "relaciones de compatibilidad",
+    "estudio previo de dimensión y escala",
+    "estudio previo de entropía y resolución"
+  ],
+  "status": "INTERNAL_VERIFIED_NO_CANON",
+  "tests": {
+    "all_internal_checks": "PASS",
+    "cube3_Fourier_against_numerical_diagonalization": 2.4868995751603507e-14,
+    "flag3_Fourier_against_numerical_diagonalization": 3.197442310920451e-14,
+    "tri2_Fourier_against_numerical_diagonalization": 7.105427357601002e-15
+  }
+}

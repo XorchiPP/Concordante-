@@ -1,0 +1,518 @@
+{
+  "coarse": {
+    "cube3": {
+      "d_s_at_t6_after": 1.1853429371453872,
+      "d_s_at_t6_before": 3.063234367912244,
+      "input_m": 16,
+      "input_n": 4096,
+      "is_exact_same_lattice_family": true,
+      "output_m": 8,
+      "output_n": 512
+    },
+    "cycle": {
+      "d_s_at_t6_after": 1.0228462705137646,
+      "d_s_at_t6_before": 1.0228462705141865,
+      "input_m": 64,
+      "input_n": 64,
+      "is_exact_same_lattice_family": true,
+      "output_m": 32,
+      "output_n": 32
+    },
+    "triangle2": {
+      "d_s_at_t6_after": 2.0293114026107033,
+      "d_s_at_t6_before": 2.0293114051438685,
+      "input_m": 64,
+      "input_n": 4096,
+      "is_exact_same_lattice_family": true,
+      "output_m": 32,
+      "output_n": 1024
+    }
+  },
+  "conventions": {
+    "edge_weight": "1",
+    "laplacian": "combinatorial D-A",
+    "ricci": "Ollivier, idleness 0, neighbor-uniform measures, shortest-path ground metric",
+    "time": "continuous diffusion time"
+  },
+  "copyright": "Concordante Lab · Xorch. © 2026. Todos los derechos reservados.",
+  "curvature": {
+    "complete10": {
+      "curvature_max": 0.8888888888888888,
+      "curvature_min": 0.8888888888888888,
+      "edges": 45,
+      "signed_action_sum": 39.99999999999998,
+      "vertices": 10
+    },
+    "cube3": {
+      "all_edges_zero_by_translation_and_point_symmetries": true,
+      "sum_kappa": 0.0,
+      "tested_generator_edge_types": [
+        {
+          "displacement": [
+            1,
+            0,
+            0
+          ],
+          "kappa": 1.1102230246251565e-16,
+          "wasserstein_W1": 0.9999999999999999
+        },
+        {
+          "displacement": [
+            0,
+            1,
+            0
+          ],
+          "kappa": 1.1102230246251565e-16,
+          "wasserstein_W1": 0.9999999999999999
+        },
+        {
+          "displacement": [
+            0,
+            0,
+            1
+          ],
+          "kappa": 1.1102230246251565e-16,
+          "wasserstein_W1": 0.9999999999999999
+        }
+      ]
+    },
+    "cycle": {
+      "all_edges_zero_by_translation_and_point_symmetries": true,
+      "sum_kappa": 0.0,
+      "tested_generator_edge_types": [
+        {
+          "displacement": [
+            1
+          ],
+          "kappa": 0.0,
+          "wasserstein_W1": 1.0
+        }
+      ]
+    },
+    "cycle10": {
+      "curvature_max": 0.0,
+      "curvature_min": 0.0,
+      "edges": 10,
+      "signed_action_sum": 0.0,
+      "vertices": 10
+    },
+    "petersen10": {
+      "curvature_max": -0.33333333333333326,
+      "curvature_min": -0.33333333333333326,
+      "edges": 15,
+      "signed_action_sum": -4.999999999999997,
+      "vertices": 10
+    },
+    "same_n64_degree6_flat_triangular_control": {
+      "degree": 6,
+      "edges": 192,
+      "n": 64,
+      "signed_action_sum": 1.587618925213974e-14,
+      "spectral_dimension_at_t6": 0.07429543862732069
+    },
+    "same_n64_degree6_random_controls": {
+      "19": {
+        "degree": 6,
+        "edges": 192,
+        "graph_random_seed": 19,
+        "mean_edge_curvature": -0.4088541666666666,
+        "n": 64,
+        "signed_action_sum": -78.5,
+        "spectral_dimension_at_t6": 0.0003477418093771783
+      },
+      "3": {
+        "degree": 6,
+        "edges": 192,
+        "graph_random_seed": 3,
+        "mean_edge_curvature": -0.41059027777777773,
+        "n": 64,
+        "signed_action_sum": -78.83333333333327,
+        "spectral_dimension_at_t6": 0.00047950406261023764
+      },
+      "7": {
+        "degree": 6,
+        "edges": 192,
+        "graph_random_seed": 7,
+        "mean_edge_curvature": -0.38281249999999994,
+        "n": 64,
+        "signed_action_sum": -73.50000000000001,
+        "spectral_dimension_at_t6": 0.0004913696618355601
+      }
+    },
+    "triangle2": {
+      "all_edges_zero_by_translation_and_point_symmetries": true,
+      "sum_kappa": 0.0,
+      "tested_generator_edge_types": [
+        {
+          "displacement": [
+            1,
+            0
+          ],
+          "kappa": 1.1102230246251565e-16,
+          "wasserstein_W1": 0.9999999999999999
+        },
+        {
+          "displacement": [
+            0,
+            1
+          ],
+          "kappa": 0.0,
+          "wasserstein_W1": 1.0
+        },
+        {
+          "displacement": [
+            1,
+            1
+          ],
+          "kappa": 1.1102230246251565e-16,
+          "wasserstein_W1": 0.9999999999999999
+        }
+      ]
+    }
+  },
+  "date": "2026-10-21",
+  "guards": [
+    "No graph ensemble, variational measure or renormalization dynamics has been selected.",
+    "Equal idleness-0 Ollivier curvature and equal size/degree do not fix spectral dimension.",
+    "Coarse contraction reduces m without selecting spatial dimension.",
+    "Finite graphs have spectral dimension approaching zero in both t limits.",
+    "Cubic torus graph has spectral dimension near 3 but its unfilled clique complex is 1D.",
+    "Graph Laplacian generator is canonical only after choosing a diffusion convention.",
+    "Not empirical evidence for 3+1 spacetime or quantum gravity."
+  ],
+  "provenance": "Concordante original research continuation; includes previously known mathematics",
+  "spectral": {
+    "cube3": {
+      "by_time": {
+        "0.05": {
+          "heat_trace": 3057.220608814381,
+          "normalized_return": 0.7463917501988235,
+          "spectral_dimension": 0.5700374376072367
+        },
+        "0.1": {
+          "heat_trace": 2316.2192421270547,
+          "normalized_return": 0.5654832134099255,
+          "spectral_dimension": 1.080596027311305
+        },
+        "0.25": {
+          "heat_trace": 1099.2850844590723,
+          "normalized_return": 0.2683801475730157,
+          "spectral_dimension": 2.2725011622575946
+        },
+        "0.5": {
+          "heat_trace": 413.85233946319846,
+          "normalized_return": 0.10103816881425744,
+          "spectral_dimension": 3.3216602046207946
+        },
+        "1": {
+          "heat_trace": 120.27091115042818,
+          "normalized_return": 0.029363015417585004,
+          "spectral_dimension": 3.626704104427978
+        },
+        "10": {
+          "heat_trace": 2.999032487678093,
+          "normalized_return": 0.0007321856659370345,
+          "spectral_dimension": 2.9037709819779045
+        },
+        "12": {
+          "heat_trace": 2.3188250116142917,
+          "normalized_return": 0.0005661193876011454,
+          "spectral_dimension": 2.7216741981127948
+        },
+        "16": {
+          "heat_trace": 1.6231284605396026,
+          "normalized_return": 0.0003962715968114264,
+          "spectral_dimension": 2.1850284283332
+        },
+        "2": {
+          "heat_trace": 36.33147899292163,
+          "normalized_return": 0.008869989988506258,
+          "spectral_dimension": 3.275457280745339
+        },
+        "24": {
+          "heat_trace": 1.1635474828153463,
+          "normalized_return": 0.0002840692096717154,
+          "spectral_dimension": 1.079515630676271
+        },
+        "3": {
+          "heat_trace": 18.959817122844044,
+          "normalized_return": 0.0046288616022568466,
+          "spectral_dimension": 3.155057892655533
+        },
+        "32": {
+          "heat_trace": 1.0466693289003925,
+          "normalized_return": 0.0002555345041260724,
+          "spectral_dimension": 0.4410667732646061
+        },
+        "4": {
+          "heat_trace": 12.086463983908185,
+          "normalized_return": 0.0029507968710713343,
+          "spectral_dimension": 3.1085475388420285
+        },
+        "48": {
+          "heat_trace": 1.0040280825388477,
+          "normalized_return": 0.00024512404358858586,
+          "spectral_dimension": 0.05871335140874697
+        },
+        "5": {
+          "heat_trace": 8.556972514287985,
+          "normalized_return": 0.00208910461774609,
+          "spectral_dimension": 3.0828263106819245
+        },
+        "6": {
+          "heat_trace": 6.466220819367905,
+          "normalized_return": 0.0015786671922284924,
+          "spectral_dimension": 3.063234367912244
+        },
+        "8": {
+          "heat_trace": 4.175068896549293,
+          "normalized_return": 0.0010193039298216047,
+          "spectral_dimension": 3.0110128855314082
+        }
+      },
+      "degree": 6,
+      "dimension_of_periodic_generator": 3,
+      "edges": 12288,
+      "m": 16,
+      "n": 4096,
+      "plateau_4_8": {
+        "4": 3.1085475388420285,
+        "5": 3.0828263106819245,
+        "6": 3.063234367912244,
+        "8": 3.0110128855314082
+      }
+    },
+    "cycle": {
+      "by_time": {
+        "0.05": {
+          "heat_trace": 3715.485392004305,
+          "normalized_return": 0.9071009257823011,
+          "spectral_dimension": 0.19001247920241224
+        },
+        "0.1": {
+          "heat_trace": 3387.1403074942127,
+          "normalized_return": 0.8269385516343293,
+          "spectral_dimension": 0.36019867577043496
+        },
+        "0.25": {
+          "heat_trace": 2642.0644677597184,
+          "normalized_return": 0.64503527044915,
+          "spectral_dimension": 0.7575003874191982
+        },
+        "0.5": {
+          "heat_trace": 1907.751352703551,
+          "normalized_return": 0.4657596075936404,
+          "spectral_dimension": 1.107220068206931
+        },
+        "1": {
+          "heat_trace": 1263.6500891798364,
+          "normalized_return": 0.308508322553671,
+          "spectral_dimension": 1.2089013681439684
+        },
+        "10": {
+          "heat_trace": 367.74015748024726,
+          "normalized_return": 0.08978031188482599,
+          "spectral_dimension": 1.013179684407715
+        },
+        "12": {
+          "heat_trace": 335.3325090161893,
+          "normalized_return": 0.08186828833403059,
+          "spectral_dimension": 1.010881703329824
+        },
+        "16": {
+          "heat_trace": 290.0139594188619,
+          "normalized_return": 0.07080418931124557,
+          "spectral_dimension": 1.0080694056328328
+        },
+        "2": {
+          "heat_trace": 847.8798693334494,
+          "normalized_return": 0.20700192122398667,
+          "spectral_dimension": 1.0918191118035956
+        },
+        "24": {
+          "heat_trace": 236.47891039566005,
+          "normalized_return": 0.05773410898331544,
+          "spectral_dimension": 1.0053205342575393
+        },
+        "3": {
+          "heat_trace": 682.6288440926885,
+          "normalized_return": 0.16665743263981653,
+          "spectral_dimension": 1.0516883477650172
+        },
+        "32": {
+          "heat_trace": 204.66095465413565,
+          "normalized_return": 0.04996605338235734,
+          "spectral_dimension": 1.0039688257521675
+        },
+        "4": {
+          "heat_trace": 587.4965784856588,
+          "normalized_return": 0.1434317818568503,
+          "spectral_dimension": 1.0362321035289823
+        },
+        "48": {
+          "heat_trace": 166.99476716863546,
+          "normalized_return": 0.04077020682828014,
+          "spectral_dimension": 1.00263174475041
+        },
+        "5": {
+          "heat_trace": 523.6053490214035,
+          "normalized_return": 0.1278333371634286,
+          "spectral_dimension": 1.028003480903081
+        },
+        "6": {
+          "heat_trace": 476.8818020902519,
+          "normalized_return": 0.1164262212134404,
+          "spectral_dimension": 1.0228462705141865
+        },
+        "8": {
+          "heat_trace": 411.8287456716881,
+          "normalized_return": 0.10054412736125198,
+          "spectral_dimension": 1.0167118262988828
+        }
+      },
+      "degree": 2,
+      "dimension_of_periodic_generator": 1,
+      "edges": 4096,
+      "m": 4096,
+      "n": 4096,
+      "plateau_4_8": {
+        "4": 1.0362321035289823,
+        "5": 1.028003480903081,
+        "6": 1.0228462705141865,
+        "8": 1.0167118262988828
+      }
+    },
+    "triangle2": {
+      "by_time": {
+        "0.05": {
+          "heat_trace": 3057.982068043071,
+          "normalized_return": 0.7465776533308279,
+          "spectral_dimension": 0.5685470990862079
+        },
+        "0.1": {
+          "heat_trace": 2320.7835640443727,
+          "normalized_return": 0.5665975498155207,
+          "spectral_dimension": 1.068911296135071
+        },
+        "0.25": {
+          "heat_trace": 1130.6970828685655,
+          "normalized_return": 0.2760490924972084,
+          "spectral_dimension": 2.1154052992793377
+        },
+        "0.5": {
+          "heat_trace": 488.5009109460134,
+          "normalized_return": 0.11926291771142905,
+          "spectral_dimension": 2.582175308247706
+        },
+        "1": {
+          "heat_trace": 208.8307943543429,
+          "normalized_return": 0.05098408065291575,
+          "spectral_dimension": 2.276436530072493
+        },
+        "10": {
+          "heat_trace": 18.978663372289766,
+          "normalized_return": 0.004633462737375431,
+          "spectral_dimension": 2.017200529283842
+        },
+        "12": {
+          "heat_trace": 15.792960476906345,
+          "normalized_return": 0.003855703241432213,
+          "spectral_dimension": 2.0142566298765177
+        },
+        "16": {
+          "heat_trace": 11.82370113181695,
+          "normalized_return": 0.0028866457841349976,
+          "spectral_dimension": 2.010621463245806
+        },
+        "2": {
+          "heat_trace": 98.47223333961523,
+          "normalized_return": 0.0240410725926795,
+          "spectral_dimension": 2.100365758580195
+        },
+        "24": {
+          "heat_trace": 7.868571665064378,
+          "normalized_return": 0.001921038004166108,
+          "spectral_dimension": 2.0070345735840287
+        },
+        "3": {
+          "heat_trace": 64.5980862460824,
+          "normalized_return": 0.01577101714992246,
+          "spectral_dimension": 2.062293457326843
+        },
+        "32": {
+          "heat_trace": 5.89625024300724,
+          "normalized_return": 0.0014395142194841895,
+          "spectral_dimension": 2.005258582306772
+        },
+        "4": {
+          "heat_trace": 48.07866271484149,
+          "normalized_return": 0.011737954764365599,
+          "spectral_dimension": 2.0452758366019927
+        },
+        "48": {
+          "heat_trace": 3.927413038497683,
+          "normalized_return": 0.0009588410738519734,
+          "spectral_dimension": 2.0033698265834188
+        },
+        "5": {
+          "heat_trace": 38.290725409152415,
+          "normalized_return": 0.009348321633093851,
+          "spectral_dimension": 2.0355808439148033
+        },
+        "6": {
+          "heat_trace": 31.815008713953727,
+          "normalized_return": 0.007767336111805109,
+          "spectral_dimension": 2.0293114051438685
+        },
+        "8": {
+          "heat_trace": 23.774600602387707,
+          "normalized_return": 0.005804345850192311,
+          "spectral_dimension": 2.0216778857786135
+        }
+      },
+      "degree": 6,
+      "dimension_of_periodic_generator": 2,
+      "edges": 12288,
+      "m": 64,
+      "n": 4096,
+      "plateau_4_8": {
+        "4": 2.0452758366019927,
+        "5": 2.0355808439148033,
+        "6": 2.0293114051438685,
+        "8": 2.0216778857786135
+      }
+    }
+  },
+  "status": "PASS_INTERNAL_VERIFICATION",
+  "tests": {
+    "independent_eigenvalue_checks": {
+      "cube3": {
+        "m": 5,
+        "max_eigenspectrum_abs_error": 2.4868995751603507e-14,
+        "vertices": 125
+      },
+      "cycle": {
+        "m": 11,
+        "max_eigenspectrum_abs_error": 2.6645352591003757e-15,
+        "vertices": 11
+      },
+      "triangle2": {
+        "m": 8,
+        "max_eigenspectrum_abs_error": 7.105427357601002e-15,
+        "vertices": 64
+      }
+    },
+    "n10_Petersen_wins_signed_action_over_cycle_and_complete": true,
+    "operator_normalization_cube3": {
+      "d_s_combinatorial_at_t1": 3.626704104427978,
+      "d_s_normalized_at_t6": 3.6267041044279775,
+      "equal_by_exact_rescaling": true
+    },
+    "operator_normalization_triangle2": {
+      "d_s_combinatorial_at_t1": 2.276436530072493,
+      "d_s_normalized_at_t6": 2.276436530072493,
+      "equal_by_exact_rescaling": true
+    }
+  },
+  "version": "comparación de geometrías"
+}

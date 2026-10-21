@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "basis_columns_rechecked": 144,
+  "basis_degrees": [
+    10,
+    11,
+    12
+  ],
+  "group_section_orders": [
+    16,
+    36,
+    1
+  ],
+  "fiber_matches_manuscript": true,
+  "detectors": 6,
+  "sw_comparisons": "w1=x, w2=alpha+xy, w4/w5/w6 match reconstructed restrictions",
+  "scope": "Finite polynomial and group-action checks; global realization and reverse ideal containment remain separate dependencies"
+}
