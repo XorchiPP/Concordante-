@@ -35,8 +35,8 @@ Los cinco CSV suministrados preservan exactamente los bytes matemáticos archiva
 
 1. Datos de restricciones: disponibles aquí, autenticados por hashes y reejecutados en el alcance indicado.
 2. Realización global de clases: la identificación de todos los ocho símbolos como clases globales con estas restricciones permanece como hipótesis antecedente del manuscrito. Reconstruir raíces o cocientes en los anillos polinomiales de detectores acredita compatibilidad de datos; su levantamiento a clases globales requiere la justificación de las construcciones antecedentes. La comparación de Stiefel–Whitney apoya parte de esa correspondencia.
-3. Ideal de relaciones: permanece separada la contención inversa K⊆J, donde K es el ideal de los 46 polinomios exportados y J el de las nueve relaciones. El replay CAS antecedente está localizado; autenticar su salida exacta o aportar combinaciones explícitas continúa pendiente.
+3. Ideal de relaciones: la [entrega de identidades explícitas](../ideal-membership/README.md) demuestra K⊆J, donde K es el ideal de los 46 polinomios exportados y J el de las nueve relaciones. Combinada con la reducción J⊆K publicada, establece J=K. La realización global de clases permanece como cuestión separada.
 
-El teorema global conserva esas hipótesis. Los nuevos archivos resuelven la disponibilidad y reconstrucción de los datos de restricciones, con el estado lógico de realización global y pertenencia inversa explicitado por separado.
+El teorema global conserva las hipótesis de realización de clases y autenticación de los argumentos de detección. Este suplemento resuelve la disponibilidad y reconstrucción de los datos de restricciones; la entrega posterior de identidades resuelve por separado la igualdad de ideales.
 
 © 2026 Xorch — Concordante Lab.

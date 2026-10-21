@@ -4,7 +4,7 @@
 
 ## Aporte
 
-Manuscrito completo con ocho generadores, nueve relaciones y serie de Hilbert en todos los grados para G=W(F4)/{±I}. El argumento combina transferencia de índice impar, colapso aditivo de Nakaoka, invariantes de fibra, Shapiro y generación filtrada. El teorema del anillo conserva como hipótesis la autenticación de clases globales y la igualdad exacta de ideales.
+Manuscrito completo con ocho generadores, nueve relaciones y serie de Hilbert en todos los grados para G=W(F4)/{±I}. El argumento combina transferencia de índice impar, colapso aditivo de Nakaoka, invariantes de fibra, Shapiro y generación filtrada. La igualdad exacta de ideales está demostrada mediante identidades explícitas verificadas. El teorema del anillo conserva las hipótesis de realización de las clases globales y autenticación de los argumentos de detección.
 
 - [Manuscrito legible](manuscript.md) y [fuente LaTeX](manuscript.tex).
 - [Datos de fibra](f4_algebra_data.json) y [nueve relaciones](relations.json).
@@ -31,12 +31,12 @@ Las salidas originales de esta edición están en verification_output.txt, buchb
 - Dos identidades de fibra en F2[t0,t1,t2,t3], determinante entero −8 y cuártica irreducible.
 - Rangos de fibra en grados 0–12 y 41 totales orbitales en grados 0–40.
 - Los 46 polinomios exportados forman una base de Gröbner de su ideal: 809 S-pares reducidos y 226 cubiertos por criterio del producto; las nueve relaciones reducen a cero.
-- Los 852 estados de la retícula de mínimos comunes múltiplos producen una identidad racional exacta con la serie declarada, por multiplicación cruzada en Z[t]. Esta identidad corresponde directamente al ideal exportado. Si J es el ideal de las nueve relaciones y K el ideal exportado, se verificó J⊆K. Identificar ambos requiere la contención inversa K⊆J.
+- Los 852 estados de la retícula de mínimos comunes múltiplos producen una identidad racional exacta con la serie declarada, por multiplicación cruzada en Z[t]. Esta identidad corresponde directamente al ideal exportado. Si J es el ideal de las nueve relaciones y K el ideal exportado, la reducción publicada verifica J⊆K y las 46 identidades explícitas del [certificado de pertenencia](ideal-membership/README.md) prueban K⊆J. Por tanto J=K y la identidad de Hilbert se aplica al cociente por las nueve relaciones en todos los grados.
 
 ## Disponibilidad de restricciones y dependencias pendientes
 
 1. [Suplemento de restricciones](restrictions/README.md): datos de seis detectores localizados, saneados y reconstruidos; 144 columnas comparadas y convención de fibra idéntica al manuscrito. La justificación antecedente de realización global de las ocho clases y la autenticación completa de detección permanecen como hipótesis separadas.
-2. El programa CAS antecedente está localizado y pendiente de reproducción/cotejo de su salida. Se requieren certificados explícitos que expresen cada uno de los 46 polinomios exportados como combinación de las nueve relaciones originales, o una repetición independiente del cálculo CAS con salida verificable equivalente.
+2. [Igualdad exacta de ideales](ideal-membership/README.md): 46 identidades, 4563 sumandos monomio×relación y evaluador independiente con 15 controles negativos. La contención inversa queda demostrada para las entradas publicadas; el buscador y su salida están incluidos. La prueba de pertenencia se verifica directamente, sin depender del replay CAS antecedente.
 3. Para la tabla Steenrod, los datos originales de restricciones y verificadores de las 168 identidades, 28 reducciones de estabilidad y 128 identidades de Adem.
 4. Para la nota integral, el paquete de resoluciones, Bockstein y registros cíclicos correspondiente a los resultados aditivos transcritos.
 

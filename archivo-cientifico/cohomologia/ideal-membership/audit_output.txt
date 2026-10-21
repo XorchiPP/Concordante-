@@ -1,0 +1,68 @@
+Independent standard-library direct expansion / Counter parity verification
+Witness SHA256: 8daa3bee78ecc0ce51aaa36c7654cff8272c2faee0f5ab0f6717327b1f6aaff5
+Frozen input SHA256: groebner_supports.hex 550dfeb94726e42de31395b90b51da3018955025d2a75881ca5270383fe1de6d
+Frozen input SHA256: relations.json 130743859b2e3b2d18642811c8615bea74212187a3da722cb8bdeb5e86703103
+PASS target 00: degree=4, witness_terms=1, support=1
+PASS target 01: degree=3, witness_terms=1, support=1
+PASS target 02: degree=13, witness_terms=18, support=2
+PASS target 03: degree=8, witness_terms=3, support=2
+PASS target 04: degree=8, witness_terms=7, support=2
+PASS target 05: degree=4, witness_terms=1, support=2
+PASS target 06: degree=12, witness_terms=7, support=2
+PASS target 07: degree=12, witness_terms=4, support=2
+PASS target 08: degree=11, witness_terms=7, support=4
+PASS target 09: degree=15, witness_terms=10, support=4
+PASS target 10: degree=13, witness_terms=9, support=3
+PASS target 11: degree=13, witness_terms=55, support=6
+PASS target 12: degree=11, witness_terms=4, support=3
+PASS target 13: degree=12, witness_terms=37, support=14
+PASS target 14: degree=9, witness_terms=3, support=3
+PASS target 15: degree=10, witness_terms=21, support=6
+PASS target 16: degree=7, witness_terms=1, support=4
+PASS target 17: degree=9, witness_terms=11, support=6
+PASS target 18: degree=16, witness_terms=4, support=8
+PASS target 19: degree=11, witness_terms=26, support=6
+PASS target 20: degree=17, witness_terms=172, support=6
+PASS target 21: degree=10, witness_terms=1, support=10
+PASS target 22: degree=16, witness_terms=165, support=27
+PASS target 23: degree=14, witness_terms=36, support=7
+PASS target 24: degree=13, witness_terms=60, support=12
+PASS target 25: degree=12, witness_terms=3, support=8
+PASS target 26: degree=6, witness_terms=1, support=4
+PASS target 27: degree=6, witness_terms=2, support=6
+PASS target 28: degree=24, witness_terms=582, support=37
+PASS target 29: degree=21, witness_terms=255, support=9
+PASS target 30: degree=11, witness_terms=22, support=14
+PASS target 31: degree=22, witness_terms=687, support=34
+PASS target 32: degree=21, witness_terms=606, support=42
+PASS target 33: degree=20, witness_terms=456, support=34
+PASS target 34: degree=10, witness_terms=10, support=16
+PASS target 35: degree=7, witness_terms=1, support=12
+PASS target 36: degree=29, witness_terms=203, support=10
+PASS target 37: degree=25, witness_terms=172, support=10
+PASS target 38: degree=15, witness_terms=46, support=25
+PASS target 39: degree=33, witness_terms=239, support=12
+PASS target 40: degree=14, witness_terms=25, support=14
+PASS target 41: degree=17, witness_terms=73, support=16
+PASS target 42: degree=13, witness_terms=20, support=10
+PASS target 43: degree=41, witness_terms=287, support=13
+PASS target 44: degree=19, witness_terms=121, support=32
+PASS target 45: degree=21, witness_terms=88, support=18
+SUMMARY: {"equalities": 46, "expanded_monomials_before_cancellation": 12233, "relations": 9, "target_degree_max": 41, "target_degree_min": 3, "witness_terms": 4563}
+PASS negative changed input bytes / hash: rejected (input hash mismatch: relations.json)
+PASS negative changed certificate hash: rejected (certificate hash manifest mismatch)
+PASS negative missing witness: rejected (witness population must be 46)
+PASS negative duplicate target index: rejected (invalid or duplicate target index)
+PASS negative out of range relation: rejected (invalid relation index)
+PASS negative negative exponent: rejected (invalid multiplier exponents)
+PASS negative incorrect multiplier dimension: rejected (invalid multiplier exponents)
+PASS negative incorrect degree: rejected (inhomogeneous target 0)
+PASS negative same degree wrong relation / equality: rejected (exact polynomial equality failed at target 0; symmetric difference has 3 terms)
+PASS negative drop nontrivial witness term / equality: rejected (exact polynomial equality failed at target 2; symmetric difference has 13 terms)
+PASS negative same degree changed target / equality: rejected (exact polynomial equality failed at target 0; symmetric difference has 2 terms)
+PASS negative same degree changed relation / equality: rejected (exact polynomial equality failed at target 0; symmetric difference has 2 terms)
+PASS negative inhomogeneous input relation: rejected (inhomogeneous or zero relation)
+PASS negative malformed hex input: rejected (invalid hex encoding at target 0)
+PASS negative duplicate JSON key: rejected (duplicate JSON key: variables)
+NEGATIVE TESTS PASSED: 15
+PASS original files unchanged; all 46 exact equalities verified.
