@@ -2,7 +2,7 @@
 
 Concordante Lab · Xorch · © 2026. Todos los derechos reservados.
 
-Edición documental y computacional acotada del 21 de octubre de 2026. **No contiene una demostración de Beal ni de Birch y Swinnerton-Dyer.** No representa todavía la totalidad del archivo de teoría de números.
+Edición documental y computacional acotada del 21 de octubre de 2026. Incluye estructuras ciclotómicas, comparación aritmética, verificaciones exactas y un contrato de descenso elíptico. No representa todavía la totalidad del archivo de teoría de números.
 
 ## Qué se puede leer
 
