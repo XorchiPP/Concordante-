@@ -1,0 +1,29 @@
+{
+  "M_C_norm4_shells": {
+    "24_Golay": 98256,
+    "32_RM25": 81344,
+    "48_any_d_ge_12": 4512,
+    "72_any_d_ge_16": 10224
+  },
+  "mandatory_shell_survivors_one_step": {
+    "48": {
+      "3": 1104,
+      "5": 720,
+      "7": 528
+    },
+    "72": {
+      "3": 2520,
+      "5": 1656,
+      "7": 1224
+    }
+  },
+  "prime_sieve_threshold": {
+    "48": 97,
+    "72": 149
+  },
+  "finite_residue_exhaustion_cases": {
+    "3": 27,
+    "5": 625,
+    "7": 16807
+  }
+}

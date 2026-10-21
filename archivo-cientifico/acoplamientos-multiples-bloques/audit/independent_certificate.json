@@ -1,0 +1,13 @@
+{
+  "assertions": 9617,
+  "compatibility_grid_cases": 3645,
+  "finite_obstruction_control": "Universal-incompatible pair data glue at (2,2,2), fail at (2,4,4)",
+  "inputs_sha256": {
+    "REPORT.md": "554d5f6e0743665f6b7e65d04fee1a0ff79a27353b26d379a2e0a6da6225c12f",
+    "verify_multiblock.py": "c57e53ddcea8b6f18b28aec7c7e87c9c60ef802d4c7c2fc767ad1a62be3e6c96"
+  },
+  "method": "Direct reset outcome enumeration, full rational matrices, Gaussian elimination; no author code imported",
+  "scope": "Finite checks support but do not prove the universal theorem",
+  "simultaneous_quotients": 54,
+  "status": "PASS"
+}
