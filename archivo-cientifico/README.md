@@ -1,6 +1,6 @@
 # Concordante Lab · Archivo científico
 
-> **EDICIÓN PÚBLICA PARCIAL.** Siete entregas, 21 de octubre de 2026: geometría, expedientes reproducibles y áreas documentales con alcance definido. Los originales de trabajo permanecen privados.
+> **EDICIÓN PÚBLICA PARCIAL.** Ocho entregas, 21 de octubre de 2026: geometría, expedientes reproducibles y áreas documentales con alcance definido. Los originales de trabajo permanecen privados.
 
 Concordante Lab reúne investigación matemática, computacional y exploraciones de interpretación física. Este archivo está pensado para mostrar el trabajo completo: resultados, hipótesis, programas, pruebas, límites, correcciones y rutas que no funcionaron. Cada afirmación conserva su estado científico y el tipo de revisión recibido.
 
@@ -9,7 +9,7 @@ Concordante Lab reúne investigación matemática, computacional y exploraciones
 - **Alcance:** códigos, retículas y vecinos primos, acoplamientos de múltiples bloques, fundamentos relacionales, cohomología módulo dos, geometría y álgebras en cuatro dimensiones, tres expedientes reproducibles y primeras entregas acotadas de teoría de números, modelos e interpretación física y preguntas abiertas, con índice y política editorial. El resto del programa se incorporará por etapas.
 - **Material científico acumulado:** códigos y retículas, acoplamientos de múltiples bloques, relaciones de compatibilidad y geometría de grafos, cohomología condicionada con verificaciones algebraicas, simetrías y álgebras en cuatro dimensiones, atlas de raíces, acoplamientos por dos bloques, reconstrucción de redes, documentos y cálculos autónomos de teoría de números, modelos e interpretación física, y preguntas abiertas.
 - **Fecha de la entrega:** 21 de octubre de 2026.
-- **Publicación:** siete entregas parciales; el catálogo distingue lo incorporado y lo pendiente.
+- **Publicación:** ocho entregas parciales; el catálogo distingue lo incorporado y lo pendiente.
 - **Originales de trabajo:** permanecen privados. La copia pública no debe incluir su historial Git, conversaciones, datos personales o documentación administrativa.
 
 Los materiales previos conservan su estado propio y cada ampliación describe la revisión recibida.
@@ -63,7 +63,7 @@ Un mismo resultado tendrá una entrada principal y referencias cruzadas, no copi
 - [Modelos e interpretación física](modelos-fisicos/README.md): documentos de modelos, hipótesis, cálculos y criterios de contraste físico.
 - [Preguntas abiertas](preguntas-abiertas/README.md): problemas transversales y obligaciones de prueba o contraste pendientes.
 
-La primera entrega contiene atlas y acoplamientos de dos bloques; la segunda, redes; la tercera abre las tres áreas anteriores; la cuarta añade [Simetrías y álgebras en cuatro dimensiones](simetrias-cuatro-dimensiones/README.md), con cálculo exacto y prueba de completación mínima. La quinta incorpora fundamentos relacionales y cohomología módulo dos. La sexta añade códigos, retículas y vecinos primos, junto con acoplamientos de múltiples bloques. La séptima incorpora separadores de 24 puntos mediante octadas del código de Golay. Los siete cortes son del 21 de octubre de 2026. El resto del archivo sigue pendiente de preparación y revisión.
+La primera entrega contiene atlas y acoplamientos de dos bloques; la segunda, redes; la tercera abre las tres áreas anteriores; la cuarta añade [Simetrías y álgebras en cuatro dimensiones](simetrias-cuatro-dimensiones/README.md), con cálculo exacto y prueba de completación mínima. La quinta incorpora fundamentos relacionales y cohomología módulo dos. La sexta añade códigos, retículas y vecinos primos, junto con acoplamientos de múltiples bloques. La séptima incorpora separadores de 24 puntos mediante octadas del código de Golay. La octava añade cuatro redes con los mismos estados recurrentes y distintas dinámicas de adición. Los ocho cortes son del 21 de octubre de 2026. El resto del archivo sigue pendiente de preparación y revisión.
 
 ### Áreas incorporadas en la quinta entrega
 
@@ -78,6 +78,10 @@ La primera entrega contiene atlas y acoplamientos de dos bloques; la segunda, re
 ### Ampliación de la séptima entrega
 
 - [Distinguir 24 puntos con seis conjuntos de ocho](separadores-veinticuatro-puntos/README.md): prueba del mínimo de seis octadas, censo de 82 vecinos por una sustitución y trece órbitas certificadas como cota inferior; entradas completas y dos verificadores reproducibles. La clasificación global de órbitas permanece abierta.
+
+### Ampliación de la octava entrega
+
+- [Mismos estados recurrentes, distintas dinámicas](estados-recurrentes-dinamicas/README.md): cuatro redes dirigidas de nueve vértices comparten exactamente 167.040 configuraciones recurrentes, con grupos críticos y acciones de adición distintos. Pruebas, matrices, censos completos, órbitas y datos binarios reproducibles distinguen los contratos estricto y relajado.
 
 Cada lote incluye sus archivos y manifiesto. El [manifiesto de la entrega](SHA256SUMS.txt) permite comprobar los bytes de esta edición. Las secciones pendientes se distinguen de las entregas enlazadas y cada área declara su cobertura.
 

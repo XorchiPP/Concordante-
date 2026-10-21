@@ -1,0 +1,5 @@
+MODE 0 single_port_0 (6960 x 24) single_port_8 (6960 x 24) joint (83520 x 2) PASS
+MODE 1 single_port_0 (4 x 41760) single_port_8 (4 x 41760) joint (16 x 10440) PASS
+MODE 2 single_port_0 (13920 x 12) single_port_8 (13920 x 12) joint (167040 x 1) PASS
+MODE 3 single_port_0 (4 x 41760) single_port_8 (4 x 41760) joint (16 x 10440) PASS
+INDEPENDENT_MARKED_ORBIT_COMPLETE_PASS

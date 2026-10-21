@@ -1,0 +1,5 @@
+PRIMARY_FIFO variant=0 recurrent=167040 mismatches=0
+PRIMARY_FIFO variant=1 recurrent=167040 mismatches=0
+PRIMARY_FIFO variant=2 recurrent=167040 mismatches=0
+PRIMARY_FIFO variant=3 recurrent=167040 mismatches=0
+PRIMARY_COMPLETE exact_tests=1064960 full_memberships=1048576 bytes=131072

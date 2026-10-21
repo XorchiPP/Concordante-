@@ -1,0 +1,50 @@
+EXACT_TWO_PORT_ORBIT_LATTICE_PASS 104
+{
+  "core_det": 10440,
+  "SNF": [
+    3,
+    3480
+  ],
+  "full_det": 167040,
+  "strict": {
+    "coupling_order": {
+      "port0": 1740,
+      "port8": 1740
+    },
+    "joint_coupling_subgroup_order": 5220,
+    "joint_marked_orbits": 2,
+    "single_mark_period": {
+      "port0": 6960,
+      "port8": 6960
+    },
+    "single_mark_orbits": {
+      "port0": 24,
+      "port8": 24
+    },
+    "group_smith": [
+      2,
+      12,
+      6960
+    ]
+  },
+  "relaxed": {
+    "coupling_order": {
+      "port0": 3480,
+      "port8": 3480
+    },
+    "joint_coupling_subgroup_order": 10440,
+    "joint_marked_orbits": 1,
+    "single_mark_period": {
+      "port0": 13920,
+      "port8": 13920
+    },
+    "single_mark_orbits": {
+      "port0": 12,
+      "port8": 12
+    },
+    "group_smith": [
+      12,
+      13920
+    ]
+  }
+}

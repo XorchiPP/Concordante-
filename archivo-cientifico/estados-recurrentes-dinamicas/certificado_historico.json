@@ -1,0 +1,1457 @@
+{
+  "id": "dinamica_dos_puertos",
+  "status": "EXACT_TWO_PORT_ORBIT_LATTICE_PASS",
+  "base": "wired 3x3 9-site column-emitter threshold four",
+  "core_original_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "core_valves": [
+    [
+      2,
+      1
+    ],
+    [
+      6,
+      7
+    ]
+  ],
+  "core_matrix": [
+    [
+      4,
+      -2,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    [
+      -1,
+      0,
+      -1,
+      4,
+      -1,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      0,
+      -1,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      -1,
+      0,
+      -2,
+      4
+    ]
+  ],
+  "core_det": 10440,
+  "core_smith": [
+    3,
+    3480
+  ],
+  "case_names": [
+    "SP",
+    "SQ",
+    "RP",
+    "RQ"
+  ],
+  "all_four_recurrence_cardinality": 167040,
+  "recurrence_identity": "Rec(SP)=Rec(SQ)=Rec(RP)=Rec(RQ)= {0,1,2,3}_{0} x {0,1,2,3}_{8} x Rec(A); Speer SCC decomposition",
+  "strict_six_valve_sets": {
+    "SP": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "SQ": [
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        7
+      ]
+    ]
+  },
+  "strict_vs_relaxed_sink_arc_count": {
+    "strict": 12,
+    "relaxed": 16
+  },
+  "strict_vs_relaxed_internal_arc_count": {
+    "strict": 24,
+    "relaxed": 20
+  },
+  "cases": [
+    {
+      "id": 0,
+      "name": "SP",
+      "contract": "six_valve_exchange",
+      "direction": "outward",
+      "matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          4,
+          -2,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -2,
+          0,
+          0,
+          4,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          0,
+          0,
+          -2
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -2,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "script": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "burn": [
+        4,
+        2,
+        2,
+        3,
+        0,
+        3,
+        2,
+        2,
+        4
+      ],
+      "sink": [
+        0,
+        3,
+        1,
+        2,
+        0,
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "name": "SQ",
+      "contract": "six_valve_exchange",
+      "direction": "inward",
+      "matrix": [
+        [
+          4,
+          -2,
+          0,
+          -2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          -2,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -2,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          0,
+          -2,
+          4
+        ]
+      ],
+      "script": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "burn": [
+        0,
+        1,
+        3,
+        2,
+        0,
+        2,
+        3,
+        1,
+        0
+      ],
+      "sink": [
+        4,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "name": "RP",
+      "contract": "relaxed_directed_port",
+      "direction": "outward",
+      "matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          4,
+          -2,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -2,
+          4,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "script": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "burn": [
+        4,
+        0,
+        3,
+        1,
+        0,
+        1,
+        3,
+        0,
+        4
+      ],
+      "sink": [
+        2,
+        3,
+        1,
+        2,
+        0,
+        2,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "name": "RQ",
+      "contract": "relaxed_directed_port",
+      "direction": "inward",
+      "matrix": [
+        [
+          4,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          -2,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -2,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "script": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "burn": [
+        2,
+        1,
+        3,
+        2,
+        0,
+        2,
+        3,
+        1,
+        2
+      ],
+      "sink": [
+        4,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "group_data": {
+    "strict": {
+      "core_couplings": {
+        "port0": [
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "port8": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      "coupling_order": {
+        "port0": 1740,
+        "port8": 1740
+      },
+      "joint_coupling_subgroup_order": 5220,
+      "core_coupling_lattice_index": 2,
+      "single_mark_period": {
+        "port0": 6960,
+        "port8": 6960
+      },
+      "single_mark_orbits": {
+        "port0": 24,
+        "port8": 24
+      },
+      "joint_marked_subgroup_order": 83520,
+      "joint_marked_orbits": 2,
+      "inward_single_mark_period": {
+        "port0": 4,
+        "port8": 4
+      },
+      "inward_joint_marked_orbits": 10440,
+      "group_smith": [
+        2,
+        12,
+        6960
+      ],
+      "port0_full_period_odometer": [
+        1740,
+        1057,
+        44,
+        1104,
+        660,
+        176,
+        276,
+        303,
+        0
+      ],
+      "port8_full_period_odometer": [
+        0,
+        303,
+        276,
+        176,
+        660,
+        1104,
+        44,
+        1057,
+        1740
+      ],
+      "core_inverse_port0": [
+        "1057/1740",
+        "11/435",
+        "92/145",
+        "11/29",
+        "44/435",
+        "23/145",
+        "101/580"
+      ],
+      "core_inverse_port8": [
+        "101/580",
+        "23/145",
+        "44/435",
+        "11/29",
+        "92/145",
+        "11/435",
+        "1057/1740"
+      ],
+      "core_extended_matrix_lattice_smith": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    },
+    "relaxed": {
+      "core_couplings": {
+        "port0": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "port8": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "coupling_order": {
+        "port0": 3480,
+        "port8": 3480
+      },
+      "joint_coupling_subgroup_order": 10440,
+      "core_coupling_lattice_index": 1,
+      "single_mark_period": {
+        "port0": 13920,
+        "port8": 13920
+      },
+      "single_mark_orbits": {
+        "port0": 12,
+        "port8": 12
+      },
+      "joint_marked_subgroup_order": 167040,
+      "joint_marked_orbits": 1,
+      "inward_single_mark_period": {
+        "port0": 4,
+        "port8": 4
+      },
+      "inward_joint_marked_orbits": 10440,
+      "group_smith": [
+        12,
+        13920
+      ],
+      "port0_full_period_odometer": [
+        3480,
+        1057,
+        44,
+        1104,
+        660,
+        176,
+        276,
+        303,
+        0
+      ],
+      "port8_full_period_odometer": [
+        0,
+        303,
+        276,
+        176,
+        660,
+        1104,
+        44,
+        1057,
+        3480
+      ],
+      "core_inverse_port0": [
+        "1057/3480",
+        "11/870",
+        "46/145",
+        "11/58",
+        "22/435",
+        "23/290",
+        "101/1160"
+      ],
+      "core_inverse_port8": [
+        "101/1160",
+        "23/290",
+        "22/435",
+        "11/58",
+        "46/145",
+        "11/870",
+        "1057/3480"
+      ],
+      "core_extended_matrix_lattice_smith": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "strict_16_core_variants": [
+    {
+      "third_or_more_internal_valves": [],
+      "core_det": 8960,
+      "core_smith": [
+        4,
+        8,
+        280
+      ],
+      "generated_core_subgroup": 20,
+      "index": 448
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ]
+      ],
+      "core_det": 9672,
+      "core_smith": [
+        9672
+      ],
+      "generated_core_subgroup": 4836,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          5
+        ]
+      ],
+      "core_det": 9672,
+      "core_smith": [
+        9672
+      ],
+      "generated_core_subgroup": 4836,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          6,
+          3
+        ]
+      ],
+      "core_det": 9672,
+      "core_smith": [
+        9672
+      ],
+      "generated_core_subgroup": 4836,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 9672,
+      "core_smith": [
+        9672
+      ],
+      "generated_core_subgroup": 4836,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "core_det": 10496,
+      "core_smith": [
+        4,
+        8,
+        328
+      ],
+      "generated_core_subgroup": 164,
+      "index": 64
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "core_det": 10440,
+      "core_smith": [
+        3,
+        3480
+      ],
+      "generated_core_subgroup": 87,
+      "index": 120
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 10440,
+      "core_smith": [
+        3,
+        3480
+      ],
+      "generated_core_subgroup": 5220,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "core_det": 10440,
+      "core_smith": [
+        3,
+        3480
+      ],
+      "generated_core_subgroup": 5220,
+      "index": 2
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 10440,
+      "core_smith": [
+        3,
+        3480
+      ],
+      "generated_core_subgroup": 87,
+      "index": 120
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 10496,
+      "core_smith": [
+        4,
+        8,
+        328
+      ],
+      "generated_core_subgroup": 164,
+      "index": 64
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "core_det": 11328,
+      "core_smith": [
+        2,
+        4,
+        1416
+      ],
+      "generated_core_subgroup": 354,
+      "index": 32
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 11328,
+      "core_smith": [
+        2,
+        4,
+        1416
+      ],
+      "generated_core_subgroup": 354,
+      "index": 32
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 11328,
+      "core_smith": [
+        2,
+        4,
+        1416
+      ],
+      "generated_core_subgroup": 354,
+      "index": 32
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 11328,
+      "core_smith": [
+        2,
+        4,
+        1416
+      ],
+      "generated_core_subgroup": 354,
+      "index": 32
+    },
+    {
+      "third_or_more_internal_valves": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "core_det": 12288,
+      "core_smith": [
+        2,
+        4,
+        4,
+        8,
+        48
+      ],
+      "generated_core_subgroup": 12,
+      "index": 1024
+    }
+  ],
+  "witness_add_at_corner0": {
+    "recurrent_input": [
+      3,
+      1,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "state_code": 855,
+    "network_observations": {
+      "SP": {
+        "after": [
+          0,
+          3,
+          1,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sink_loss": 0,
+        "odometer": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "SQ": {
+        "after": [
+          0,
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sink_loss": 4,
+        "odometer": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "RP": {
+        "after": [
+          0,
+          2,
+          1,
+          2,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sink_loss": 2,
+        "odometer": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "RQ": {
+        "after": [
+          0,
+          1,
+          1,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sink_loss": 4,
+        "odometer": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "checks": {
+    "SP_literally_six_edge_exchange_valves": true,
+    "SQ_literally_six_edge_exchange_valves": true,
+    "SP_threshold_four": true,
+    "SP_nonnegative_sink": true,
+    "SP_directed_offdiagonal": true,
+    "SP_dissipative": true,
+    "SP_script_nonnegative": true,
+    "SP_script_reaches_all": true,
+    "SP_same_core": true,
+    "SP_ports_scc_singletons": true,
+    "SQ_threshold_four": true,
+    "SQ_nonnegative_sink": true,
+    "SQ_directed_offdiagonal": true,
+    "SQ_dissipative": true,
+    "SQ_script_nonnegative": true,
+    "SQ_script_reaches_all": true,
+    "SQ_same_core": true,
+    "SQ_ports_scc_singletons": true,
+    "RP_threshold_four": true,
+    "RP_nonnegative_sink": true,
+    "RP_directed_offdiagonal": true,
+    "RP_dissipative": true,
+    "RP_script_nonnegative": true,
+    "RP_script_reaches_all": true,
+    "RP_same_core": true,
+    "RP_ports_scc_singletons": true,
+    "RQ_threshold_four": true,
+    "RQ_nonnegative_sink": true,
+    "RQ_directed_offdiagonal": true,
+    "RQ_dissipative": true,
+    "RQ_script_nonnegative": true,
+    "RQ_script_reaches_all": true,
+    "RQ_same_core": true,
+    "RQ_ports_scc_singletons": true,
+    "core_asymmetric": true,
+    "core_det_10440": true,
+    "core_smith_Z3_Z3480": true,
+    "core_outdegree_cap": true,
+    "all_four_det_same": true,
+    "strict_group_snf": true,
+    "relaxed_group_snf": true,
+    "nonisomorphic_groups_mod2": true,
+    "strict_internal_arcs24": true,
+    "relaxed_internal_arcs20": true,
+    "strict_port_periods_out": true,
+    "strict_port_periods_in": true,
+    "strict_mark_subgroup_index_out": true,
+    "strict_mark_subgroup_index_in": true,
+    "strict_port_marked_subgroup_order": true,
+    "strict_coupling_order_equal": true,
+    "relaxed_port_periods_out": true,
+    "relaxed_port_periods_in": true,
+    "relaxed_mark_subgroup_index_out": true,
+    "relaxed_mark_subgroup_index_in": true,
+    "relaxed_port_marked_subgroup_order": true,
+    "relaxed_coupling_order_equal": true,
+    "strict_1740_orders": true,
+    "strict_5220_joint": true,
+    "strict_two_orbits": true,
+    "relaxed_3480_orders": true,
+    "relaxed_10440_joint": true,
+    "relaxed_transitive": true,
+    "relaxed_minimal_two_marked_generators": true,
+    "legal_()": true,
+    "strict_parity_obstruction_()": true,
+    "legal_((2, 1),)": true,
+    "strict_parity_obstruction_((2, 1),)": true,
+    "legal_((2, 5),)": true,
+    "strict_parity_obstruction_((2, 5),)": true,
+    "legal_((6, 3),)": true,
+    "strict_parity_obstruction_((6, 3),)": true,
+    "legal_((6, 7),)": true,
+    "strict_parity_obstruction_((6, 7),)": true,
+    "legal_((2, 1), (2, 5))": true,
+    "strict_parity_obstruction_((2, 1), (2, 5))": true,
+    "legal_((2, 1), (6, 3))": true,
+    "strict_parity_obstruction_((2, 1), (6, 3))": true,
+    "legal_((2, 1), (6, 7))": true,
+    "strict_parity_obstruction_((2, 1), (6, 7))": true,
+    "legal_((2, 5), (6, 3))": true,
+    "strict_parity_obstruction_((2, 5), (6, 3))": true,
+    "legal_((2, 5), (6, 7))": true,
+    "strict_parity_obstruction_((2, 5), (6, 7))": true,
+    "legal_((6, 3), (6, 7))": true,
+    "strict_parity_obstruction_((6, 3), (6, 7))": true,
+    "legal_((2, 1), (2, 5), (6, 3))": true,
+    "strict_parity_obstruction_((2, 1), (2, 5), (6, 3))": true,
+    "legal_((2, 1), (2, 5), (6, 7))": true,
+    "strict_parity_obstruction_((2, 1), (2, 5), (6, 7))": true,
+    "legal_((2, 1), (6, 3), (6, 7))": true,
+    "strict_parity_obstruction_((2, 1), (6, 3), (6, 7))": true,
+    "legal_((2, 5), (6, 3), (6, 7))": true,
+    "strict_parity_obstruction_((2, 5), (6, 3), (6, 7))": true,
+    "legal_((2, 1), (2, 5), (6, 3), (6, 7))": true,
+    "strict_parity_obstruction_((2, 1), (2, 5), (6, 3), (6, 7))": true,
+    "all_16_strict_core_variant_subsets": true,
+    "witness_SP_stable": true,
+    "witness_SP_loss": true,
+    "witness_SQ_stable": true,
+    "witness_SQ_loss": true,
+    "witness_RP_stable": true,
+    "witness_RP_loss": true,
+    "witness_RQ_stable": true,
+    "witness_RQ_loss": true
+  },
+  "passed": 104,
+  "external_attribution": "Speer SCC recurrence theorem, Smith normal form / finite abelian group presentations are standard",
+  "scope": "Finite directed sandpile calculations; SCC factorization and finite group actions use classical theory"
+}

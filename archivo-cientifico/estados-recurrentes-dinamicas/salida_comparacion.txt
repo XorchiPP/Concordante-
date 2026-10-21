@@ -1,0 +1,1 @@
+PASS: certificado y matrices históricos iguales; dos censos iguales al hash histórico; cuatro bloques idénticos de167040 estados; testigo855 recurrente
