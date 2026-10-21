@@ -1,0 +1,380 @@
+{
+  "edition_status": "HISTORICAL_OUTPUT_NOT_RERUN_WITH_FULL_DATA",
+  "reported_result": {
+    "id": "historical_cyclotomic_fibers",
+    "status": "PASS_FULL_2POWER21_SECTOR_AND_ALL_424_CYCLOTOMIC_PAIR_IDENTITIES",
+    "state_space": {
+      "S_masks": 1024,
+      "T_masks": 1024,
+      "tau_signs": 2,
+      "rho_sign_fixed": -1,
+      "rows": 2097152,
+      "full_frozen_rho_negative_sector": true,
+      "rho_plus_branch_included": false
+    },
+    "signed_branch_counts": {
+      "+1": 1572864,
+      "-1": 524288
+    },
+    "field": {
+      "characteristic": 0,
+      "degree_over_Q": 330,
+      "multiplicative_codomain": "M^times",
+      "basis": "rho^a s^b zeta11^c",
+      "not_QmodZ_or_torsion_rank": true
+    },
+    "symbolic_values": 5103,
+    "distinct_reduced_field_values": 4719,
+    "cyclotomic_normal_form": {
+      "b_j": "e_j+e_(11-j) for j=1..5",
+      "phase_mod11": "-sum(j*e_(11-j)) mod11",
+      "sign_mod2": "s+sum(e_(11-j)) mod2",
+      "identity": "(-1)^s * prod(f_j^e_j,j=1..10) = (-1)^sign * zeta11^phase * prod(f_j^b_j,j=1..5)",
+      "distinct_keys_in_5103_frozen_expressions": 4719,
+      "one_to_one_with_exact_4719_field_values_in_this_dataset": true,
+      "not_claimed_as_complete_normal_form_for_arbitrary_M_elements": true
+    },
+    "multiplicity_by_canonical_field_value": {
+      "1": 4375,
+      "2": 304,
+      "3": 40
+    },
+    "redundant_symbolic_descriptions": 384,
+    "multiple_representation_field_values": 344,
+    "signed_symbolic_descriptions_in_multifibers": 728,
+    "field_identity_pair_checks": 424,
+    "cyclotomic_delta_pattern_count": 17,
+    "pair_checks_not_explained_by_opposite_roots": 0,
+    "root_phase_relation_lattice": {
+      "ambient": "Z^5 (opposite-pair exponent differences j=1,...,5)",
+      "equation": "sum(j*a_j) = 0 (mod 11)",
+      "index_in_Z5": 11,
+      "observed_patterns_generate_entire_phase_kernel": true,
+      "integer_determinant_witness_rows": [
+        [
+          -1,
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "determinant": 11,
+      "proof": "All observed difference vectors lie in the phase kernel of index 11. Five observed vectors generate an index-11 sublattice, hence it is the whole kernel.",
+      "sign_recovery": "delta_sign = sum(a_j) mod 2"
+    },
+    "state_rows_using_multiple_representation_values": 150392,
+    "pair_deltas": [
+      {
+        "delta": [
+          -1,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          1,
+          -1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "observed_pairs": 2
+      },
+      {
+        "delta": [
+          -1,
+          0,
+          -1,
+          -1,
+          0,
+          1,
+          -1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          -1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          -1,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          0,
+          1,
+          1,
+          0,
+          -1,
+          1,
+          0,
+          -1,
+          -1,
+          0
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "observed_pairs": 2
+      },
+      {
+        "delta": [
+          -1,
+          1,
+          0,
+          0,
+          1,
+          -1,
+          1,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          -1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          -1,
+          1,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          -1
+        ],
+        "observed_pairs": 32
+      },
+      {
+        "delta": [
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          -1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "observed_pairs": 20
+      },
+      {
+        "delta": [
+          0,
+          -1,
+          0,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "observed_pairs": 20
+      },
+      {
+        "delta": [
+          0,
+          -1,
+          1,
+          0,
+          1,
+          -1,
+          1,
+          -1,
+          0,
+          -1,
+          1
+        ],
+        "observed_pairs": 20
+      },
+      {
+        "delta": [
+          0,
+          -1,
+          1,
+          1,
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "observed_pairs": 20
+      },
+      {
+        "delta": [
+          0,
+          0,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          0
+        ],
+        "observed_pairs": 20
+      }
+    ],
+    "rule": "(theta0-theta_j)/(theta0-theta_(11-j))=-zeta11^j; delta_(11-j)=-delta_j; sum(j*delta_j)=0 mod11; delta_sign+sum(delta_j)=0 mod2",
+    "scope": "Explains all observed exact-value collisions in the frozen 5,103-code data; not proof of exhaustive multiplicative relations for arbitrary field elements; Route B absent.",
+    "source_sha256": {
+      "historical_input_zip": "4d9326c8f457b7a046772268e9af9ca501243525956be69fdf5bf56b906946eb",
+      "FIELD_VALUES_GZ": "e565ad6d8bab1cd2e5a434dc5a7eea8314ac50e2997d7a427986a6c321bb1eca",
+      "DIRECT_ETA_GZ": "29c231595360410edc949dd471ec4348cc7bae9893e658b4f06d4b06719199b4",
+      "DIRECT_ETA_RAW": "e9dcccfdd621239d14c13f6aeadabba8167e6a61b70a33dde1d1eabb1d964801"
+    },
+    "arithmetic_comparison_status": "OPEN",
+    "Cassels_Tate": "UNKNOWN"
+  }
+}

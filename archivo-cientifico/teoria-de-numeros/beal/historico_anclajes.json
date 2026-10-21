@@ -1,0 +1,132 @@
+{
+  "edition_status": "HISTORICAL_OUTPUT_NOT_RERUN_WITH_FULL_DATA",
+  "reported_result": {
+    "id": "historical_field_anchors",
+    "status": "PASS_TEN_EXPLICIT_NON_TORSION_FIELD_VALUES_AND_FROZEN_BOUNDARY",
+    "basis_dimension": 330,
+    "characteristic": 0,
+    "root_diff_definition": "theta_j=zeta11^j*theta0; theta0=2(rho^2-3)*s^9",
+    "field_relations": [
+      "rho^3+rho^2-4rho+1=0",
+      "s^11=2rho",
+      "Phi_11(zeta11)=0"
+    ],
+    "ten_distinct_generator_anchors": [
+      {
+        "j": 1,
+        "S_mask": 1,
+        "T_mask": 1,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0001000000000000000000",
+        "value": "theta0*(1-zeta11^1)"
+      },
+      {
+        "j": 2,
+        "S_mask": 2,
+        "T_mask": 2,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000010000000000000000",
+        "value": "theta0*(1-zeta11^2)"
+      },
+      {
+        "j": 3,
+        "S_mask": 4,
+        "T_mask": 4,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000100000000000000",
+        "value": "theta0*(1-zeta11^3)"
+      },
+      {
+        "j": 4,
+        "S_mask": 8,
+        "T_mask": 8,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000001000000000000",
+        "value": "theta0*(1-zeta11^4)"
+      },
+      {
+        "j": 5,
+        "S_mask": 16,
+        "T_mask": 16,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000000010000000000",
+        "value": "theta0*(1-zeta11^5)"
+      },
+      {
+        "j": 6,
+        "S_mask": 32,
+        "T_mask": 32,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000000000100000000",
+        "value": "theta0*(1-zeta11^6)"
+      },
+      {
+        "j": 7,
+        "S_mask": 64,
+        "T_mask": 64,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000000000001000000",
+        "value": "theta0*(1-zeta11^7)"
+      },
+      {
+        "j": 8,
+        "S_mask": 128,
+        "T_mask": 128,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000000000000010000",
+        "value": "theta0*(1-zeta11^8)"
+      },
+      {
+        "j": 9,
+        "S_mask": 256,
+        "T_mask": 256,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 4,
+        "symbolic_field_code": "0000000000000000000100",
+        "value": "theta0*(1-zeta11^9)"
+      },
+      {
+        "j": 10,
+        "S_mask": 512,
+        "T_mask": 512,
+        "tau_sign": "+1",
+        "rho_sign": "-1",
+        "nonzero_basis_coefficients": 20,
+        "symbolic_field_code": "0000000000000000000001",
+        "value": "theta0*(1-zeta11^10)"
+      }
+    ],
+    "explicit_nonzero_norm_factorization": {
+      "2": 600,
+      "11": 33,
+      "13": 110
+    },
+    "norm_identity": "Norm_M/Q(theta0-theta_j)=2^600 * 11^33 * 13^110 for j=1..10",
+    "non_root_of_unity_reason": "all ten algebraic integers have norm >1",
+    "S0_all_T_all_tau_normalized_states": 2048,
+    "T0_tau_plus_normalized_states": 1024,
+    "T0_tau_minus_nontrivial_states": 1023,
+    "warning": "T=0 is NOT a universal normalization identity when tau=-1",
+    "artificial_coefficient_mutation_detected": true,
+    "not_independent_proof_of_entire_pairing_formula": true,
+    "arithmetic_comparison_status": "OPEN",
+    "CT_status": "UNKNOWN"
+  }
+}

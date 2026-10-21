@@ -1,0 +1,24 @@
+{
+  "scope": "Arithmetic consistency of rounded reported numbers only; no independent numerical residual reproduction.",
+  "status": "PASS_TABLE_ARITHMETIC",
+  "rows": [
+    {
+      "N": 2,
+      "predictor_to_error": 0.11721104634189926,
+      "remaining_norm_ratio": 0.8832526099992623,
+      "reported_remaining": 0.883253
+    },
+    {
+      "N": 3,
+      "predictor_to_error": 0.11691508586789096,
+      "remaining_norm_ratio": 0.8833317943094778,
+      "reported_remaining": 0.883332
+    },
+    {
+      "N": 4,
+      "predictor_to_error": 0.11689010288170268,
+      "remaining_norm_ratio": 0.8832758633441292,
+      "reported_remaining": 0.883276
+    }
+  ]
+}

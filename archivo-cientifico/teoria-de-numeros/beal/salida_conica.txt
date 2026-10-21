@@ -1,0 +1,1 @@
+{"status": "PASS_TOY_CONIC_AND_COBOUNDARY_CHECKS_NOT_BEAL_ARITHMETIC_COMPARISON", "partial_e_matches_E_direct_pairs": 16, "partial_epsilon_matches_eta_direct_triples": 64, "eta_twisted_3cocycle_quadruples": 256, "ARITHMETIC_COMPARISON_status": "OPEN"}

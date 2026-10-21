@@ -1,0 +1,766 @@
+{
+  "schema": "concordante-boundary-gauge-exact-v1",
+  "arithmetic": "Fraction; zero tolerance",
+  "primary_distinct_capacities": {
+    "L_A": [
+      [
+        "38",
+        "-2",
+        "-14",
+        "-4",
+        "-18"
+      ],
+      [
+        "-2",
+        "26",
+        "-6",
+        "-8",
+        "-10"
+      ],
+      [
+        "-14",
+        "-6",
+        "48",
+        "-12",
+        "-16"
+      ],
+      [
+        "-4",
+        "-8",
+        "-12",
+        "44",
+        "-20"
+      ],
+      [
+        "-18",
+        "-10",
+        "-16",
+        "-20",
+        "64"
+      ]
+    ],
+    "L_B": [
+      [
+        "38",
+        "-2",
+        "-8",
+        "-20",
+        "-8"
+      ],
+      [
+        "-2",
+        "26",
+        "-6",
+        "-8",
+        "-10"
+      ],
+      [
+        "-8",
+        "-6",
+        "44",
+        "-26/3",
+        "-64/3"
+      ],
+      [
+        "-20",
+        "-8",
+        "-26/3",
+        "164/3",
+        "-18"
+      ],
+      [
+        "-8",
+        "-10",
+        "-64/3",
+        "-18",
+        "172/3"
+      ]
+    ],
+    "M": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "4",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "5"
+      ]
+    ],
+    "S": [
+      [
+        "3/4",
+        "2/3",
+        "-5/12"
+      ],
+      [
+        "1/2",
+        "-1/3",
+        "5/6"
+      ],
+      [
+        "-1/4",
+        "2/3",
+        "7/12"
+      ]
+    ],
+    "T": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "3/4",
+        "2/3",
+        "-5/12"
+      ],
+      [
+        "0",
+        "0",
+        "1/2",
+        "-1/3",
+        "5/6"
+      ],
+      [
+        "0",
+        "0",
+        "-1/4",
+        "2/3",
+        "7/12"
+      ]
+    ],
+    "Q_A": [
+      [
+        "-38",
+        "2",
+        "14",
+        "4",
+        "18"
+      ],
+      [
+        "1",
+        "-13",
+        "3",
+        "4",
+        "5"
+      ],
+      [
+        "14/3",
+        "2",
+        "-16",
+        "4",
+        "16/3"
+      ],
+      [
+        "1",
+        "2",
+        "3",
+        "-11",
+        "5"
+      ],
+      [
+        "18/5",
+        "2",
+        "16/5",
+        "4",
+        "-64/5"
+      ]
+    ],
+    "Q_B": [
+      [
+        "-38",
+        "2",
+        "8",
+        "20",
+        "8"
+      ],
+      [
+        "1",
+        "-13",
+        "3",
+        "4",
+        "5"
+      ],
+      [
+        "8/3",
+        "2",
+        "-44/3",
+        "26/9",
+        "64/9"
+      ],
+      [
+        "5",
+        "2",
+        "13/6",
+        "-41/3",
+        "9/2"
+      ],
+      [
+        "8/5",
+        "2",
+        "64/15",
+        "18/5",
+        "-172/15"
+      ]
+    ],
+    "boundary": [
+      0,
+      1
+    ],
+    "interior": [
+      2,
+      3,
+      4
+    ],
+    "stationary_measure": [
+      "1/15",
+      "2/15",
+      "1/5",
+      "4/15",
+      "1/3"
+    ],
+    "stationary_activity": "44/3",
+    "observability_minors": [
+      "21376/15",
+      "-21376/15"
+    ],
+    "frequency_checks": [
+      {
+        "s": "0",
+        "transfer": [
+          [
+            "5535/343",
+            "-5535/343"
+          ],
+          [
+            "-5535/343",
+            "5535/343"
+          ]
+        ]
+      },
+      {
+        "s": "1/3",
+        "transfer": [
+          [
+            "1913728/109717",
+            "-1671686/109717"
+          ],
+          [
+            "-1671686/109717",
+            "1840394/109717"
+          ]
+        ]
+      },
+      {
+        "s": "1",
+        "transfer": [
+          [
+            "48469/2471",
+            "-33960/2471"
+          ],
+          [
+            "-33960/2471",
+            "132166/7413"
+          ]
+        ]
+      },
+      {
+        "s": "2",
+        "transfer": [
+          [
+            "213446/9659",
+            "-116382/9659"
+          ],
+          [
+            "-116382/9659",
+            "183758/9659"
+          ]
+        ]
+      },
+      {
+        "s": "11/7",
+        "transfer": [
+          [
+            "62721371/2968898",
+            "-18868299/1484449"
+          ],
+          [
+            "-18868299/1484449",
+            "27548344/1484449"
+          ]
+        ]
+      }
+    ],
+    "third_boundary_DC_current_at_2": [
+      "5488/151",
+      "197568/6323"
+    ],
+    "third_boundary_DC_difference_A_minus_B": "4867856/954773",
+    "internal_impulse_derivative_at_0": [
+      "14",
+      "8"
+    ]
+  },
+  "secondary_uniform_capacities": {
+    "L_A": [
+      [
+        "20",
+        "-5",
+        "-6",
+        "-5",
+        "-4"
+      ],
+      [
+        "-5",
+        "21",
+        "-4",
+        "-7",
+        "-5"
+      ],
+      [
+        "-6",
+        "-4",
+        "21",
+        "-5",
+        "-6"
+      ],
+      [
+        "-5",
+        "-7",
+        "-5",
+        "21",
+        "-4"
+      ],
+      [
+        "-4",
+        "-5",
+        "-6",
+        "-4",
+        "19"
+      ]
+    ],
+    "L_B": [
+      [
+        "20",
+        "-5",
+        "-38/7",
+        "-27/7",
+        "-40/7"
+      ],
+      [
+        "-5",
+        "21",
+        "-25/7",
+        "-43/7",
+        "-44/7"
+      ],
+      [
+        "-38/7",
+        "-25/7",
+        "963/49",
+        "-314/49",
+        "-208/49"
+      ],
+      [
+        "-27/7",
+        "-43/7",
+        "-314/49",
+        "1017/49",
+        "-213/49"
+      ],
+      [
+        "-40/7",
+        "-44/7",
+        "-208/49",
+        "-213/49",
+        "1009/49"
+      ]
+    ],
+    "M": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "S": [
+      [
+        "6/7",
+        "-2/7",
+        "3/7"
+      ],
+      [
+        "-2/7",
+        "3/7",
+        "6/7"
+      ],
+      [
+        "3/7",
+        "6/7",
+        "-2/7"
+      ]
+    ],
+    "T": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "6/7",
+        "-2/7",
+        "3/7"
+      ],
+      [
+        "0",
+        "0",
+        "-2/7",
+        "3/7",
+        "6/7"
+      ],
+      [
+        "0",
+        "0",
+        "3/7",
+        "6/7",
+        "-2/7"
+      ]
+    ],
+    "Q_A": [
+      [
+        "-20",
+        "5",
+        "6",
+        "5",
+        "4"
+      ],
+      [
+        "5",
+        "-21",
+        "4",
+        "7",
+        "5"
+      ],
+      [
+        "6",
+        "4",
+        "-21",
+        "5",
+        "6"
+      ],
+      [
+        "5",
+        "7",
+        "5",
+        "-21",
+        "4"
+      ],
+      [
+        "4",
+        "5",
+        "6",
+        "4",
+        "-19"
+      ]
+    ],
+    "Q_B": [
+      [
+        "-20",
+        "5",
+        "38/7",
+        "27/7",
+        "40/7"
+      ],
+      [
+        "5",
+        "-21",
+        "25/7",
+        "43/7",
+        "44/7"
+      ],
+      [
+        "38/7",
+        "25/7",
+        "-963/49",
+        "314/49",
+        "208/49"
+      ],
+      [
+        "27/7",
+        "43/7",
+        "314/49",
+        "-1017/49",
+        "213/49"
+      ],
+      [
+        "40/7",
+        "44/7",
+        "208/49",
+        "213/49",
+        "-1009/49"
+      ]
+    ],
+    "boundary": [
+      0,
+      1
+    ],
+    "interior": [
+      2,
+      3,
+      4
+    ],
+    "stationary_measure": [
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/5",
+      "1/5"
+    ],
+    "stationary_activity": "102/5",
+    "observability_minors": [
+      "617",
+      "-617"
+    ],
+    "frequency_checks": [
+      {
+        "s": "0",
+        "transfer": [
+          [
+            "83213/6572",
+            "-83213/6572"
+          ],
+          [
+            "-83213/6572",
+            "83213/6572"
+          ]
+        ]
+      },
+      {
+        "s": "1/3",
+        "transfer": [
+          [
+            "1212310/94043",
+            "-1168090/94043"
+          ],
+          [
+            "-1168090/94043",
+            "2429913/188086"
+          ]
+        ]
+      },
+      {
+        "s": "1",
+        "transfer": [
+          [
+            "25939/1949",
+            "-46705/3898"
+          ],
+          [
+            "-46705/3898",
+            "104377/7796"
+          ]
+        ]
+      },
+      {
+        "s": "2",
+        "transfer": [
+          [
+            "126705/9148",
+            "-104405/9148"
+          ],
+          [
+            "-104405/9148",
+            "128049/9148"
+          ]
+        ]
+      },
+      {
+        "s": "11/7",
+        "transfer": [
+          [
+            "9995655/733378",
+            "-742619/63772"
+          ],
+          [
+            "-742619/63772",
+            "1753605/127544"
+          ]
+        ]
+      }
+    ],
+    "third_boundary_DC_current_at_2": [
+      "6572/383",
+      "80507/5004"
+    ],
+    "third_boundary_DC_difference_A_minus_B": "2052107/1916532",
+    "internal_impulse_derivative_at_0": [
+      "6",
+      "38/7"
+    ]
+  },
+  "scope": "Two exact witnesses. General identities are justified algebraically in REPORT.md.",
+  "nonclaims": [
+    "No physical gravity.",
+    "No empirical observation.",
+    "No universal identification theorem.",
+    "No equality of ordinary Laplacian spectra for distinct capacities.",
+    "No generic preservation of stationary activity by every M-isometry."
+  ],
+  "checks": [
+    "distinct: M-isometry",
+    "distinct: fixes constant",
+    "distinct: full M-isometry",
+    "distinct: A symmetric",
+    "distinct: A zero row sums",
+    "distinct: A complete positive conductances",
+    "distinct: B symmetric",
+    "distinct: B zero row sums",
+    "distinct: B complete positive conductances",
+    "distinct: networks differ",
+    "distinct: no vertex permutation identifies networks",
+    "distinct: boundary principal block identical",
+    "distinct: generators similar",
+    "distinct: both stationary measures",
+    "distinct: detailed balance both",
+    "distinct: same directed rate ratios",
+    "distinct: same stationary activity (extra checked condition)",
+    "distinct: A full interior observability",
+    "distinct: B full interior observability",
+    "distinct: exact boundary sample 0",
+    "distinct: exact boundary sample 1/3",
+    "distinct: exact boundary sample 1",
+    "distinct: exact boundary sample 2",
+    "distinct: exact boundary sample 11/7",
+    "distinct: boundary generator moment 0",
+    "distinct: boundary generator moment 1",
+    "distinct: boundary generator moment 2",
+    "distinct: boundary generator moment 3",
+    "distinct: boundary generator moment 4",
+    "distinct: boundary generator moment 5",
+    "distinct: boundary generator moment 6",
+    "distinct: boundary generator moment 7",
+    "distinct: boundary generator moment 8",
+    "distinct: boundary generator moment 9",
+    "distinct: boundary generator moment 10",
+    "distinct: third boundary distinguishes DC",
+    "distinct: internal impulse distinguishes at first time derivative",
+    "uniform: M-isometry",
+    "uniform: fixes constant",
+    "uniform: full M-isometry",
+    "uniform: A symmetric",
+    "uniform: A zero row sums",
+    "uniform: A complete positive conductances",
+    "uniform: B symmetric",
+    "uniform: B zero row sums",
+    "uniform: B complete positive conductances",
+    "uniform: networks differ",
+    "uniform: no vertex permutation identifies networks",
+    "uniform: boundary principal block identical",
+    "uniform: generators similar",
+    "uniform: both stationary measures",
+    "uniform: detailed balance both",
+    "uniform: same directed rate ratios",
+    "uniform: same stationary activity (extra checked condition)",
+    "uniform: A full interior observability",
+    "uniform: B full interior observability",
+    "uniform: exact boundary sample 0",
+    "uniform: exact boundary sample 1/3",
+    "uniform: exact boundary sample 1",
+    "uniform: exact boundary sample 2",
+    "uniform: exact boundary sample 11/7",
+    "uniform: boundary generator moment 0",
+    "uniform: boundary generator moment 1",
+    "uniform: boundary generator moment 2",
+    "uniform: boundary generator moment 3",
+    "uniform: boundary generator moment 4",
+    "uniform: boundary generator moment 5",
+    "uniform: boundary generator moment 6",
+    "uniform: boundary generator moment 7",
+    "uniform: boundary generator moment 8",
+    "uniform: boundary generator moment 9",
+    "uniform: boundary generator moment 10",
+    "uniform: third boundary distinguishes DC",
+    "uniform: internal impulse distinguishes at first time derivative"
+  ],
+  "check_count": 74,
+  "status": "PASS_EXACT_WITNESSES"
+}

@@ -1,0 +1,10 @@
+{"status": "PASS_EXACT_WITNESSES", "check_count": 74, "output": "certificate.json"}
+principal_distinct_capacities_matched_activity: PASS
+  Observability minors: 21376/15, -21376/15
+  Stationary jump activities: 44/3 44/3
+  Third-boundary current at node 2: 5488/151 197568/6323
+secondary_equal_capacities: PASS
+  Observability minors: 617, -617
+  Stationary jump activities: 102/5 102/5
+  Third-boundary current at node 2: 6572/383 80507/5004
+Exact report: audit_results.json

@@ -1,0 +1,29 @@
+{
+  "id": "quadratic_conic_example",
+  "status": "PASS_TOY_CONIC_AND_COBOUNDARY_CHECKS_NOT_BEAL_ARITHMETIC_COMPARISON",
+  "F": "Q",
+  "M": "Q(sqrt(2))",
+  "number_field_degree_over_Q": 2,
+  "conic": "X^2 - 2Y^2 = - W^2",
+  "point": {
+    "X": 1,
+    "Y": 1,
+    "W": 1
+  },
+  "U": "1+sqrt(2)",
+  "V": "1-sqrt(2)",
+  "N_M_over_F_U": -1,
+  "G": "C2 x C2, first factor acts on sqrt(2) by conjugation",
+  "e": "e(g)=U if first bit is 1, else 1",
+  "epsilon": "epsilon(g,h)=U if both first bits are 1, else 1",
+  "partial_e_matches_E_direct_pairs": 16,
+  "E_twisted_2cocycle_triples": 64,
+  "partial_epsilon_matches_eta_direct_triples": 64,
+  "eta_twisted_3cocycle_quadruples": 256,
+  "nontrivial_eta_triples": 8,
+  "single_point_mutation_detected": true,
+  "independence": "NONE: the toy direct eta is defined using the same U as its epsilon cochain",
+  "scope": "Validates arithmetic plumbing in a 2-dimensional number field and Galois action, NOT Shukla Lemma 4.4.1 or Proposition 4.4.4, not the original degree-330 field, and not ARITHMETIC_COMPARISON.",
+  "ARITHMETIC_COMPARISON_status": "OPEN",
+  "Cassels_Tate": "UNKNOWN"
+}

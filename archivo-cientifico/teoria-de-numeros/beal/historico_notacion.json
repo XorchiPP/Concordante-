@@ -1,0 +1,75 @@
+{
+  "edition_status": "HISTORICAL_OUTPUT_NOT_RERUN_WITH_FULL_DATA",
+  "reported_result": {
+    "id": "historical_notation_erratum",
+    "status": "PASS_ERRATUM_SYMBOL_BIT_AND_DET11",
+    "original_historical_fiber_certificate_sha256": "6500bafc98ef5bd490f27854557c347d6ed703a67b3f8894dfe8c8e2853da1fc",
+    "original_historical_anchor_certificate_sha256": "15db655bef49b8687eda395fa0dd3a31ce806ca326786b57d73637d2058a6856",
+    "original_historical_dataset_zip_sha256": "4d9326c8f457b7a046772268e9af9ca501243525956be69fdf5bf56b906946eb",
+    "signed_root_form": "(-1)^nu prod_{j=1..10} (theta0-theta_j)^e_j",
+    "nu_origin": "first signed-code coordinate c[0], 0 or 1; NOT the degree-11 field generator s exponent",
+    "normal_form": {
+      "b_j": "e_j + e_(11-j)",
+      "t": "-sum j*e_(11-j) mod 11",
+      "epsilon": "nu + sum e_(11-j) mod 2"
+    },
+    "explicit_matrix_rows": [
+      [
+        -1,
+        -1,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        -1,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        -1,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        -1,
+        0,
+        1
+      ]
+    ],
+    "determinant_integer_exact": 11,
+    "weighted_congruences_mod11": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "phase_kernel_index": 11,
+    "phase_kernel_Z_rank": 5,
+    "matrix_mutation_rejected": true,
+    "sign_bit_mutation_trials": 3067,
+    "frozen_codes_checked": 5103,
+    "normal_keys_automatically_recomputed": 4719,
+    "key_value_bijection_on_archived_dataset": true,
+    "redundant_symbols": 384,
+    "ten_root_difference_anchor_norms_equal_by_cyclotomic_galois_orbit": true,
+    "toy_case_is_Shukla_degree330_route_B": false,
+    "comparación aritmética": "OPEN",
+    "Cassels_Tate": "UNKNOWN",
+    "claim_of_Beal_proof": false
+  }
+}
