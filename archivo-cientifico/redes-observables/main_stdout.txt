@@ -1,0 +1,1 @@
+{"checks": 47, "e3_difference": "4/9", "observable_minors": ["8/15", "-8/15"], "status": "PASS"}

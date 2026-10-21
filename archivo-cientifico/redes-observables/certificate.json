@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "checks": [
+    "capacity_isometry",
+    "constant_fixed",
+    "marked_e2_fixed",
+    "involution",
+    "distinct_networks",
+    "weighted_nonisomorphism_by_degrees",
+    "original_symmetric",
+    "original_zero_rows",
+    "original_all_positive_edges",
+    "original_min_edge_2",
+    "original_observable",
+    "transformed_symmetric",
+    "transformed_zero_rows",
+    "transformed_all_positive_edges",
+    "transformed_min_edge_2",
+    "transformed_observable",
+    "minor_values",
+    "transfer_B[0, 1]_s0",
+    "transfer_B[0, 1]_s1/3",
+    "transfer_B[0, 1]_s1",
+    "transfer_B[0, 1]_s7",
+    "transfer_B[0, 1]_s100",
+    "transfer_B[0, 1, 2]_s0",
+    "transfer_B[0, 1, 2]_s1/3",
+    "transfer_B[0, 1, 2]_s1",
+    "transfer_B[0, 1, 2]_s7",
+    "transfer_B[0, 1, 2]_s100",
+    "prepared_e2_moment_0",
+    "prepared_e2_moment_1",
+    "prepared_e2_moment_2",
+    "prepared_e2_moment_3",
+    "prepared_e2_moment_4",
+    "prepared_e2_moment_5",
+    "prepared_e2_moment_6",
+    "prepared_e2_moment_7",
+    "prepared_e2_moment_8",
+    "prepared_e2_moment_9",
+    "prepared_e2_moment_10",
+    "prepared_e2_moment_11",
+    "e3_discriminator",
+    "expanded_B0123_discriminator",
+    "two_marks_span",
+    "conservation_preparation_identity_1/3",
+    "conservation_preparation_identity_1",
+    "conservation_preparation_identity_7",
+    "reconstruct_A_from_markov_coefficients",
+    "reconstruct_D_from_A"
+  ],
+  "count": 47,
+  "arithmetic": "fractions.Fraction; zero tolerance",
+  "edition": "interior-marks-2026-10-21",
+  "M": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "2",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "3",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "4",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "5"
+    ]
+  ],
+  "L": [
+    [
+      "20",
+      "-2",
+      "-4",
+      "-6",
+      "-8"
+    ],
+    [
+      "-2",
+      "26",
+      "-6",
+      "-8",
+      "-10"
+    ],
+    [
+      "-4",
+      "-6",
+      "37",
+      "-12",
+      "-15"
+    ],
+    [
+      "-6",
+      "-8",
+      "-12",
+      "46",
+      "-20"
+    ],
+    [
+      "-8",
+      "-10",
+      "-15",
+      "-20",
+      "53"
+    ]
+  ],
+  "L_tilde": [
+    [
+      "20",
+      "-2",
+      "-4",
+      "-58/9",
+      "-68/9"
+    ],
+    [
+      "-2",
+      "26",
+      "-6",
+      "-8",
+      "-10"
+    ],
+    [
+      "-4",
+      "-6",
+      "37",
+      "-12",
+      "-15"
+    ],
+    [
+      "-58/9",
+      "-8",
+      "-12",
+      "3758/81",
+      "-1616/81"
+    ],
+    [
+      "-68/9",
+      "-10",
+      "-15",
+      "-1616/81",
+      "4253/81"
+    ]
+  ],
+  "S": [
+    [
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-1/9",
+      "10/9"
+    ],
+    [
+      "0",
+      "8/9",
+      "1/9"
+    ]
+  ],
+  "observability_minors": [
+    "8/15",
+    "-8/15"
+  ],
+  "e3_initial_current_difference": "4/9",
+  "traces": [
+    "182",
+    "14734/81"
+  ],
+  "functional_identity_basis": "Proved gauge identities, not sampling. See REPORT.md."
+}

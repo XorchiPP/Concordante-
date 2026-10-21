@@ -1,15 +1,15 @@
 # Concordante Lab · Archivo científico
 
-> **EDICIÓN PÚBLICA PARCIAL.** Primera entrega, 21 de octubre de 2026: dos lotes revisados y sus límites. No es todavía el archivo completo. Los originales de trabajo permanecen privados.
+> **EDICIÓN PÚBLICA PARCIAL.** Dos entregas, 21 de octubre de 2026: tres lotes revisados y sus límites. No es todavía el archivo completo. Los originales de trabajo permanecen privados.
 
 Concordante Lab reúne investigación matemática, computacional y exploraciones de interpretación física. Este archivo está pensado para mostrar el trabajo completo: resultados, hipótesis, programas, pruebas, límites, correcciones y rutas que no funcionaron. La apertura no convierte una conjetura en teorema ni una verificación interna en revisión externa.
 
 ## Estado de esta edición
 
-- **Alcance:** dos lotes computacionales reproducidos, con índice y política editorial. El resto del programa se incorporará por etapas.
-- **Material científico incorporado por esta entrega:** atlas exacto de sistemas de raíces y clasificación condicionada de acoplamientos por dos bloques.
+- **Alcance:** tres lotes con cálculos reproducidos y sus pruebas condicionadas donde corresponden, con índice y política editorial. El resto del programa se incorporará por etapas.
+- **Material científico incorporado por esta entrega:** atlas exacto de sistemas de raíces, clasificación condicionada de acoplamientos por dos bloques y reconstrucción de redes mediante marcas nodales.
 - **Fecha de la entrega:** 21 de octubre de 2026.
-- **Publicación:** primera entrega parcial. No se ha emitido una versión pública del archivo completo.
+- **Publicación:** dos entregas parciales, tres lotes acumulados. No se ha emitido una versión pública del archivo completo.
 - **Originales de trabajo:** permanecen privados. La copia pública no debe incluir su historial Git, conversaciones, datos personales o documentación administrativa.
 
 Los materiales que ya existían en la presentación pública del proyecto conservan su estado propio; no deben confundirse con una revisión científica completa de esta ampliación.
@@ -47,10 +47,13 @@ Un mismo resultado tendrá una entrada principal y referencias cruzadas, no copi
 
 ## Catálogo de entregas
 
-### Lotes de esta entrega
+### Lotes publicados
 
 - [Atlas exacto de sistemas de raíces finitos](atlas-raices/README.md): 34 modelos finitos y comprobación exacta de cierre por reflexión; límites y revisión en el expediente.
 - [Acoplamientos proyectivos por dos bloques](acoplamientos-dos-bloques/README.md): pruebas algebraicas bajo hipótesis explícitas, cálculo exacto acotado y auditoría adjunta.
+- [Reconstrucción de redes mediante marcas nodales](redes-observables/README.md): identificación exacta bajo observabilidad, capacidades positivas conocidas e iguales y datos completos; n−1 marcas para n≥1, óptimo en peor caso. No promete estabilidad ante ruido.
+
+La primera entrega contiene los dos primeros lotes. La segunda añade únicamente el lote de redes; ambos cortes son del 21 de octubre de 2026. El resto del archivo sigue pendiente de preparación y revisión.
 
 Cada lote incluye sus archivos y manifiesto. El [manifiesto de la entrega](SHA256SUMS.txt) permite comprobar los bytes de esta edición. Las demás secciones del mapa no se anuncian como cargadas.
 
@@ -90,3 +93,4 @@ La lectura pública no equivale a una nueva licencia de reutilización. Se manti
 ## Relación con la presentación visual
 
 La entrada visual y la biblioteca explicativa pueden enlazar este archivo sin convertir todos los expedientes técnicos en pantallas de navegación. El archivo debe permitir descargar y comprobar; la experiencia visual debe permitir descubrir y comprender. Ninguno sustituye las pruebas ni el registro de límites.
+
