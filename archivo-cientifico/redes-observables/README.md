@@ -10,7 +10,7 @@ Se estudian redes finitas conexas con nodos etiquetados, frontera no vacía, cap
 
 Bajo este contrato, la ambigüedad se clasifica por isometrías de capacidad que fijan el vector constante y las preparaciones, restringidas a transformaciones que conserven un Laplaciano físicamente admisible. Con n≥1 nodos interiores, n−1 marcas nodales bastan (cero para n=1; n=0 fuera de esta fórmula); la cota es óptima en peor caso, no una necesidad para cada red. El informe incluye prueba general autocontenida, reconstrucción exacta y un testigo racional de cinco nodos que permanece indistinguible con una marca.
 
-El grupo algebraico residual no coincide necesariamente con toda la clase de redes admisibles. Preparar un nodo y abrirlo como frontera son protocolos distintos. Sin observabilidad, n−1 preparaciones pueden no identificar la red. La cota no cuenta muestras temporales, precisión, coste experimental ni señales arbitrarias. No hay garantía de estabilidad ante ruido, disponibilidad experimental de las preparaciones, igualdad de actividad estacionaria, prioridad bibliográfica ni deducción gravitatoria.
+El grupo algebraico residual no coincide necesariamente con toda la clase de redes admisibles. Preparar un nodo y abrirlo como frontera son protocolos distintos. Sin observabilidad, n−1 preparaciones pueden no identificar la red. La cota no cuenta muestras temporales, precisión, coste experimental ni señales arbitrarias. La estabilidad ante ruido, el acceso experimental a las preparaciones, la comparación de actividad estacionaria, la prioridad bibliográfica y una conexión gravitatoria requieren investigaciones propias.
 
 ## Documentos y reproducción
 
@@ -19,7 +19,7 @@ El grupo algebraico residual no coincide necesariamente con toda la clase de red
 - verify_marks.py y certificate.json: verificador principal e informe racional exacto.
 - audit/verify_independent.py y audit/independent_certificate.json: implementación separada que reconstruye el ejemplo y verifica identidades polinómicas.
 - main_stdout.txt, main_stderr.txt, audit/stdout.txt y audit/stderr.txt: salidas de la nueva ejecución de los derivados.
-- SHA256SUMS.txt: integridad de los archivos de esta edición, no certificado de verdad científica.
+- SHA256SUMS.txt: integridad de los archivos de esta edición.
 
 Python 3.12.14 con biblioteca estándar. Sin instalaciones, red ni cuentas. Desde esta carpeta:
 
@@ -27,10 +27,10 @@ Python 3.12.14 con biblioteca estándar. Sin instalaciones, red ni cuentas. Desd
     python verify_marks.py
     python audit/verify_independent.py
 
-Los programas escriben certificados en sus respectivas carpetas. La nueva ejecución vuelve a comprobar los derivados; no crea una segunda demostración independiente por repetir código. El principal incluye muestras finitas de frecuencias y momentos. El independiente comprueba identidades racionales funcionales para el testigo de cinco nodos mediante determinantes polinómicos y multiplicación cruzada, además de 42 instancias construidas para n=2,3,4,5. Ninguna rejilla sustituye la prueba para todo n.
+Los programas escriben certificados en sus respectivas carpetas. La nueva ejecución comprueba los derivados conservados. El principal incluye muestras finitas de frecuencias y momentos. El independiente comprueba identidades racionales funcionales para el testigo de cinco nodos mediante determinantes polinómicos y multiplicación cruzada, además de 42 instancias construidas para n=2,3,4,5. La universalidad para todo n se sostiene en la prueba algebraica del informe.
 
 ## Fuentes y derechos
 
-El razonamiento algebraico es autocontenido. Los ayudantes matriciales del verificador principal proceden de un antecedente propio del proyecto; aquí se incluyen íntegros y no requieren importarlo. El segundo verificador no importa el principal ni sus certificados. Antecedente, originales y trazabilidad se conservan completos en custodia privada y siguen pendientes de preparación editorial separada. No se afirma una revisión exhaustiva de literatura ni prioridad externa.
+El razonamiento algebraico es autocontenido. Los ayudantes matriciales del verificador principal proceden de un antecedente propio del proyecto; aquí se incluyen íntegros y no requieren importarlo. El segundo verificador no importa el principal ni sus certificados. Antecedente, originales y trazabilidad se conservan completos en custodia privada y siguen pendientes de preparación editorial separada. La revisión exhaustiva de literatura y de prioridad queda pendiente.
 
 Presentación por marca y alias conforme a elección editorial. RIGHTS.md conserva la reserva de derechos sin transferir titularidad ni conceder una licencia nueva. La preparación de este recurso no exige una revista ya elegida; cualquier conflicto concreto de embargo, anonimato o publicación previa debe revisarse antes de la difusión correspondiente, sin prometer compatibilidad universal.

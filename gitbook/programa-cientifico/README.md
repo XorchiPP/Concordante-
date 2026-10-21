@@ -20,7 +20,7 @@ La investigación en física matemática comprende modelos discretos, simetrías
 
 ## Ontología, psicología y experiencia
 
-La línea de estudio de la experiencia explora cómo se relacionan situación, interpretación, afecto, respuesta y valores, y qué información orienta una elección presente. Es una exploración conceptual: no se afirma validación clínica ni equivalencia entre experiencia, conducta y objetos matemáticos.
+La línea de estudio de la experiencia explora cómo se relacionan situación, interpretación, afecto, respuesta y valores, y qué información orienta una elección presente. Es una exploración conceptual que mantiene diferenciadas experiencia, conducta y formulación matemática; la validación clínica requiere un estudio propio.
 
 ## Textos y geometría sagrada
 

@@ -2,7 +2,7 @@
 
 Concordante Lab · Xorch · © 2026. Todos los derechos reservados.
 
-Fecha: 21 de octubre de 2026. Revisión de alcance: favorable para la entrega documental y los dos cálculos autónomos; no certificación de las conjeturas abiertas.
+Fecha: 21 de octubre de 2026. Revisión de alcance: favorable para la entrega documental y los dos cálculos autónomos.
 
 - Los tres informes conservan los argumentos matemáticos y la fe de erratas. Se han cambiado metadatos, nombres de presentación y referencias internas; los comandos históricos que dependían de entradas ausentes se sustituyen por límites explícitos.
 - El núcleo aritmético del ejemplo cuadrático coincide literalmente con el original. Se ejecutaron el original y la edición; todos los campos de resultados científicos coinciden. Los cambios del programa afectan identificadores y nombre del archivo de salida.
@@ -12,4 +12,4 @@ Fecha: 21 de octubre de 2026. Revisión de alcance: favorable para la entrega do
 - Las seis referencias bibliográficas se cotejaron con fuentes primarias. En la tesis se localizaron el lema 4.4.1, la hipótesis 4.4.3 y la proposición 4.4.4; esa localización no valida la aplicación pendiente a la instancia.
 - La revisión de privacidad y nomenclatura cubre todos los archivos de este lote, no el archivo histórico completo. No se incluyen datos personales, enlaces al archivo privado, credenciales ni copias completas de obras ajenas.
 
-Todos los resultados históricos siguen etiquetados como tales. La lectura y limpieza editorial no se presentan como nueva investigación ni como prueba universal de corrección de software.
+Todos los resultados históricos siguen etiquetados como tales. La revisión cubre lectura matemática, reproducción acotada y preparación editorial.

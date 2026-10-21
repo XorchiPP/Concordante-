@@ -1,17 +1,17 @@
 # Política de estados y alcance científico
 
-> **EDICIÓN PÚBLICA PARCIAL. Política editorial · 21 de octubre de 2026.** Describe cómo se clasifican las entregas. No certifica por sí sola resultados particulares, no modifica licencias y no concede autorizaciones adicionales.
+> **EDICIÓN PÚBLICA PARCIAL. Política editorial · 21 de octubre de 2026.** Define las etiquetas de las entregas. La evidencia corresponde a cada expediente y se mantienen las licencias y autorizaciones vigentes.
 
 ## 1. Separar afirmación, evidencia y disponibilidad
 
-No se utilizará una única etiqueta «resuelto» o «publicado» para mezclar preguntas diferentes. Cada ficha tendrá al menos cuatro campos independientes:
+Cada ficha separará al menos cuatro campos independientes:
 
 - **Estado de la afirmación:** qué se ha establecido y bajo qué hipótesis.
 - **Estado de la evidencia:** qué archivos existen, qué pruebas se revisaron y qué cálculos se ejecutaron.
 - **Estado de publicación:** borrador privado, preparado para publicación o publicado con enlace verificable.
 - **Estado de versión:** vigente para su alcance, corregido o sustituido por una versión identificada.
 
-«Publicado» no significa «demostrado». «PASS» no significa automáticamente «teorema global». «No detectado» no significa «inexistente» fuera del dominio comprobado.
+«Publicado» describe acceso; «demostrado», evidencia deductiva. «PASS» indica el dominio y criterios del cálculo. «No detectado» se refiere exclusivamente al dominio examinado.
 
 ## 2. Estados de las afirmaciones
 
@@ -32,23 +32,23 @@ Resultado obtenido mediante un procedimiento definido. Debe indicar entradas, al
 - **Reproducido:** consta una ejecución del código y entradas identificados, con salidas conservadas y comprobación del criterio declarado.
 - **Reproducido por una ruta distinta:** se documentan las diferencias de implementación y las dependencias compartidas. No se llamará independiente a una repetición del mismo cálculo solo por haberse ejecutado en otro equipo.
 
-Los intervalos rigurosos, aritmética exacta y certificados de cobertura se distinguirán de estimaciones de coma flotante. Una tabla finita no demuestra por sí sola una afirmación en todos los grados o para todos los parámetros.
+Los intervalos rigurosos, aritmética exacta y certificados de cobertura se distinguirán de estimaciones de coma flotante. Una tabla finita acredita el dominio recorrido; los enunciados universales requieren sus argumentos generales.
 
 ### Conjetura o pregunta abierta
 
-Afirmación propuesta sin demostración suficiente, o pregunta cuyo resultado se desconoce. Se presentarán evidencia favorable, objeciones, contraejemplos descartados correctamente y condiciones bajo las cuales podría fallar. Una conjetura no se convertirá en resultado por repetición entre documentos.
+Afirmación propuesta sin demostración suficiente, o pregunta cuyo resultado se desconoce. Se presentarán evidencia favorable, objeciones, contraejemplos descartados correctamente y condiciones bajo las cuales podría fallar. El cambio de estado de una conjetura requiere evidencia nueva.
 
 ### Interpretación física
 
-Lectura física de una construcción matemática. Debe separar definición del modelo, correspondencia propuesta, parámetros ajustados, observables y predicciones contrastables. Un resultado matemático exacto no establece por sí solo que el modelo describa la naturaleza. Una coincidencia numérica o una analogía no cuenta como derivación física.
+Lectura física de una construcción matemática. Debe separar definición del modelo, correspondencia propuesta, parámetros ajustados, observables y predicciones contrastables. La correspondencia con la naturaleza requiere evidencia empírica propia. Las analogías, coincidencias y derivaciones físicas se identifican separadamente.
 
 ### Refutado o resultado negativo
 
-Una afirmación queda refutada en el alcance indicado por un contraejemplo o argumento válido. Se conservarán la afirmación original, el contraejemplo y el dominio afectado. Un teorema de imposibilidad bajo ciertas hipótesis no es una prohibición universal fuera de ellas. Un error de implementación no refuta automáticamente la afirmación matemática.
+Una afirmación queda refutada en el alcance indicado por un contraejemplo o argumento válido. Se conservarán la afirmación original, el contraejemplo y el dominio afectado. Los teoremas de imposibilidad conservan sus hipótesis. Los errores de implementación se distinguen de las refutaciones matemáticas.
 
 ### Corregido o superado
 
-Una versión fue corregida, ampliada o sustituida. Se indicará cuál y por qué. «Superado» no significa necesariamente falso: puede tratarse de un caso particular absorbido por un resultado más general. La versión histórica se conserva contextualizada cuando pueda publicarse sin exponer información reservada.
+Una versión fue corregida, ampliada o sustituida. Se indicará cuál y por qué. «Superado» puede designar un caso particular absorbido por un resultado más general. La versión histórica se conserva contextualizada cuando pueda publicarse sin exponer información reservada.
 
 ## 3. Reproducibilidad mínima
 
@@ -61,7 +61,7 @@ Para declarar un expediente computacional reproducible deben estar disponibles:
 5. Manifiesto de archivos con hashes y versión exacta del corte.
 6. Explicación del vínculo entre la salida y la afirmación matemática.
 
-Si falta un elemento necesario, se marcará **reproducibilidad incompleta** y se identificará la pieza concreta. Un manifiesto sin los archivos no completa una entrega. Un hash identifica bytes; no demuestra corrección matemática. Si los archivos fueron saneados, se recalcularán sus hashes y se documentará el alcance de la transformación sin revelar lo retirado.
+Si falta un elemento necesario, se marcará **reproducibilidad incompleta** y se identificará la pieza concreta. Una entrega reproducible requiere los archivos además del manifiesto. Los hashes identifican bytes; las pruebas y verificaciones sustentan su corrección. Si los archivos fueron saneados, se recalcularán sus hashes y se documentará el alcance de la transformación sin revelar lo retirado.
 
 No se exigirá ejecutar servicios de pago ni acceder a credenciales privadas para consultar la evidencia pública. Cuando un resultado dependa de software no disponible libremente, se declarará esa limitación y se publicarán los artefactos permitidos; no se fingirá una alternativa ya verificada.
 
@@ -97,7 +97,7 @@ Las versiones antiguas, refutaciones y fallos se publican con contexto y enlaces
 
 La autorización de apertura busca preservar posibilidades de publicación científica posterior. No se afirmará que cualquier difusión previa es compatible con cualquier revista, ni se exigirá elegir una revista para cada dato, programa o resultado antes de abrirlo. La apertura general puede apoyarse en vías editoriales compatibles comprobadas, sin convertirlas en promesas de aceptación.
 
-Como referencias, las políticas de [Cambridge sobre preprints](https://www.cambridge.org/core/open-research/preprint-policy) y de [SIAM Journal on Matrix Analysis and Applications](https://epubs.siam.org/simax/editorial-policy), consultadas el 21 de octubre de 2026, muestran vías compatibles con difusión previa bajo sus respectivas condiciones. No acreditan compatibilidad con todos los destinos ni elección de alguno por parte del proyecto.
+Como referencias, las políticas de [Cambridge sobre preprints](https://www.cambridge.org/core/open-research/preprint-policy) y de [SIAM Journal on Matrix Analysis and Applications](https://epubs.siam.org/simax/editorial-policy), consultadas el 21 de octubre de 2026, muestran vías compatibles con difusión previa bajo sus respectivas condiciones. Cada política se aplica bajo sus condiciones y funciona como referencia para la evaluación editorial concreta.
 
 Si un manuscrito tiene revista objetivo, contrato, embargo o restricción editorial conocida, se comprobará la política específica y se conservará su fuente y fecha. Las piezas con conflicto concreto o una situación editorial ambigua se mantendrán pendientes hasta resolverla. La mera ausencia de revista objetivo no constituye ese conflicto. Una etiqueta de «borrador» o un aviso de derechos no resuelve por sí solo una restricción. No se confundirá acceso de lectura con cesión de derechos.
 
@@ -105,4 +105,4 @@ Si un manuscrito tiene revista objetivo, contrato, embargo o restricción editor
 
 Esta política organiza evidencia y lectura; no concede licencias nuevas ni cambia los [avisos de licencia y derechos](../LICENCIA_Y_DERECHOS.md). Abrir el acceso de lectura y otorgar derechos de reutilización son decisiones distintas.
 
-La revisión editorial de un lote no constituye arbitraje académico, validación empírica, promoción a un canon ni cierre de las preguntas abiertas del programa.
+La revisión editorial registra procedencia, alcance y presentación. El arbitraje académico, el contraste empírico y la resolución de preguntas tienen sus procesos y evidencias propios.

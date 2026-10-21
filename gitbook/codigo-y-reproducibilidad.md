@@ -19,7 +19,7 @@ El propósito de esta sección es enseñar **cómo comprobar el alcance de una a
 
 **Sistemas:** en un autómata, dos estados pueden parecer iguales según un lector y responder de modo diferente ante entradas posteriores. El verificador debe explicitar qué continuaciones compara.
 
-La ingeniería del proyecto, los experimentos en preparación y los componentes de aplicaciones se gestionan en espacios reservados. El [archivo científico en GitHub](../archivo-cientifico/README.md) incorpora una primera entrega de dos lotes con código, salidas, hashes y límites. No constituye todavía el archivo completo.
+La ingeniería del proyecto, los experimentos en preparación y los componentes de aplicaciones se gestionan en espacios reservados. El [archivo científico en GitHub](../archivo-cientifico/README.md) incorpora entregas por áreas con documentos, código, salidas, hashes y límites definidos.
 
 Consulta el [método](https://concordante-lab.gitbook.io/concordante-lab-docs/metodo-y-estados) y las [publicaciones](https://concordante-lab.gitbook.io/concordante-lab-docs/publicaciones).
 

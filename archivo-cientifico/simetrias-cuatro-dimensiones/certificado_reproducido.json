@@ -1,0 +1,68 @@
+{
+  "reproduction_date": "2026-10-21",
+  "scientific_source_date": "2026-10-09",
+  "matches_historical_certificate": true,
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "certificate": {
+    "algebra_dimensions": {
+      "full_orbital": 32,
+      "generated": 16
+    },
+    "center_dimensions": {
+      "full_orbital": 12,
+      "generated": 7
+    },
+    "commutator": {
+      "negative_square_multiplicities": {
+        "-1620": 32,
+        "-2560": 36
+      },
+      "polynomial": "C(C^2+1620I)(C^2+2560I)=0",
+      "rank": 68
+    },
+    "coxeter_generators": 4,
+    "date": "2026-10-09",
+    "disjoint_offdiagonal": true,
+    "each_relation_degree": 22,
+    "field": "Q(sqrt(5))",
+    "flag_correspondence_bijective": true,
+    "flag_stabilizer_order": 20,
+    "flags": 360,
+    "golden_chart_pairs": {
+      "high": 360,
+      "low": 360
+    },
+    "hidden_ideal": {
+      "center_dimension": 1,
+      "dimension": 4,
+      "natural_generators_act": "-2I",
+      "real_algebra": "M_2(R)",
+      "split_witness_traceless_square": "21"
+    },
+    "minimal_extra_orbital_generators": 2,
+    "orbital_rank": 32,
+    "orbital_subdegree_multiplicities": {
+      "1": 1,
+      "10": 18,
+      "2": 2,
+      "20": 8,
+      "5": 3
+    },
+    "projective_group_order": 7200,
+    "projective_root_lines": 60,
+    "remarks": "Exact orbit multiplication and rational linear algebra; no claim of scholarly priority.",
+    "roots": 120,
+    "status": "PASS_EXACT_INDEPENDENT",
+    "successful_directed_transpose_pairs": [
+      [
+        24,
+        26
+      ],
+      [
+        25,
+        29
+      ]
+    ]
+  }
+}

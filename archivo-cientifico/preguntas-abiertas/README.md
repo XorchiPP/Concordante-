@@ -2,13 +2,13 @@
 
 Concordante Lab · Xorch · Corte: 21 de octubre de 2026.
 
-Esta lista se limita a modelos de redes, discretización gauge, selección del acoplamiento y alcance gravitatorio. No pretende inventariar toda la matemática del proyecto. Cada pregunta tiene un obstáculo concreto y un criterio de cierre; no se presenta como conjetura ya probada.
+Esta lista se limita a modelos de redes, discretización gauge, selección del acoplamiento y alcance gravitatorio. Cada pregunta tiene un obstáculo concreto y un criterio de cierre. Es una selección temática del archivo de preguntas abiertas.
 
 ## 1. ¿Qué datos identifican la red, no solo su respuesta?
 
 **Resultado negativo cerrado:** las dos realizaciones de [redes de frontera](../modelos-fisicos/redes-frontera/REPORT.md) tienen respuesta dinámica idéntica, sin modos interiores oscuros, pero no son isomorfas. Más frecuencias del mismo lector no distinguen este par.
 
-**Resultado positivo condicionado ya cerrado:** [las preparaciones nodales identifican la red](../redes-observables/REPORT.md): para n≥1 nodos interiores conocidos y etiquetados, n−1 preparaciones nodales bastan; la cota es óptima en el peor caso. El contrato exige capacidades positivas conocidas y comunes, observabilidad interior completa, respuesta Λ(s) completa, corrientes temporales completas tras las preparaciones y el mismo reloj y unidades. No se reabre aquí esa suficiencia.
+**Resultado positivo condicionado ya cerrado:** [las preparaciones nodales identifican la red](../redes-observables/REPORT.md): para n≥1 nodos interiores conocidos y etiquetados, n−1 preparaciones nodales bastan; la cota es óptima en el peor caso. El contrato exige capacidades positivas conocidas y comunes, observabilidad interior completa, respuesta Λ(s) completa, corrientes temporales completas tras las preparaciones y el mismo reloj y unidades. Esa suficiencia constituye un resultado establecido bajo el contrato indicado.
 
 **Preguntas abiertas fuera de ese resultado:** estabilidad frente a ruido o muestreo finito, disponibilidad física de las preparaciones e identificación bajo contratos con información o acceso restringidos.
 
@@ -16,7 +16,7 @@ Esta lista se limita a modelos de redes, discretización gauge, selección del a
 
 ## 2. ¿Qué explica cuantitativamente el residual no abeliano?
 
-**Cálculo documentado:** el [predictor aditivo](../modelos-fisicos/predictor-curvatura-residual.md) tiene coseno dual superior a 0.996, pero su magnitud es aproximadamente 11.7% de la del residual. Tras restarlo permanece aproximadamente 88.3% de la norma. Correlación direccional no es explicación de amplitud ni causalidad.
+**Cálculo documentado:** el [predictor aditivo](../modelos-fisicos/predictor-curvatura-residual.md) tiene coseno dual superior a 0.996, pero su magnitud es aproximadamente 11.7% de la del residual. Tras restarlo permanece aproximadamente 88.3% de la norma. La explicación de amplitud y causalidad permanece pendiente.
 
 **Pregunta abierta:** obtener un predictor gauge-covariante a amplitud finita que incluya holonomías, BCH y transportes compatibles, sin ajuste escalar retrospectivo.
 
@@ -40,7 +40,7 @@ Esta lista se limita a modelos de redes, discretización gauge, selección del a
 
 ## 5. ¿Qué conecta estos objetos con la física observada?
 
-**Estado:** no hay aquí derivación de gravedad desde redes ni demostración de superioridad sobre relatividad general. Un lenguaje formal amplio y reproducciones de soluciones clásicas conocidas no constituyen evidencia de una ley nueva.
+**Estado:** la conexión entre redes y gravedad es una línea abierta. Los resultados actuales aportan modelos formales y reproducciones de soluciones clásicas; una ley nueva requiere una predicción discriminante y contraste independiente.
 
 **Pregunta abierta:** construir el mapa entre los objetos matemáticos, una dinámica seleccionada y observables calibrados, recuperar el régimen conocido y obtener una predicción discriminante.
 
@@ -48,6 +48,6 @@ Esta lista se limita a modelos de redes, discretización gauge, selección del a
 
 ## Estado de la evidencia
 
-Los testigos de redes incluyen pruebas, código y salidas reproducidos en este corte. La nota de residual conserva derivaciones y cifras de un informe previo; no incluye aún su expediente computacional completo. La nota de acoplamiento presenta una inferencia condicionada, no una predicción experimental. Ninguna pregunta de esta lista se da por resuelta por publicar el archivo.
+Los testigos de redes incluyen pruebas, código y salidas reproducidos en este corte. La nota de residual conserva derivaciones y cifras de un informe previo; no incluye aún su expediente computacional completo. La nota de acoplamiento presenta una inferencia condicionada. Las preguntas conservan los estados y criterios de cierre aquí descritos.
 
 © 2026 Xorch — Concordante Lab. Derechos reservados.

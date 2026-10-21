@@ -7,7 +7,7 @@ Concordante Lab diferencia cuidadosamente la investigación de trabajo, los manu
 
 Un material se incorpora a este catálogo cuando ya es público y la versión autorizada ha sido identificada mediante título, autoría, fecha, estado y referencia verificable (por ejemplo, DOI, URL editorial o depósito público).
 
-Los materiales no liberados permanecen privados hasta su revisión. La publicación de resultados, datos o código no exige por sí sola aceptación previa de un artículo; se comprueban las restricciones editoriales conocidas.
+Los materiales no liberados permanecen privados hasta su revisión. La apertura de resultados, datos o código puede preceder a la aceptación de un artículo; se comprueban las restricciones editoriales conocidas.
 
 ## Categorías
 
@@ -25,10 +25,10 @@ Los materiales no liberados permanecen privados hasta su revisión. La publicaci
 - [Método de investigación](METODO.md)
 - [Investigación](INVESTIGACION.md)
 
-**Nota editorial:** este índice se limita a recursos cuya publicación en este repositorio está autorizada. Un eventual DOI se añadirá al catálogo después de confirmar la ficha pública correspondiente; la presencia del trabajo en Drive, Git o el laboratorio no equivale a una publicación académica.
+**Nota editorial:** este índice se limita a recursos cuya publicación en este repositorio está autorizada. Un eventual DOI se añadirá al catálogo después de confirmar la ficha pública correspondiente; el catálogo distingue documentos de trabajo, versiones públicas y artículos académicos mediante sus metadatos.
 
 [← Inicio](README.md)
 
 © 2026 Xorch — Concordante Lab. Todos los derechos reservados.
 
-- [Archivo científico: primera entrega de dos lotes](archivo-cientifico/README.md).
+- [Archivo científico: entregas por áreas](archivo-cientifico/README.md).

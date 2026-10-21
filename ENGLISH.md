@@ -17,9 +17,9 @@ Its central methodological question is: *Which minimal relational structure expl
 
 ## Evidence and status
 
-Concordante Lab distinguishes a proved theorem from a finite computational verification, a working hypothesis, or a conceptual exploration. A manuscript in preparation is not described as a published research article.
+Concordante Lab distinguishes a proved theorem from a finite computational verification, a working hypothesis, or a conceptual exploration. Manuscripts in preparation and published research articles retain their respective editorial status.
 
-This repository includes curated introductory texts and a first scientific release of two reproducible packages: finite root systems and projective two-block couplings. This is not yet the complete archive. Private working originals and personal or administrative data remain separate. See the [scientific archive](archivo-cientifico/README.md) for evidence, limitations and editorial policy.
+This repository includes curated introductory texts and scientific releases covering geometry, root systems, couplings, networks, number theory, physical models, and open questions, each with a stated scope. Private working originals and personal or administrative data remain separate. See the [scientific archive](archivo-cientifico/README.md) for evidence, limitations and editorial policy.
 
 [Research map](INVESTIGACION.md) · [Method](METODO.md) · [Publication policy](POLITICA_DE_PUBLICACION.md)
 

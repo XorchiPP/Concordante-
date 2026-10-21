@@ -1,18 +1,18 @@
 # Concordante Lab · Archivo científico
 
-> **EDICIÓN PÚBLICA PARCIAL.** Tres entregas, 21 de octubre de 2026: tres expedientes reproducibles y tres áreas documentales con alcance acotado. No es todavía el archivo completo. Los originales de trabajo permanecen privados.
+> **EDICIÓN PÚBLICA PARCIAL.** Cuatro entregas, 21 de octubre de 2026: geometría, expedientes reproducibles y áreas documentales con alcance definido. Los originales de trabajo permanecen privados.
 
-Concordante Lab reúne investigación matemática, computacional y exploraciones de interpretación física. Este archivo está pensado para mostrar el trabajo completo: resultados, hipótesis, programas, pruebas, límites, correcciones y rutas que no funcionaron. La apertura no convierte una conjetura en teorema ni una verificación interna en revisión externa.
+Concordante Lab reúne investigación matemática, computacional y exploraciones de interpretación física. Este archivo está pensado para mostrar el trabajo completo: resultados, hipótesis, programas, pruebas, límites, correcciones y rutas que no funcionaron. Cada afirmación conserva su estado científico y el tipo de revisión recibido.
 
 ## Estado de esta edición
 
-- **Alcance:** tres expedientes reproducibles y primeras entregas acotadas de teoría de números, modelos e interpretación física y preguntas abiertas, con índice y política editorial. El resto del programa se incorporará por etapas.
+- **Alcance:** geometría y álgebras en cuatro dimensiones, tres expedientes reproducibles y primeras entregas acotadas de teoría de números, modelos e interpretación física y preguntas abiertas, con índice y política editorial. El resto del programa se incorporará por etapas.
 - **Material científico acumulado:** atlas de raíces, acoplamientos por dos bloques, reconstrucción de redes, documentos y cálculos autónomos de teoría de números, modelos e interpretación física, y preguntas abiertas.
 - **Fecha de la entrega:** 21 de octubre de 2026.
-- **Publicación:** tres entregas parciales; ninguna categoría se declara completa. No se ha emitido una versión pública del archivo completo.
+- **Publicación:** cuatro entregas parciales; el catálogo distingue lo incorporado y lo pendiente.
 - **Originales de trabajo:** permanecen privados. La copia pública no debe incluir su historial Git, conversaciones, datos personales o documentación administrativa.
 
-Los materiales que ya existían en la presentación pública del proyecto conservan su estado propio; no deben confundirse con una revisión científica completa de esta ampliación.
+Los materiales previos conservan su estado propio y cada ampliación describe la revisión recibida.
 
 ## Cómo leer el archivo
 
@@ -28,11 +28,11 @@ La [política de estados y alcance](ESTADOS_Y_ALCANCE.md) define estas etiquetas
 
 ## Orden de lectura
 
-La lectura puede comenzar por geometría y simetría, seguir por fundamentos, teoría de números, cohomología, dinámica y redes, retículas y empaquetamientos, y llegar a modelos e interpretación física. Las preguntas abiertas acompañan todas las etapas. Este orden de lectura no retrasa la incorporación de resultados revisados ni afirma que todas las secciones estén ya disponibles.
+La lectura puede comenzar por geometría y simetría, seguir por fundamentos, teoría de números, cohomología, dinámica y redes, retículas y empaquetamientos, y llegar a modelos e interpretación física. Las preguntas abiertas acompañan todas las etapas. El catálogo indica las secciones disponibles y permite incorporar resultados revisados en cualquier etapa.
 
 ## Mapa de áreas
 
-El mapa combina áreas previstas y entregas parciales. Solo los enlaces del catálogo inferior corresponden a materiales incorporados. La clasificación no certifica que cada línea contenga resultados cerrados.
+El mapa combina áreas previstas y entregas parciales. Solo los enlaces del catálogo inferior corresponden a materiales incorporados. Cada línea distingue sus resultados cerrados y preguntas abiertas.
 
 | Sección prevista | Contenido que agrupará |
 | --- | --- |
@@ -42,7 +42,7 @@ El mapa combina áreas previstas y entregas parciales. Solo los enlaces del cat�
 | Cohomología y obstrucciones | Cohomología con distintos coeficientes, presentaciones, operaciones, restricciones, extensiones y problemas pendientes. |
 | Dinámica e irreversibilidad | Contactos, ramas, fronteras, resultados locales y globales, reconstrucción y modelos dinámicos. |
 | Retículas y empaquetamientos | Códigos, construcciones de retículas, normas mínimas, testigos y certificados de exclusión. |
-| Modelos e interpretación física | Puentes geométricos, gravedad, Yang–Mills, límites de continuo y contraste empírico. No confundir analogía con predicción. |
+| Modelos e interpretación física | Puentes geométricos, gravedad, Yang–Mills, límites de continuo y contraste empírico. Analogías y predicciones se identifican por separado. |
 | Métodos y reproducibilidad | Código, formatos de certificados, verificadores, entornos, instrucciones y criterios de revisión. |
 | Preguntas abiertas y rutas fallidas | Conjeturas, contraejemplos, resultados negativos, obstáculos y tentativas abandonadas. |
 | Historial científico | Versiones anteriores saneadas, fe de erratas, dependencias y relaciones de sustitución entre resultados. |
@@ -55,17 +55,17 @@ Un mismo resultado tendrá una entrada principal y referencias cruzadas, no copi
 
 - [Atlas exacto de sistemas de raíces finitos](atlas-raices/README.md): 34 modelos finitos y comprobación exacta de cierre por reflexión; límites y revisión en el expediente.
 - [Acoplamientos proyectivos por dos bloques](acoplamientos-dos-bloques/README.md): pruebas algebraicas bajo hipótesis explícitas, cálculo exacto acotado y auditoría adjunta.
-- [Reconstrucción de redes mediante marcas nodales](redes-observables/README.md): identificación exacta bajo observabilidad, capacidades positivas conocidas e iguales y datos completos; n−1 marcas para n≥1, óptimo en peor caso. No promete estabilidad ante ruido.
+- [Reconstrucción de redes mediante marcas nodales](redes-observables/README.md): identificación exacta bajo observabilidad, capacidades positivas conocidas e iguales y datos completos; n−1 marcas para n≥1, óptimo en peor caso. La estabilidad ante ruido queda pendiente.
 
 ### Áreas incorporadas en la tercera entrega
 
 - [Teoría de números](teoria-de-numeros/README.md): argumentos condicionados, fe de erratas, dos cálculos autónomos reproducidos y resultados históricos no reejecutados. Beal y Birch–Swinnerton-Dyer permanecen abiertos; faltan las entradas masivas y el cálculo Cassels–Tate indicado.
-- [Modelos e interpretación física](modelos-fisicos/README.md): documentos de modelos, hipótesis y límites; no se presentan las propuestas como leyes físicas confirmadas.
+- [Modelos e interpretación física](modelos-fisicos/README.md): documentos de modelos, hipótesis, cálculos y criterios de contraste físico.
 - [Preguntas abiertas](preguntas-abiertas/README.md): problemas transversales y obligaciones de prueba o contraste pendientes.
 
-La primera entrega contiene atlas y acoplamientos de dos bloques; la segunda, redes; la tercera abre las tres áreas anteriores con contenido acotado. Los tres cortes son del 21 de octubre de 2026. El resto del archivo sigue pendiente de preparación y revisión.
+La primera entrega contiene atlas y acoplamientos de dos bloques; la segunda, redes; la tercera abre las tres áreas anteriores; la cuarta añade [Simetrías y álgebras en cuatro dimensiones](simetrias-cuatro-dimensiones/README.md), con cálculo exacto y prueba de completación mínima. Los cuatro cortes son del 21 de octubre de 2026. El resto del archivo sigue pendiente de preparación y revisión.
 
-Cada lote incluye sus archivos y manifiesto. El [manifiesto de la entrega](SHA256SUMS.txt) permite comprobar los bytes de esta edición. Las secciones sin enlace de entrega no se anuncian como cargadas; ninguna entrega parcial representa la totalidad de su área.
+Cada lote incluye sus archivos y manifiesto. El [manifiesto de la entrega](SHA256SUMS.txt) permite comprobar los bytes de esta edición. Las secciones pendientes se distinguen de las entregas enlazadas y cada área declara su cobertura.
 
 El catálogo de futuras entregas deberá registrar:
 
@@ -78,11 +78,11 @@ El catálogo de futuras entregas deberá registrar:
 | Alcance | Dominio, parámetros, grados, precisión y excepciones. |
 | Archivos | Enlaces públicos verificados a informe, fuentes, código, entradas, salidas y manifiesto. |
 | Dependencias | Resultados y versiones necesarios para entender o reproducir la entrada. |
-| Límites y correcciones | Qué no demuestra, faltantes y enlace al resultado posterior si corresponde. |
+| Límites y correcciones | Alcance preciso, faltantes y enlace al resultado posterior si corresponde. |
 
 ## Compatibilidad con publicaciones posteriores
 
-La apertura busca conservar posibilidades de publicación científica posterior, no garantizar aceptación en cualquier revista. La falta de una revista elegida no impide por sí sola abrir datos, código y resultados: existen vías editoriales compatibles con la difusión previa, como muestran las políticas de [Cambridge](https://www.cambridge.org/core/open-research/preprint-policy) y [SIAM Journal on Matrix Analysis and Applications](https://epubs.siam.org/simax/editorial-policy), consultadas el 21 de octubre de 2026. Estas referencias no implican que se haya elegido una revista ni que todas apliquen las mismas condiciones. Si un manuscrito tiene destino previsto, compromisos o restricciones editoriales conocidos, se comprobarán específicamente. Se reservarán las piezas con conflicto concreto o una situación editorial ambigua pendiente de resolver. No se enviarán manuscritos ni se aceptarán condiciones editoriales como parte automática de esta apertura.
+La apertura busca conservar posibilidades de publicación científica posterior. Datos, código y resultados pueden difundirse antes de elegir revista: existen vías editoriales compatibles con la difusión previa, como muestran las políticas de [Cambridge](https://www.cambridge.org/core/open-research/preprint-policy) y [SIAM Journal on Matrix Analysis and Applications](https://epubs.siam.org/simax/editorial-policy), consultadas el 21 de octubre de 2026. Cada revista aplica condiciones específicas y la elección de destino permanece separada de esta apertura. Si un manuscrito tiene destino previsto, compromisos o restricciones editoriales conocidos, se comprobarán específicamente. Se reservarán las piezas con conflicto concreto o una situación editorial ambigua pendiente de resolver. No se enviarán manuscritos ni se aceptarán condiciones editoriales como parte automática de esta apertura.
 
 ## Incorporación por etapas
 

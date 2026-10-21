@@ -4,11 +4,11 @@ Concordante Lab · Xorch · Estado documental del 20 de octubre de 2026. Edició
 
 ## Pregunta y estado
 
-¿Se ha derivado sin ajuste la constante física de estructura fina? No. Definir un acoplamiento efectivo de un regulador no equivale a predecir el valor físico. La condición ultravioleta autónoma y la extrapolación de QED 3+1 con materia dinámica siguen abiertas.
+Se estudia la selección de la constante física de estructura fina a partir de un acoplamiento efectivo. La condición ultravioleta autónoma y la extrapolación de QED 3+1 con materia dinámica siguen abiertas.
 
 ## Definición de esquema
 
-En gauge compacto U(1) puro, sea F(φ) la energía libre con flujo externo φ. Se define h_N=F''(0), u_h=1/h_N y α_h=1/(4πh_N), cuando h_N>0. Es una definición de respuesta a flujo, no una selección única.
+En gauge compacto U(1) puro, sea F(φ) la energía libre con flujo externo φ. Se define h_N=F''(0), u_h=1/h_N y α_h=1/(4πh_N), cuando h_N>0. Esta definición caracteriza la respuesta a flujo.
 
 ## Deducción condicionada de no selección
 
@@ -25,7 +25,7 @@ Dividiendo por β y tomando el inverso,
 
 En particular α_h es positiva para β suficientemente grande y tiende a cero. Bajo continuidad de la respuesta de flujo en β en este régimen de volumen finito, no puede ser una constante positiva universal: su imagen contiene un intervalo no trivial. Por tanto, mientras β permanezca libre, estas identidades no seleccionan una α positiva única.
 
-Esto NO es un teorema de imposibilidad para la física. Una condición dinámica adicional podría restringir β. Tampoco demuestra una conclusión sobre QED con fermiones dinámicos, ni se identifica este regulador puro con el universo.
+La conclusión está limitada al esquema puro y a β libre bajo la expansión declarada. Una condición dinámica adicional podría restringir β. La extensión a QED con fermiones dinámicos requiere su propio análisis.
 
 ## Criterios pendientes
 
@@ -34,6 +34,6 @@ Esto NO es un teorema de imposibilidad para la física. Una condición dinámica
 3. Implementar escalamiento entre volúmenes y mallas con fermiones dinámicos y masas renormalizadas emparejadas; controlar errores y extrapolación.
 4. Contrastar una predicción independiente, sin reajuste, con incertidumbre explícita.
 
-La letra α usada en cociclos, exponentes aritméticos o ajustes estadísticos no identifica la constante electromagnética. Aquí la deducción es analítica y condicionada; no se entrega un cálculo numérico de su valor físico.
+La letra α usada en cociclos, exponentes aritméticos o ajustes estadísticos no identifica la constante electromagnética. Aquí se presenta una deducción analítica condicionada; el cálculo del valor físico permanece pendiente.
 
 © 2026 Xorch — Concordante Lab. Derechos reservados.

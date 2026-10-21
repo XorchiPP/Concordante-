@@ -20,7 +20,7 @@ Una misma palabra puede desempeñar papeles diferentes en cada disciplina. Este 
 
 **Información de referencia.** Información que ayuda a organizar una pregunta sobre un estado presente; su definición depende del modelo y del problema.
 
-**Modelo de experiencia.** Exploración conceptual de situación, interpretación, afecto, respuesta y valores. Esta descripción no afirma validación clínica o empírica.
+**Modelo de experiencia.** Exploración conceptual de situación, interpretación, afecto, respuesta y valores. Su validación clínica o empírica permanece pendiente.
 
 **Respuesta.** Papel de respuesta presente dentro del modelo psicológico; se distingue de la **elección** y de la **conducta manifestada**.
 

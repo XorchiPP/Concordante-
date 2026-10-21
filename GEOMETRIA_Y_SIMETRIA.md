@@ -25,7 +25,7 @@ El sistema E8, por ejemplo, tiene 240 raíces en un espacio euclídeo de ocho di
 
 El uso de símbolos, geometrías históricas o patrones visuales puede inspirar un modelo. Su valor científico aparece cuando se definen objetos, se demuestra una relación o se obtiene una predicción verificable. Una correspondencia estética y una identidad matemática pertenecen a niveles de evidencia diferentes.
 
-*Ejemplos presentados con fines educativos. Esta introducción no divulga resultados inéditos ni atribuye como propios los hechos matemáticos clásicos.*
+*Introducción educativa a hechos matemáticos clásicos y preguntas de investigación.*
 
 [← Inicio](README.md) · [Investigación](INVESTIGACION.md)
 

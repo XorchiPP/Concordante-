@@ -15,7 +15,7 @@ El trabajo de Concordante Lab se articula alrededor de una pregunta: **identific
 
 ## Qué cuenta como evidencia
 
-Una enumeración de mil casos puede descartar muchos errores, pero por sí sola no demuestra una afirmación sobre todos los casos posibles. Una demostración puede establecer un teorema bajo hipótesis precisas sin determinar si un modelo representa algún fenómeno físico real.
+La enumeración verifica el dominio finito recorrido. Una demostración establece su enunciado bajo hipótesis precisas. La representación de fenómenos físicos requiere además contrastes empíricos propios.
 
 La combinación de matemáticas, software y crítica externa permite identificar esas fronteras.
 

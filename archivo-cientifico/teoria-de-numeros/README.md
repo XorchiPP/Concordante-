@@ -2,7 +2,7 @@
 
 Concordante Lab · Xorch · © 2026. Todos los derechos reservados.
 
-Edición documental y computacional acotada del 21 de octubre de 2026. Incluye estructuras ciclotómicas, comparación aritmética, verificaciones exactas y un contrato de descenso elíptico. No representa todavía la totalidad del archivo de teoría de números.
+Edición documental y computacional acotada del 21 de octubre de 2026. Incluye estructuras ciclotómicas, comparación aritmética, verificaciones exactas y un contrato de descenso elíptico. Es una entrega parcial del archivo de teoría de números.
 
 ## Qué se puede leer
 
@@ -15,10 +15,10 @@ Edición documental y computacional acotada del 21 de octubre de 2026. Incluye e
 ## Clasificación de las afirmaciones
 
 1. **Argumentos algebraicos bajo las hipótesis declaradas:** identidad de raíces opuestas; retículo núcleo de la aplicación de fases; cálculo de norma bajo la estructura y los grados de campo indicados. Esta edición no vuelve a demostrar los grados 165 y 330 de la construcción original.
-2. **Cálculos reproducidos aquí:** ejemplo de cobordes en Q(√2) y matriz integral explícita de determinante +11. Son pruebas finitas de aritmética exacta, no avances que resuelvan las conjeturas.
+2. **Cálculos reproducidos aquí:** ejemplo de cobordes en Q(√2) y matriz integral explícita de determinante +11. Son verificaciones finitas de aritmética exacta.
 3. **Cálculos históricos documentados:** 5103 códigos, 4719 valores reducidos, 424 parejas y 2²¹ estados del sector fijado; diez anclajes. Los JSON `historico_*.json` son ediciones de salidas anteriores, con envoltura explícita de no reejecución. Sus hashes internos identifican originales, no estos archivos editados.
-4. **Predicciones y cuestiones abiertas:** segunda construcción auténtica desde la cónica de grado 165; igualdad por estado; descenso 3-Selmer real y escalar Cassels–Tate. Las predicciones BSD no son resultados computados.
-5. **Interpretación física:** ninguna conclusión física, psicológica o sobre IA se deduce de este paquete.
+4. **Predicciones y cuestiones abiertas:** segunda construcción auténtica desde la cónica de grado 165; igualdad por estado; descenso 3-Selmer real y escalar Cassels–Tate. Las predicciones BSD permanecen pendientes de cálculo.
+5. **Ámbito:** álgebra y teoría de números.
 
 Los dos modos de cálculo del ejemplo cuadrático comparten U: **no son fuentes matemáticamente independientes**. El testigo integral autónomo tampoco verifica que sus filas aparezcan en los datos históricos ni la inyectividad de las claves en esos datos. La inyectividad histórica se limita a los 5103 símbolos, no a M× entero.
 
@@ -36,9 +36,9 @@ sha256sum -c SHA256SUMS.txt
 
 El primer programa escribe `beal/resultado_conica.json` y comprueba 16 parejas, 64 identidades de 2-cociclo, 64 valores de 3-coborde y 256 identidades de 3-cociclo, además de una mutación detectada. El segundo escribe `beal/resultado_indice_reticular.json`: determinante +11, cinco filas en el núcleo de fases y control negativo. Las salidas de consola conservadas están junto a los programas. No ejecutar con `python -O`: los controles emplean `assert`.
 
-El segundo programa es una extracción acotada del cálculo de determinante y su control negativo del verificador histórico, con la matriz declarada explícitamente. No añade una afirmación matemática nueva.
+El segundo programa es una extracción acotada del cálculo de determinante y su control negativo del verificador histórico, con la matriz declarada explícitamente. Conserva el alcance del cálculo histórico.
 
-## Dependencias pendientes, sin ocultarlas
+## Dependencias pendientes
 
 No se incluye la tabla masiva histórica cuyo ZIP tiene SHA256 `4d9326c8f457b7a046772268e9af9ca501243525956be69fdf5bf56b906946eb`, ni los comparadores/verificadores que dependen de ella. Por ello este lote **no permite reproducir los 2²¹ estados, las 5103 claves ni los diez anclajes archivados**. Se conservan como resultados reportados, no resultados nuevos. No basta sustituir el ZIP por datos sintéticos o contrastar una fila por cada clase de la primera construcción.
 

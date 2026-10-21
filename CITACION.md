@@ -5,7 +5,7 @@ Cuando se haga referencia a este repositorio como presentación general del proy
 
 > Xorch. (2026). *Concordante Lab: programa independiente de investigación* [Sitio de presentación pública]. GitHub: https://github.com/XorchiPP/Concordante-
 
-Esta referencia cita la **presentación del proyecto**, no un artículo académico específico ni sus resultados particulares.
+Esta referencia cita la **presentación del proyecto**. Cada artículo y resultado se cita mediante su ficha específica.
 
 Para trabajos científicos se debe citar por separado la versión pública correspondiente, sus autores y el DOI o identificador de publicación cuando exista.
 

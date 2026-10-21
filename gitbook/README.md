@@ -6,7 +6,7 @@ Un programa independiente de investigación de **Xorch**, orientado a comprender
 
 La pregunta guía es sencilla: **¿qué relaciones explican una estructura presente y qué mecanismos generan las posibilidades que observamos?**
 
-Concordante Lab desarrolla esa pregunta desde las matemáticas, la física teórica, la computación, la ontología y la psicología. Cada modelo relacional conserva sus propios objetos, hipótesis y criterios de prueba; las conexiones entre dominios son preguntas de investigación, no equivalencias demostradas por esta introducción.
+Concordante Lab desarrolla esa pregunta desde las matemáticas, la física teórica, la computación, la ontología y la psicología. Cada modelo relacional conserva sus propios objetos, hipótesis y criterios de prueba; las conexiones entre dominios se formulan como preguntas de investigación.
 
 ## Comienza por aquí
 

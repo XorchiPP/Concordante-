@@ -10,7 +10,7 @@ Un antecedente del proyecto demuestra que la naturalidad bajo todo GL y todos lo
 
 La aportación posterior es una clasificación exacta al **marcar una factorización en dos bloques** y conservar sólo `GL(n,2)×GL(m,2)`: las marginales fijadas admiten una familia de acoplamientos con parámetro `θ`. En dimensiones finitas el intervalo admisible es mayor que el intervalo de familias extensibles coherentemente a todas las dimensiones. La extensión universal elimina precisamente los valores que requieren tasas negativas de reinicio independiente. Se da un contraejemplo irreducible mínimo y un lector espectral de `θ`.
 
-**Estado:** pruebas algebraicas completas bajo el contrato declarado; comprobación exacta acotada adjunta; revisión independiente concluida y adjunta. No se afirma prioridad matemática externa, necesidad física, derivación desde un principio físico ni selección de la factorización.
+**Estado:** pruebas algebraicas completas bajo el contrato declarado; comprobación exacta acotada adjunta; revisión independiente concluida y adjunta. La prioridad matemática externa, la fundamentación física y la selección de la factorización quedan pendientes de investigaciones específicas.
 
 ## 1. Contrato y fuentes fijadas
 
@@ -30,7 +30,7 @@ con estas hipótesis:
 
 Los bordes c=0 o d=0 están admitidos para la clasificación. La irreducibilidad se trata aparte. La dimensión cero queda excluida: allí los operadores degeneran y θ deja de ser identificable.
 
-La prueba que sigue es autocontenida. Los antecedentes históricos del proyecto se conservan en el registro privado; no son dependencias ejecutables ni premisas ocultas de los teoremas. No se afirma prioridad externa ni revisión exhaustiva de literatura.
+La prueba que sigue es autocontenida. Los antecedentes históricos del proyecto se conservan en el registro privado; no son dependencias ejecutables ni premisas ocultas de los teoremas. La revisión de prioridad y de literatura queda pendiente.
 
 ## 2. T1: cono de acoplamientos a tamaño finito
 

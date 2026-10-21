@@ -1,7 +1,7 @@
 # Investigación · Concordante Lab
 *Xorch*
 
-La pregunta transversal de Concordante Lab es: **¿qué estructura mínima explica el fenómeno presente sin perder las relaciones que lo hacen posible?** Esta pregunta funciona como una estrategia de investigación, no como un teorema universal.
+La pregunta transversal de Concordante Lab es: **¿qué estructura mínima explica el fenómeno presente sin perder las relaciones que lo hacen posible?** Esta pregunta orienta la estrategia de investigación.
 
 ## Geometría y grupos
 Estudiar una figura es estudiar tanto sus elementos como las transformaciones que conservan relaciones. Entran aquí simetrías del plano, estructuras triangulares y hexagonales, grupos de transformaciones y sistemas de raíces, como marcos matemáticos conocidos que permiten formular preguntas nuevas.

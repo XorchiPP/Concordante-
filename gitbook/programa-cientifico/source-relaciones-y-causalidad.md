@@ -35,7 +35,7 @@ En modelos de experiencia humana se estudia qué información organiza una pregu
 
 Los puentes entre matemáticas, física, información, experiencia y fuentes históricas se estudian por separado. Cada puente debe indicar **qué objetos traduce, qué relaciones conserva y qué evidencia sostiene la interpretación**.
 
-Esta página ofrece una explicación conceptual en lenguaje general. Las definiciones técnicas, hipótesis y resultados se especifican por separado en cada trabajo; esta introducción no constituye una teoría unificada demostrada.
+Esta página ofrece una explicación conceptual en lenguaje general. Las definiciones técnicas, hipótesis y resultados se especifican por separado en cada trabajo.
 
 Sigue por [Programa científico](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico) o [Sistemas, información y tiempo](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/sistemas-informacion-y-tiempo).
 

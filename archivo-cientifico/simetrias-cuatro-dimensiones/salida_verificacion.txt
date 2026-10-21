@@ -1,0 +1,105 @@
+roots 120 lines 60
+inner products squared numerators over 256
+(64, 0) 600 20
+(96, 32) 360 12
+(96, -32) 360 12
+(0, 0) 450 15
+norm checks {(16, 0)}
+reflections generated 60 time 0.016
+flag keys (96, 32) 360 primaries 60
+flag keys (96, -32) 360 primaries 60
+two golden charts identical and 6 axes each? {6}
+regular degree plus/minus {22} {22}
+disjoint neighbor lists True
+simple system indices [0, 87, 68, 60]
+four reflections act equivariantly on both charts
+flag orbit 360
+Schreier generators 4
+flag stabilizer order 20 projective group order 7200
+orbital rank 32 subdegrees {1: 1, 2: 2, 5: 3, 10: 18, 20: 8}
+exact commutator polynomial: PASS
+generated algebra dim 16 time 0.03 s
+commutator squared eigenvalue multiplicities 32 36 rank 68
+non-self-adjoint directed transpose orbital pairs [(2, 7), (5, 9), (12, 14), (19, 20), (24, 26), (25, 29), (28, 30)]
+completion candidate 2 7 dimension 30
+completion candidate 5 9 dimension 28
+completion candidate 12 14 dimension 25
+completion candidate 19 20 dimension 25
+completion candidate 24 26 dimension 32
+completion candidate 25 29 dimension 32
+completion candidate 28 30 dimension 29
+FULL EXACT COMPLETIONS [(24, 26), (25, 29)]
+COMMON -2 LEFT EIGENSPACE dimension 13
+common eigenspace is two-sided ideal? False
+Center dimension B 12
+Central common -2 sector dimensions 7
+central spectral eigenvalue multiplicities {-1148: 1, 3888/5: 1, -1332/5: 4, -26*sqrt(5) - 52: 1, -52 + 26*sqrt(5): 1, -2552/5 - 128*sqrt(5)/5: 1, -2552/5 + 128*sqrt(5)/5: 1, 0: 22}
+Hidden central projector rank 4
+Hidden rational basis size 4
+split real ideal certificate (coefficients, scalar part, positive square): ((-2, -2, -2, 0), -1, 21)
+COMPLETE EXACT TWO-ORBITAL COMPLETION: 1 added impossible; 2 suffice.
+center dimension of hidden ideal 1
+dim Z(A)= 7 dim Z(B)= 12
+END-TO-END H4 theorem independent exact PASS
+===CERTIFICATE_JSON===
+{
+  "algebra_dimensions": {
+    "full_orbital": 32,
+    "generated": 16
+  },
+  "center_dimensions": {
+    "full_orbital": 12,
+    "generated": 7
+  },
+  "commutator": {
+    "negative_square_multiplicities": {
+      "-1620": 32,
+      "-2560": 36
+    },
+    "polynomial": "C(C^2+1620I)(C^2+2560I)=0",
+    "rank": 68
+  },
+  "coxeter_generators": 4,
+  "date": "2026-10-09",
+  "disjoint_offdiagonal": true,
+  "each_relation_degree": 22,
+  "field": "Q(sqrt(5))",
+  "flag_correspondence_bijective": true,
+  "flag_stabilizer_order": 20,
+  "flags": 360,
+  "golden_chart_pairs": {
+    "high": 360,
+    "low": 360
+  },
+  "hidden_ideal": {
+    "center_dimension": 1,
+    "dimension": 4,
+    "natural_generators_act": "-2I",
+    "real_algebra": "M_2(R)",
+    "split_witness_traceless_square": "21"
+  },
+  "minimal_extra_orbital_generators": 2,
+  "orbital_rank": 32,
+  "orbital_subdegree_multiplicities": {
+    "1": 1,
+    "10": 18,
+    "2": 2,
+    "20": 8,
+    "5": 3
+  },
+  "projective_group_order": 7200,
+  "projective_root_lines": 60,
+  "remarks": "Exact orbit multiplication and rational linear algebra; no claim of scholarly priority.",
+  "roots": 120,
+  "status": "PASS_EXACT_INDEPENDENT",
+  "successful_directed_transpose_pairs": [
+    [
+      24,
+      26
+    ],
+    [
+      25,
+      29
+    ]
+  ]
+}

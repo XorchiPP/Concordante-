@@ -27,7 +27,7 @@ Un experimento computacional riguroso deja claros los parámetros, las semillas,
 
 Las pruebas en simulación son resultados sobre el modelo especificado; toda extrapolación a sistemas reales requiere evidencia adicional.
 
-*Página educativa y de programa. No es una especificación del software privado de Concordante Lab.*
+*Introducción educativa a sistemas, memoria e información.*
 
 [← Inicio](README.md) · [Método](METODO.md)
 

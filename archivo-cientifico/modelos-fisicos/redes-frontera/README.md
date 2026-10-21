@@ -16,7 +16,6 @@ Para reproducir también la auditoría simbólica se requiere SymPy 1.14.0
 `sh replay.sh` ejecuta ambas baterías y comprueba los hashes. No instala software.
 
 Las redes se distinguen si el vértice 2 se añade a la frontera. La observabilidad
-de estados no equivale a identificar las conductancias. No se deriva gravedad
-física ni se reivindica novedad histórica externa. Edición pública de un resultado finito; no validación empírica.
+de estados no equivale a identificar las conductancias. El aporte es un resultado algebraico finito con testigos exactos. La conexión gravitatoria y la prioridad histórica quedan abiertas.
 
 © 2026 Xorch — Concordante Lab. Derechos reservados.

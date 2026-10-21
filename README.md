@@ -40,7 +40,7 @@ Concordante Lab reúne preguntas que aparecen en geometría, álgebra, computaci
 | **Exploración** | Pregunta abierta, comparación o intuición |
 | **Publicado** | Documento ya liberado en una fuente pública identificable |
 
-La existencia de una pregunta importante no implica que exista una solución definitiva. Publicar resultados de forma trazable es tan importante como explorar nuevas conexiones.
+Las preguntas abiertas y los resultados demostrados conservan estados explícitos. Publicar resultados de forma trazable es tan importante como explorar nuevas conexiones.
 
 ## Independencia y acceso
 
@@ -53,6 +53,6 @@ Concordante Lab es un proyecto de investigación independiente de **Xorch**. Est
 
 ## Archivo científico
 
-[Primera entrega: dos lotes reproducibles](archivo-cientifico/README.md), 21 de octubre de 2026. Incluye atlas exacto de raíces y acoplamientos proyectivos por dos bloques, con pruebas condicionadas, código, salidas y hashes. Es una apertura parcial, no el archivo completo ni una revisión externa.
+[Archivo científico por áreas](archivo-cientifico/README.md), 21 de octubre de 2026. Incluye geometría y álgebras, atlas de raíces, acoplamientos, redes, teoría de números, modelos físicos y preguntas abiertas. Cada entrega identifica sus pruebas, cálculos, documentos históricos, fuentes y pendientes.
 
 La marca pública es **Concordante Lab** y la firma es **Xorch**. El alias no altera la titularidad ni las condiciones de derechos. Los originales de trabajo permanecen privados.
