@@ -1,0 +1,7 @@
+[PASS] Nine weighted homogeneous relations at advertised degrees.
+[PASS] Two exact fiber-defining identities evaluated in F2[t0,t1,t2,t3].
+[PASS] Parameter leading exponents determinant = -8 (over Z).
+[PASS] Special quartic T^4+T+1 irreducible over F2.
+[PASS] Fiber spans = invariant orbit dimensions at degrees 0..12: [1, 0, 1, 1, 2, 2, 5, 3, 7, 7, 10, 11, 17]
+[PASS] All 41 E2 orbit totals agree with the rational-series recurrence.
+[SCOPE] Input-algebra checks passed. Full group-ring verification requires the separate detector and ideal certificates.

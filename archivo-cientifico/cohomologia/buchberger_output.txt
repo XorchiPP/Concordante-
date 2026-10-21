@@ -1,0 +1,10 @@
+PASS: 9 original relations reduce to zero; 46 leading terms minimal
+S-pair zero 100 elapsed_sec 0.05
+S-pair zero 200 elapsed_sec 0.12
+S-pair zero 300 elapsed_sec 0.27
+S-pair zero 400 elapsed_sec 0.62
+S-pair zero 500 elapsed_sec 0.97
+S-pair zero 600 elapsed_sec 1.83
+S-pair zero 700 elapsed_sec 3.47
+S-pair zero 800 elapsed_sec 11.87
+PASS independent Buchberger verification: 46 polynomials; 809 nontrivial S-pairs; 226 product criterion; elapsed 12.968 sec

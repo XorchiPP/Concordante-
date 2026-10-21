@@ -1,0 +1,104 @@
+{
+  "cycle11": {
+    "balls_r_0_4": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "betti_F2": [
+      1,
+      1,
+      0
+    ],
+    "edge_reversal_symmetry": true,
+    "edges": 11,
+    "four_cliques": 0,
+    "gauge_counts": {
+      "U1_flat_connections_mod_gauge_dim_if_torsion_free": 1,
+      "U1_unconstrained_edge_connections_mod_gauge_dim": 1,
+      "independent_triangle_flatness_conditions": 0
+    },
+    "operators": {
+      "heat_column_sum_error": 2.55351295663786e-15,
+      "heat_min_entry": 0.00035243232270601346,
+      "heat_row_sum_error": 2.55351295663786e-15,
+      "laplacian_max_eigenvalue": 3.9189859472289967,
+      "laplacian_min_eigenvalue": 3.885780586188048e-16,
+      "unitarity_error": 1.5969107174050586e-15
+    },
+    "rank_boundary_1": 10,
+    "rank_boundary_2": 0,
+    "triangles": 0,
+    "vertices": 11
+  },
+  "doubling_scale_101": {
+    "10": {
+      "cycle_101": 0.9652345818393233,
+      "triangular_torus_101": 1.929665153521002
+    },
+    "5": {
+      "cycle_101": 0.932885804141463,
+      "triangular_torus_101": 1.8628927666085213
+    }
+  },
+  "guards": [
+    "internal computations only",
+    "known graph theory constructions",
+    "physical selection requires additional hypotheses",
+    "no unique dimension for arbitrary relation",
+    "gauge phases and time orientation require selection assumptions"
+  ],
+  "model": "finite connected symmetric binary compatibility",
+  "nonunique_quantum_dynamics_path3": {
+    "H_equals_A": [
+      0.33405145636695605,
+      0.4878407820314612,
+      0.17810776160158154
+    ],
+    "H_equals_L": [
+      0.3896326851314728,
+      0.4422205548000985,
+      0.16814676006842733
+    ],
+    "initial": 0,
+    "max_difference": 0.055581228764516766,
+    "t": 1
+  },
+  "status": "PASS_INTERNAL_COMPUTATIONAL_CHECKS",
+  "triangular_torus11": {
+    "balls_r_0_4": [
+      1,
+      7,
+      19,
+      37,
+      61
+    ],
+    "betti_F2": [
+      1,
+      2,
+      1
+    ],
+    "edge_reversal_symmetry": true,
+    "edges": 363,
+    "four_cliques": 0,
+    "gauge_counts": {
+      "U1_flat_connections_mod_gauge_dim_if_torsion_free": 2,
+      "U1_unconstrained_edge_connections_mod_gauge_dim": 243,
+      "independent_triangle_flatness_conditions": 241
+    },
+    "operators": {
+      "heat_column_sum_error": 4.440892098500626e-15,
+      "heat_min_entry": 6.13961188116568e-05,
+      "heat_row_sum_error": 4.218847493575595e-15,
+      "laplacian_max_eigenvalue": 8.904072612327717,
+      "laplacian_min_eigenvalue": -6.093902676241771e-16,
+      "unitarity_error": 1.554313889579997e-15
+    },
+    "rank_boundary_1": 120,
+    "rank_boundary_2": 241,
+    "triangles": 242,
+    "vertices": 121
+  }
+}

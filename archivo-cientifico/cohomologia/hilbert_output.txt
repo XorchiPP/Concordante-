@@ -1,0 +1,4 @@
+PASS: 46 Groebner leading monomials, 852 nonzero lcm states
+Numerator: [1, 0, 0, -1, -2, 1, -1, -1, 1, 2, 2, 1, 0, 0, 0, -3, -2, -1, 1, 1, -1, 2, 2, -1, -1]
+Exact identity H(A/I_exported)=P_G: TRUE (cross product zero)
+Scope: exact initial-ideal Hilbert identity; authenticate both ideal containments for A/J.

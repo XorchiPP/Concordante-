@@ -1,0 +1,46 @@
+{
+  "variables": [
+    "x",
+    "y",
+    "alpha",
+    "gamma",
+    "w4",
+    "w5",
+    "w6",
+    "Theta"
+  ],
+  "variable_degrees": [
+    1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    6
+  ],
+  "relations_by_degree": {
+    "3": [
+      "y*alpha"
+    ],
+    "4": [
+      "y*gamma",
+      "x*gamma + x^2*alpha"
+    ],
+    "6": [
+      "y*w5 + x*y*w4 + x*y^5 + x^2*y^4",
+      "x*w5 + x^2*w4 + x^2*y^4 + x^3*y^3"
+    ],
+    "7": [
+      "y*Theta + x*Theta + x*alpha*w4 + x^4*gamma",
+      "x*Theta + x*w6 + x*alpha*w4 + x*alpha^3 + x*y*w5 + x*y^2*w4 + x*y^6 + x^2*y*w4 + x^3*w4 + x^5*y^2 + x^6*y + x^7"
+    ],
+    "10": [
+      "w5^2 + gamma^2*w4 + alpha*gamma*w5 + alpha^2*w6 + alpha^5 + x*w4*w5 + x*gamma*Theta + x*gamma^3 + x*y^4*w5 + x^2*y^3*w5"
+    ],
+    "12": [
+      "Theta^2 + w6*Theta + gamma*w4*w5 + gamma^2*Theta + alpha*gamma^2*w4 + alpha^2*w4^2 + alpha^3*Theta + alpha^3*gamma^2 + x*gamma^2*w5 + x*alpha*gamma*Theta + x*alpha^2*gamma*w4 + x*alpha^4*gamma + x^9*gamma"
+    ]
+  },
+  "number_minimal_homogeneous_relations": 9
+}

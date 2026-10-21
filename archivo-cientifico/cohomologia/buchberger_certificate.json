@@ -1,0 +1,26 @@
+{
+  "id": "buchberger-replay",
+  "result": "PASS",
+  "copyright": "© 2026 Xorch — Concordante Lab.",
+  "original_relations": 9,
+  "groebner_full_polynomials": 46,
+  "groebner_full_monomial_count": 519,
+  "groebner_source_relation_reductions": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    39
+  ],
+  "total_pairs": 1035,
+  "coprime_pairs_product_criterion": 226,
+  "s_polynomials_reduced_exactly": 809,
+  "normalform_monomial_steps_total": 88183,
+  "normalform_max_steps": 2249,
+  "method": "independent pure Python GF(2) term-set normal forms and S polynomial calculations",
+  "scope": "Reverse ideal containment requires original CAS replay or explicit membership certificates."
+}
