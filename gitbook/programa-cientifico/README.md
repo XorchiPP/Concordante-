@@ -1,10 +1,10 @@
 # Programa científico
 
-Concordante investiga estructuras y mecanismos que aparecen en distintos campos. El hilo común es **preservar el tipo de cada objeto** al establecer relaciones entre disciplinas: una simetría, un observable físico, una experiencia y un texto histórico requieren procedimientos de análisis diferentes.
+Concordante Lab investiga estructuras y mecanismos que aparecen en distintos campos. El hilo común es **preservar el tipo de cada objeto** al establecer relaciones entre disciplinas: una simetría, un observable físico, una experiencia y un texto histórico requieren procedimientos de análisis diferentes.
 
-## Fundamento relacional: SOURCE
+## Relaciones y modelos
 
-[SOURCE: relaciones y causalidad](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) presenta el lenguaje de trabajo: estados o configuraciones, relaciones, transformaciones, lectores, referencias y consecuencias de una intervención. La ontología causal es un frente de investigación, formulado mediante mecanismos contrastables.
+[Relaciones y causalidad](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) presenta el lenguaje de trabajo: estados o configuraciones, relaciones, transformaciones, lectores, referencias y consecuencias de una intervención. La ontología causal es un frente de investigación, formulado mediante mecanismos contrastables.
 
 ## Matemáticas
 
@@ -20,11 +20,11 @@ La investigación en física matemática comprende modelos discretos, simetrías
 
 ## Ontología, psicología y experiencia
 
-La Psicología Concordante estudia la organización de la experiencia situada, el **Pentacoro**, el **Corazón** como referencia explicativa del presente, la elección y la transformación. Las distinciones entre experiencia, acción, conducta y formulación matemática se mantienen expresas.
+La línea de estudio de la experiencia explora cómo se relacionan situación, interpretación, afecto, respuesta y valores, y qué información orienta una elección presente. Es una exploración conceptual: no se afirma validación clínica ni equivalencia entre experiencia, conducta y objetos matemáticos.
 
 ## Textos y geometría sagrada
 
-La [Biblia Concordante](https://concordante-lab.gitbook.io/concordante-lab-docs/biblia-concordante) conserva la procedencia de símbolos y tradiciones —incluidos Séfer Yetzirá, Metatrón y el Tetragrámaton— y los estudia como fuentes de hipótesis, construcciones matemáticas y posibles puentes causales.
+La [Arquitectura documental](https://concordante-lab.gitbook.io/concordante-lab-docs/biblia-concordante) conserva la procedencia de símbolos y tradiciones —incluidos Séfer Yetzirá, Metatrón y el Tetragrámaton— y los estudia como fuentes de hipótesis, construcciones matemáticas y posibles puentes causales.
 
 ## Fronteras de investigación
 
@@ -32,6 +32,6 @@ El [mapa de preguntas abiertas](https://concordante-lab.gitbook.io/concordante-l
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

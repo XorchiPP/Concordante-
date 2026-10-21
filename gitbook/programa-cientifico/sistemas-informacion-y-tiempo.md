@@ -28,10 +28,10 @@ Un lector permite distinguir; una acción puede modificar el sistema. Esa separa
 
 **Pregunta central:** ¿qué condiciones permiten que una distinción observada se transforme en una elección informada y en una nueva configuración del sistema?
 
-Continúa con [SOURCE](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) y las [preguntas abiertas](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/preguntas-abiertas).
+Continúa con [Relaciones y causalidad](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) y las [preguntas abiertas](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/preguntas-abiertas).
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

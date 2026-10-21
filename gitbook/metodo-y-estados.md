@@ -1,6 +1,6 @@
 # Método y estados
 
-Concordante combina exploración, formalización, cálculo, pruebas y revisión. Su criterio de lectura es **qué se afirma, sobre cuál objeto, con qué procedimiento y dentro de qué alcance**.
+Concordante Lab combina exploración, formalización, cálculo, pruebas y revisión. Su criterio de lectura es **qué se afirma, sobre cuál objeto, con qué procedimiento y dentro de qué alcance**.
 
 ## Estados de un resultado
 
@@ -24,9 +24,9 @@ Concordante combina exploración, formalización, cálculo, pruebas y revisión.
 
 ## Tres categorías de conexión
 
-* **SRC (fuente):** identifica de dónde procede un texto, objeto o dato.
-* **DER (derivación):** especifica una consecuencia matemática de hipótesis y operaciones definidas.
-* **BRIDGE (puente):** propone o demuestra una traducción entre objetos, dominios o interpretaciones, con condiciones de correspondencia.
+* **Fuente:** identifica de dónde procede un texto, objeto o dato.
+* **Derivación matemática:** especifica una consecuencia matemática de hipótesis y operaciones definidas.
+* **Correspondencia entre dominios:** propone o demuestra una traducción entre objetos, dominios o interpretaciones, con condiciones de correspondencia.
 
 Por ejemplo, una relación matemática exacta puede ser punto de partida de un modelo físico; su interpretación como fenómeno medible necesita su propio experimento.
 
@@ -36,12 +36,12 @@ Una causa se investiga mediante el mecanismo y el contraste entre condiciones. S
 
 ## Estados documentales
 
-Preservar, incorporar, canonizar, activar y publicar son decisiones distintas. Un SHA-256 permite identificar los bytes de un archivo; la validez de una prueba depende de sus argumentos o verificaciones, y la publicación depende de una decisión editorial.
+Conservar un resultado, revisarlo y publicarlo son decisiones distintas. Un SHA-256 permite identificar los bytes de un archivo; la validez de una prueba depende de sus argumentos o verificaciones, y la publicación depende de una decisión editorial.
 
-Lee también [SOURCE](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) y [Código y reproducibilidad](https://concordante-lab.gitbook.io/concordante-lab-docs/codigo-y-reproducibilidad).
+Lee también [Relaciones y causalidad](https://concordante-lab.gitbook.io/concordante-lab-docs/programa-cientifico/source-relaciones-y-causalidad) y [Código y reproducibilidad](https://concordante-lab.gitbook.io/concordante-lab-docs/codigo-y-reproducibilidad).
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

@@ -1,0 +1,329 @@
+{
+  "atlas": {
+    "A1": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 2
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 2,
+      "unoriented_root_lines": 1
+    },
+    "A2": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 6
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 6,
+      "unoriented_root_lines": 3
+    },
+    "A3": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 12
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 12,
+      "unoriented_root_lines": 6
+    },
+    "A4": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 20
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 20,
+      "unoriented_root_lines": 10
+    },
+    "A5": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 30
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 30,
+      "unoriented_root_lines": 15
+    },
+    "A6": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 42
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 42,
+      "unoriented_root_lines": 21
+    },
+    "A7": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 56
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 56,
+      "unoriented_root_lines": 28
+    },
+    "A8": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 72
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 72,
+      "unoriented_root_lines": 36
+    },
+    "B2": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 4,
+        "(2+0phi)": 4
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 8,
+      "unoriented_root_lines": 4
+    },
+    "B3": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 6,
+        "(2+0phi)": 12
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 18,
+      "unoriented_root_lines": 9
+    },
+    "B4": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 8,
+        "(2+0phi)": 24
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 32,
+      "unoriented_root_lines": 16
+    },
+    "B5": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 10,
+        "(2+0phi)": 40
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 50,
+      "unoriented_root_lines": 25
+    },
+    "B6": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 12,
+        "(2+0phi)": 60
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 72,
+      "unoriented_root_lines": 36
+    },
+    "B7": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 14,
+        "(2+0phi)": 84
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 98,
+      "unoriented_root_lines": 49
+    },
+    "B8": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 16,
+        "(2+0phi)": 112
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 128,
+      "unoriented_root_lines": 64
+    },
+    "C2": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 4,
+        "(4+0phi)": 4
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 8,
+      "unoriented_root_lines": 4
+    },
+    "C3": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 12,
+        "(4+0phi)": 6
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 18,
+      "unoriented_root_lines": 9
+    },
+    "C4": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 24,
+        "(4+0phi)": 8
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 32,
+      "unoriented_root_lines": 16
+    },
+    "C5": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 40,
+        "(4+0phi)": 10
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 50,
+      "unoriented_root_lines": 25
+    },
+    "C6": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 60,
+        "(4+0phi)": 12
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 72,
+      "unoriented_root_lines": 36
+    },
+    "C7": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 84,
+        "(4+0phi)": 14
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 98,
+      "unoriented_root_lines": 49
+    },
+    "C8": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 112,
+        "(4+0phi)": 16
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 128,
+      "unoriented_root_lines": 64
+    },
+    "D4": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 24
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 24,
+      "unoriented_root_lines": 12
+    },
+    "D5": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 40
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 40,
+      "unoriented_root_lines": 20
+    },
+    "D6": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 60
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 60,
+      "unoriented_root_lines": 30
+    },
+    "D7": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 84
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 84,
+      "unoriented_root_lines": 42
+    },
+    "D8": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 112
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 112,
+      "unoriented_root_lines": 56
+    },
+    "E6": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 72
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 72,
+      "unoriented_root_lines": 36
+    },
+    "E7": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 126
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 126,
+      "unoriented_root_lines": 63
+    },
+    "E8": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 240
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 240,
+      "unoriented_root_lines": 120
+    },
+    "F4": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(1+0phi)": 24,
+        "(2+0phi)": 24
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 48,
+      "unoriented_root_lines": 24
+    },
+    "G2": {
+      "crystallographic": true,
+      "norm_sq_shells": {
+        "(2+0phi)": 6,
+        "(6+0phi)": 6
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 12,
+      "unoriented_root_lines": 6
+    },
+    "H3": {
+      "crystallographic": false,
+      "norm_sq_shells": {
+        "(1+0phi)": 30
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 30,
+      "unoriented_root_lines": 15
+    },
+    "H4": {
+      "crystallographic": false,
+      "norm_sq_shells": {
+        "(1+0phi)": 120
+      },
+      "reflection_all_roots_all_normals": "PASS",
+      "roots": 120,
+      "unoriented_root_lines": 60
+    }
+  },
+  "description": "Finite coordinate checks, not a classification proof or physical validation",
+  "root_normal_pair_count": 203520,
+  "tested_system_count": 34
+}

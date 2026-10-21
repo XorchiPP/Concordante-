@@ -1,5 +1,5 @@
 # Una puerta de entrada: geometría y simetría
-*Jorge Rosales Pérez · Concordante*
+*Xorch · Concordante Lab*
 
 La simetría permite reconocer lo que se conserva cuando algo cambia.
 
@@ -29,4 +29,4 @@ El uso de símbolos, geometrías históricas o patrones visuales puede inspirar 
 
 [← Inicio](README.md) · [Investigación](INVESTIGACION.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.

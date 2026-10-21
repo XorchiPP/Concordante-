@@ -1,6 +1,6 @@
 # Geometría y simetría
 
-La geometría ofrece una puerta de entrada a Concordante: **las relaciones pueden permanecer aunque cambie la representación**.
+La geometría ofrece una puerta de entrada a Concordante Lab: **las relaciones pueden permanecer aunque cambie la representación**.
 
 ## Figuras y transformaciones
 
@@ -28,6 +28,6 @@ Un dibujo sugiere una regularidad. Para convertirla en un resultado se declara e
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

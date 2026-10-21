@@ -1,7 +1,7 @@
 # Método de investigación
-*Jorge Rosales Pérez · Concordante*
+*Xorch · Concordante Lab*
 
-El trabajo de Concordante se articula alrededor de una pregunta: **buscar el corazón de una estructura**, entendido aquí como el conjunto de relaciones o invariantes necesarios para explicar un estado o comportamiento determinado.
+El trabajo de Concordante Lab se articula alrededor de una pregunta: **identificar las relaciones esenciales de una estructura**, entendido aquí como el conjunto de relaciones o invariantes necesarios para explicar un estado o comportamiento determinado.
 
 ## De la pregunta al certificado
 
@@ -25,4 +25,4 @@ Se reconoce a los colaboradores por sus aportaciones reales. Se preserva el esta
 
 [← Inicio](README.md) · [Preguntas frecuentes](PREGUNTAS_FRECUENTES.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.

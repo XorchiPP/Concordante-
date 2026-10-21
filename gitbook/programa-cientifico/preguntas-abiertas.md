@@ -1,6 +1,6 @@
 # Preguntas abiertas
 
-Concordante trabaja simultáneamente con teoremas delimitados, cómputos finitos y problemas en desarrollo. Este mapa presenta **preguntas públicas de investigación**, con un alcance deliberadamente general.
+Concordante Lab trabaja simultáneamente con teoremas delimitados, cómputos finitos y problemas en desarrollo. Este mapa presenta **preguntas públicas de investigación**, con un alcance deliberadamente general.
 
 ## Estructura y reconstrucción
 
@@ -32,10 +32,10 @@ Conservar ediciones, traducciones, reglas matemáticas y controles que permitan 
 
 Una pregunta se convierte en resultado al acompañarse de un enunciado, pruebas o cálculos con alcance definido y controles adecuados. La ruta de trabajo queda en el archivo de investigación; las versiones autorizadas aparecen en [Publicaciones](https://concordante-lab.gitbook.io/concordante-lab-docs/publicaciones).
 
-Lectura relacionada: [Método y estados](https://concordante-lab.gitbook.io/concordante-lab-docs/metodo-y-estados) · [Biblia Concordante](https://concordante-lab.gitbook.io/concordante-lab-docs/biblia-concordante).
+Lectura relacionada: [Método y estados](https://concordante-lab.gitbook.io/concordante-lab-docs/metodo-y-estados) · [Arquitectura documental](https://concordante-lab.gitbook.io/concordante-lab-docs/biblia-concordante).
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

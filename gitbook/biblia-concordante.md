@@ -1,6 +1,6 @@
-# Biblia Concordante
+# Arquitectura documental
 
-La **Biblia Concordante** es la arquitectura que relaciona fuentes, símbolos, preguntas, desarrollos científicos y registros de procedencia de Concordante. Su propósito es permitir una lectura integrada de las distintas tradiciones y de las construcciones matemáticas sin perder el origen de cada afirmación.
+La organización documental relaciona fuentes, símbolos, preguntas, desarrollos científicos y registros de procedencia de Concordante Lab. Su propósito es permitir una lectura integrada de las distintas tradiciones y de las construcciones matemáticas sin perder el origen de cada afirmación.
 
 ## Cuatro capas
 
@@ -30,6 +30,6 @@ Relacionado: [Método y estados](https://concordante-lab.gitbook.io/concordante-
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

@@ -1,7 +1,7 @@
-# Concordante — Research Overview
-**Jorge Rosales Pérez · Independent researcher · Mexico**
+# Concordante Lab — Research Overview
+**Xorch**
 
-Concordante is an independent research program exploring mathematical structures, symmetry, discrete systems, computational verification, and formal questions about information and change.
+Concordante Lab is an independent research program exploring mathematical structures, symmetry, discrete systems, computational verification, and formal questions about information and change.
 
 Its central methodological question is: *Which minimal relational structure explains the present state while preserving the distinctions that matter?*
 
@@ -17,12 +17,12 @@ Its central methodological question is: *Which minimal relational structure expl
 
 ## Evidence and status
 
-Concordante distinguishes a proved theorem from a finite computational verification, a working hypothesis, or a conceptual exploration. A manuscript in preparation is not described as a published research article.
+Concordante Lab distinguishes a proved theorem from a finite computational verification, a working hypothesis, or a conceptual exploration. A manuscript in preparation is not described as a published research article.
 
-This repository contains curated public-facing texts only. Working manuscripts, unpublished results, internal models and software, and sensitive project files remain in a separate private research space.
+This repository includes curated introductory texts and a first scientific release of two reproducible packages: finite root systems and projective two-block couplings. This is not yet the complete archive. Private working originals and personal or administrative data remain separate. See the [scientific archive](archivo-cientifico/README.md) for evidence, limitations and editorial policy.
 
 [Research map](INVESTIGACION.md) · [Method](METODO.md) · [Publication policy](POLITICA_DE_PUBLICACION.md)
 
-**Author:** Jorge Rosales Pérez · **ORCID:** [0009-0008-1679-7858](https://orcid.org/0009-0008-1679-7858)
+**Author:** Xorch
 
-© 2026 Jorge Rosales Pérez — Concordante. All rights reserved.
+© 2026 Xorch — Concordante Lab. All rights reserved.

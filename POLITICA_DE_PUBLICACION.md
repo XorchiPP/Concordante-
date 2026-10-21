@@ -1,8 +1,8 @@
 # Política de publicación
 
-**Jorge Rosales Pérez — Concordante**
+**Xorch — Concordante Lab**
 
-El contenido de este repositorio está destinado a la **presentación pública y divulgación autorizada** de Concordante.
+El contenido de este repositorio está destinado a la **presentación pública y divulgación autorizada** de Concordante Lab.
 
 ## Material elegible para publicación
 
@@ -13,7 +13,7 @@ El contenido de este repositorio está destinado a la **presentación pública y
 
 ## Material reservado
 
-Se conserva en espacios de investigación separados el código interno, los modelos no liberados, los datos de trabajo, los protocolos privados, los borradores de artículos, los manuscritos pendientes de envío o evaluación editorial y sus suplementos inéditos.
+Los originales, datos personales y administrativos, protocolos privados y materiales aún no revisados permanecen separados. La apertura científica avanza por entregas saneadas. No se exige haber elegido una revista para abrir código, datos y resultados; las restricciones editoriales conocidas se comprueban específicamente y se reserva el material con conflicto concreto o ambigüedad pendiente. Véanse los criterios completos del [archivo científico](archivo-cientifico/ESTADOS_Y_ALCANCE.md).
 
 ## Revisión previa
 
@@ -21,4 +21,4 @@ Antes de publicar un nuevo archivo, se verificará la autoría, los derechos, el
 
 Un resultado experimental, una hipótesis y un teorema demostrado deberán identificarse según su alcance real.
 
-**© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.**
+**© 2026 Xorch — Concordante Lab. Todos los derechos reservados.**

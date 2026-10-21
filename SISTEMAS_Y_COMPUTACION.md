@@ -1,5 +1,5 @@
 # Sistemas, memoria e información
-*Jorge Rosales Pérez · Concordante*
+*Xorch · Concordante Lab*
 
 Un sistema puede estudiarse mediante sus **estados**, las **reglas de transición** y la **información** que conserva o pierde cuando cambia.
 
@@ -27,8 +27,8 @@ Un experimento computacional riguroso deja claros los parámetros, las semillas,
 
 Las pruebas en simulación son resultados sobre el modelo especificado; toda extrapolación a sistemas reales requiere evidencia adicional.
 
-*Página educativa y de programa. No es una especificación del software privado de Concordante.*
+*Página educativa y de programa. No es una especificación del software privado de Concordante Lab.*
 
 [← Inicio](README.md) · [Método](METODO.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.

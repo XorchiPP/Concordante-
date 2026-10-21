@@ -1,13 +1,13 @@
 # Publicaciones y material público
-*Jorge Rosales Pérez · Concordante*
+*Xorch · Concordante Lab*
 
-Concordante diferencia cuidadosamente la investigación de trabajo, los manuscritos en evaluación y las publicaciones que ya cuentan con una fuente pública.
+Concordante Lab diferencia cuidadosamente la investigación de trabajo, los manuscritos en evaluación y las publicaciones que ya cuentan con una fuente pública.
 
 ## Criterios de incorporación
 
 Un material se incorpora a este catálogo cuando ya es público y la versión autorizada ha sido identificada mediante título, autoría, fecha, estado y referencia verificable (por ejemplo, DOI, URL editorial o depósito público).
 
-Los manuscritos pendientes de envío o dictamen y los suplementos no liberados permanecen en el repositorio privado, incluso si existen borradores técnicamente completos.
+Los materiales no liberados permanecen privados hasta su revisión. La publicación de resultados, datos o código no exige por sí sola aceptación previa de un artículo; se comprueban las restricciones editoriales conocidas.
 
 ## Categorías
 
@@ -16,7 +16,7 @@ Los manuscritos pendientes de envío o dictamen y los suplementos no liberados p
 | Publicaciones | Trabajos con enlace público verificable y estado indicado |
 | Notas de divulgación | Explicaciones redactadas específicamente para circulación pública |
 | Recursos educativos | Introducciones matemáticas generales, sin material reservado |
-| Catálogo de investigación | Mapa de áreas, sin divulgar documentos inéditos |
+| Archivo científico | Entregas revisadas con alcance, pruebas, código, salidas y hashes |
 
 ## Recursos disponibles en este sitio
 
@@ -29,4 +29,6 @@ Los manuscritos pendientes de envío o dictamen y los suplementos no liberados p
 
 [← Inicio](README.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.
+
+- [Archivo científico: primera entrega de dos lotes](archivo-cientifico/README.md).

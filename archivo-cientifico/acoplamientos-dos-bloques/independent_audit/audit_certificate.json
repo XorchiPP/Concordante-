@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python integers and fractions.Fraction only",
+  "rate_triples_tested": 576,
+  "dimension_range": "1 <= n,m <= 3",
+  "linear_surjections_per_block": 227,
+  "paired_surjections": 51529,
+  "coherent_parameter_samples": [
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      3,
+      2
+    ]
+  ],
+  "quotient_parameter_cases": 154587,
+  "checks_by_type": {
+    "parameter_recovery": 576,
+    "finite_positivity_interval": 576,
+    "first_marginal_rates": 2112,
+    "second_marginal_rates": 2112,
+    "fourier_spectrum": 12544,
+    "irreducibility_criterion": 576,
+    "unique_positive_marginal_exception": 576,
+    "single_block_surjection_count": 1,
+    "separated_quotient_rate_identity": 7127505,
+    "paired_surjections_count": 1,
+    "finite_excess_valid_and_irreducible": 1,
+    "finite_excess_marginals": 1,
+    "finite_excess_lift_negative": 1,
+    "finite_joint_only_higher_dim_irreducible": 1,
+    "binary_joint_only_reducible": 1
+  },
+  "total_assertions": 7146584,
+  "finite_excess": {
+    "n": 1,
+    "m": 1,
+    "c": "1",
+    "d": "1",
+    "theta": "3/2",
+    "rates": [
+      "1/8",
+      "1/8",
+      "3/8"
+    ],
+    "lift_1_2_axis_rate": "-1/16"
+  },
+  "scope": "Finite calculations corroborate the separate symbolic proof; no claim of computational proof in all dimensions.",
+  "script_sha256": "ae6f57a7a3f45b89ee372691e4241fb31f4000ebc47fff7b04c565d3eaffc418"
+}

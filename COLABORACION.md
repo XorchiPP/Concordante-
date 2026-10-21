@@ -1,7 +1,7 @@
 # Diálogo y colaboración científica
-*Jorge Rosales Pérez · Concordante*
+*Xorch · Concordante Lab*
 
-Concordante está abierto al intercambio de preguntas matemáticas, comentarios críticos y revisiones de material efectivamente difundido.
+Concordante Lab está abierto al intercambio de preguntas matemáticas, comentarios críticos y revisiones de material efectivamente difundido.
 
 ## Temas de conversación
 
@@ -14,12 +14,11 @@ Las propuestas de colaboración deben identificar un problema concreto y disting
 
 ## Identidad
 
-**Jorge Rosales Pérez**  
-Investigador independiente · México  
-[Identificador ORCID](https://orcid.org/0009-0008-1679-7858)
+**Xorch**  
+Concordante Lab  
 
 Por seguridad editorial, no se solicitan datos sensibles, historiales clínicos ni accesos a sistemas privados mediante incidencias públicas de este repositorio.
 
 [← Inicio](README.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.

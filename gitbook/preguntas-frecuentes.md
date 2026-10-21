@@ -1,14 +1,14 @@
 # Preguntas frecuentes
 
-### ¿Qué es Concordante?
+### ¿Qué es Concordante Lab?
 
 Es un programa independiente de investigación que conecta geometría, matemática discreta, física teórica, información, ontología y estudio de la experiencia mediante estructuras y pruebas identificables.
 
-### ¿Qué significa SOURCE?
+### ¿Cómo se estudian las relaciones?
 
-SOURCE es el nombre adoptado para el marco formal de trabajo. Permite estudiar estados, relaciones, observaciones y mecanismos causales. Cada dominio especifica su propia realización.
+Se definen estados, relaciones, observaciones y mecanismos causales para un problema concreto. Cada dominio precisa sus objetos y sus criterios de prueba.
 
-### ¿Qué quiere decir «buscar el corazón de las cosas»?
+### ¿Qué información se busca al explicar una estructura?
 
 Buscar la referencia o estructura explicativa decisiva para comprender una situación presente. En matemáticas puede tomar la forma de un invariante; en psicología, de una organización de la experiencia. Las definiciones se precisan en cada contexto.
 
@@ -30,7 +30,7 @@ La biblioteca muestra los materiales liberados para difusión. Las investigacion
 
 ### ¿Quién desarrolla el proyecto?
 
-**Jorge Rosales Pérez**, investigador independiente en México. Las colaboraciones se atribuyen según su contribución documentada.
+**Xorch**. Las colaboraciones se atribuyen según su contribución documentada.
 
 ### ¿Cómo citar o solicitar permiso de uso?
 
@@ -38,6 +38,6 @@ Consulta [Autoría, citas y derechos](https://concordante-lab.gitbook.io/concord
 
 ***
 
-_Concordante — Jorge Rosales Pérez · Divulgación pública · Actualización: 10 de octubre de 2026._
+_Concordante Lab — Xorch · Divulgación pública. Base documental: 10 de octubre de 2026; presentación revisada en GitHub: 21 de octubre de 2026._
 
-© 2026 Jorge Rosales Pérez. Todos los derechos reservados.
+© 2026 Xorch. Todos los derechos reservados.

@@ -1,11 +1,11 @@
-# Concordante
+# Concordante Lab
 ### Matemáticas · Geometría · Información · Sistemas
 
-**Jorge Rosales Pérez** · Investigador independiente · México
+**Xorch**
 
 > Un programa de investigación para encontrar estructuras simples que expliquen relaciones complejas, conservar las pruebas y distinguir las posibilidades de los resultados demostrados.
 
-Concordante reúne preguntas que aparecen en geometría, álgebra, computación y teoría de sistemas. Su objetivo es construir puentes precisos entre esos lenguajes: encontrar invariantes, estudiar simetrías, diseñar verificaciones reproducibles y saber cuándo una afirmación necesita más evidencia.
+Concordante Lab reúne preguntas que aparecen en geometría, álgebra, computación y teoría de sistemas. Su objetivo es construir puentes precisos entre esos lenguajes: encontrar invariantes, estudiar simetrías, diseñar verificaciones reproducibles y saber cuándo una afirmación necesita más evidencia.
 
 ## Explora el proyecto
 
@@ -14,7 +14,7 @@ Concordante reúne preguntas que aparecen en geometría, álgebra, computación 
 | [Investigación](INVESTIGACION.md) | Las principales preguntas y áreas del programa |
 | [Geometría y simetría](GEOMETRIA_Y_SIMETRIA.md) | Un recorrido accesible desde el hexágono hasta los sistemas de raíces |
 | [Sistemas y computación](SISTEMAS_Y_COMPUTACION.md) | Cómo pensar estados, relaciones, trazas e invariantes |
-| [Método Concordante](METODO.md) | De una intuición a una hipótesis verificable |
+| [Método Concordante Lab](METODO.md) | De una intuición a una hipótesis verificable |
 | [Publicaciones](PUBLICACIONES.md) | Criterios y catálogo de materiales efectivamente liberados |
 | [Preguntas frecuentes](PREGUNTAS_FRECUENTES.md) | Alcance, lenguaje y límites de las investigaciones |
 | [Colaboración](COLABORACION.md) | Cómo proponer una revisión o conversación técnica |
@@ -28,7 +28,7 @@ Concordante reúne preguntas que aparecen en geometría, álgebra, computación 
 
 **3. Sistemas dinámicos e información.** Se estudian las relaciones entre estado, memoria, contexto, evidencia y cambio, con especial atención a las invariancias y la reconstrucción.
 
-**4. Computación verificable.** Una prueba matemática, una simulación, un programa que enumera casos y una predicción empírica tienen alcances distintos. Concordante busca documentar esas diferencias explícitamente.
+**4. Computación verificable.** Una prueba matemática, una simulación, un programa que enumera casos y una predicción empírica tienen alcances distintos. Concordante Lab busca documentar esas diferencias explícitamente.
 
 ## Cómo leer los resultados
 
@@ -44,10 +44,15 @@ La existencia de una pregunta importante no implica que exista una solución def
 
 ## Independencia y acceso
 
-Concordante es un proyecto de investigación independiente de **Jorge Rosales Pérez**. Esta página funciona como espacio público de presentación y lectura. Los manuscritos inéditos, modelos internos, programas en desarrollo y datos reservados se conservan en un repositorio de trabajo privado. Su contenido se divulga mediante una decisión editorial específica y con la atribución correspondiente.
+Concordante Lab es un proyecto de investigación independiente de **Xorch**. Esta página funciona como espacio público de presentación y lectura. Los manuscritos inéditos, modelos internos, programas en desarrollo y datos reservados se conservan en un repositorio de trabajo privado. Su contenido se divulga mediante una decisión editorial específica y con la atribución correspondiente.
 
-**Identidad del proyecto:** Jorge Rosales Pérez · Concordante  
-**ORCID:** [0009-0007-3442-648X](https://orcid.org/0009-0007-3442-648X)  
+**Identidad del proyecto:** Xorch · Concordante Lab  
 **Autoría y derechos:** [consultar](AUTORIA_Y_DERECHOS.md) · [política de publicación](POLITICA_DE_PUBLICACION.md)
 
-© 2026 Jorge Rosales Pérez — Concordante. Todos los derechos reservados.
+© 2026 Xorch — Concordante Lab. Todos los derechos reservados.
+
+## Archivo científico
+
+[Primera entrega: dos lotes reproducibles](archivo-cientifico/README.md), 21 de octubre de 2026. Incluye atlas exacto de raíces y acoplamientos proyectivos por dos bloques, con pruebas condicionadas, código, salidas y hashes. Es una apertura parcial, no el archivo completo ni una revisión externa.
+
+La marca pública es **Concordante Lab** y la firma es **Xorch**. El alias no altera la titularidad ni las condiciones de derechos. Los originales de trabajo permanecen privados.

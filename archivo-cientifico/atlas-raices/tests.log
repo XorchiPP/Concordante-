@@ -1,0 +1,16 @@
+test_a3_tetrahedron_root_mapping (test_root_atlas_exact.RootAtlasTests.test_a3_tetrahedron_root_mapping) ... ok
+test_all_roots_all_normals_exhaustive_exact (test_root_atlas_exact.RootAtlasTests.test_all_roots_all_normals_exhaustive_exact) ... ok
+test_classical_family_counts (test_root_atlas_exact.RootAtlasTests.test_classical_family_counts) ... ok
+test_counterexample_equal_cardinality_not_root_structure (test_root_atlas_exact.RootAtlasTests.test_counterexample_equal_cardinality_not_root_structure) ... ok
+test_counts_antipodes_shells (test_root_atlas_exact.RootAtlasTests.test_counts_antipodes_shells) ... ok
+test_crystallographic_boundary (test_root_atlas_exact.RootAtlasTests.test_crystallographic_boundary) ... ok
+test_e8_full_root_shell (test_root_atlas_exact.RootAtlasTests.test_e8_full_root_shell) ... ok
+test_metric_and_cartan_gauge_equivariance (test_root_atlas_exact.RootAtlasTests.test_metric_and_cartan_gauge_equivariance) ... ok
+test_reflection_involutive_and_metric (test_root_atlas_exact.RootAtlasTests.test_reflection_involutive_and_metric) ... ok
+test_reflections_exact (test_root_atlas_exact.RootAtlasTests.test_reflections_exact) ... ok
+test_runtime_boundary_preview_does_not_authorize (test_root_atlas_exact.RootAtlasTests.test_runtime_boundary_preview_does_not_authorize) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 4.050s
+
+OK
