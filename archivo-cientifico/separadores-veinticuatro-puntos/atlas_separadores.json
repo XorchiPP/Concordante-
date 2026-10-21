@@ -1,0 +1,839 @@
+{
+  "balanced_C6_coordinate_generator": [
+    20,
+    18,
+    17,
+    11,
+    14,
+    23,
+    16,
+    8,
+    12,
+    6,
+    2,
+    5,
+    0,
+    22,
+    15,
+    21,
+    10,
+    9,
+    3,
+    7,
+    19,
+    13,
+    4,
+    1
+  ],
+  "balanced_C6_point_cycles": [
+    [
+      0,
+      20,
+      19,
+      7,
+      8,
+      12
+    ],
+    [
+      1,
+      18,
+      3,
+      11,
+      5,
+      23
+    ],
+    [
+      2,
+      17,
+      9,
+      6,
+      16,
+      10
+    ],
+    [
+      4,
+      14,
+      15,
+      21,
+      13,
+      22
+    ]
+  ],
+  "balanced_C6_row_generator": [
+    1,
+    2,
+    4,
+    5,
+    3,
+    0
+  ],
+  "cyclic_orbit_representatives_2": [
+    {
+      "hist": [
+        0,
+        6,
+        12,
+        6,
+        0,
+        0,
+        0
+      ],
+      "id": "cyclic_1",
+      "masks_hex": [
+        "2e04a8",
+        "802b8c",
+        "421962",
+        "90444b",
+        "851231",
+        "1d8806"
+      ],
+      "pair_overlaps": {
+        "2": 15
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        [
+          2,
+          4,
+          3,
+          0,
+          5,
+          1
+        ],
+        [
+          3,
+          5,
+          0,
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          3,
+          5,
+          1,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          1,
+          4,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "hist": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "id": "cyclic_2",
+      "masks_hex": [
+        "11e103",
+        "c38260",
+        "4d3014",
+        "2a1702",
+        "884e06",
+        "221139"
+      ],
+      "pair_overlaps": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          5,
+          4
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          5,
+          4
+        ]
+      ]
+    }
+  ],
+  "local_one_swap_82": [
+    {
+      "replacement_hex": "0d8470",
+      "slot": 0
+    },
+    {
+      "replacement_hex": "2542e0",
+      "slot": 0
+    },
+    {
+      "replacement_hex": "584701",
+      "slot": 0
+    },
+    {
+      "replacement_hex": "04701b",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "162843",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "23240b",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "464816",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "54104e",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "611c06",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "832921",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "891885",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "c1112c",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "c4b208",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "cb2088",
+      "slot": 1
+    },
+    {
+      "replacement_hex": "034073",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "03611c",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "03e4a0",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "045174",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "04701b",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "04d4c8",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0a10cb",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0a31a4",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0ab418",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0d01cc",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0d20a3",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0d8470",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "156830",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "1b08e0",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "1c3888",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "227288",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "2542e0",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "2b2230",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "2c1258",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "c27030",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "c54058",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "cb2088",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "cc10e0",
+      "slot": 2
+    },
+    {
+      "replacement_hex": "0a31a4",
+      "slot": 3
+    },
+    {
+      "replacement_hex": "611c06",
+      "slot": 3
+    },
+    {
+      "replacement_hex": "cb2088",
+      "slot": 3
+    },
+    {
+      "replacement_hex": "0149a6",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "0a31a4",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "2542e0",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "3812a1",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "451740",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "489330",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "584701",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "611c06",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "6a6404",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "a1448c",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "c1112c",
+      "slot": 4
+    },
+    {
+      "replacement_hex": "026a64",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "039834",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "042de0",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "04701b",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "05824b",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "0a31a4",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "0c7620",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "0d8470",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "10323c",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "11c06c",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "162843",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "183407",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "230564",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "24b0b0",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "2542e0",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "2d1920",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "3100c7",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "407306",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "418156",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "463482",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "4828c6",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "543121",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "611c06",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "6f0042",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "83084e",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "84e061",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "851231",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "8d140a",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "915016",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "a420ca",
+      "slot": 5
+    },
+    {
+      "replacement_hex": "c1112c",
+      "slot": 5
+    }
+  ],
+  "one_swap_orbit_representative_11": [
+    {
+      "hist": [
+        1,
+        4,
+        14,
+        4,
+        1,
+        0,
+        0
+      ],
+      "id": "local_01",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "6f0042"
+      ],
+      "pair_overlaps": {
+        "2": 14,
+        "4": 1
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        4,
+        14,
+        4,
+        1,
+        0,
+        0
+      ],
+      "id": "local_02",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "4828c6"
+      ],
+      "pair_overlaps": {
+        "2": 14,
+        "4": 1
+      },
+      "stabilizer_order": 3
+    },
+    {
+      "hist": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "id": "local_03",
+      "masks_hex": [
+        "708191",
+        "832921",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "id": "local_04",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "543121"
+      ],
+      "pair_overlaps": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "stabilizer_order": 2
+    },
+    {
+      "hist": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ],
+      "id": "local_05",
+      "masks_hex": [
+        "708191",
+        "891885",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "2": 14,
+        "4": 1
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        5,
+        13,
+        3,
+        2,
+        0,
+        0
+      ],
+      "id": "local_06",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "c27030",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "2": 13,
+        "4": 2
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ],
+      "id": "local_07",
+      "masks_hex": [
+        "708191",
+        "162843",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "0": 1,
+        "2": 11,
+        "4": 3
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ],
+      "id": "local_08",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "83084e"
+      ],
+      "pair_overlaps": {
+        "0": 2,
+        "2": 9,
+        "4": 4
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ],
+      "id": "local_09",
+      "masks_hex": [
+        "0d8470",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "2": 13,
+        "4": 2
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        6,
+        11,
+        5,
+        0,
+        1,
+        0
+      ],
+      "id": "local_10",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "03e4a0",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "2": 12,
+        "4": 3
+      },
+      "stabilizer_order": 1
+    },
+    {
+      "hist": [
+        1,
+        6,
+        12,
+        2,
+        3,
+        0,
+        0
+      ],
+      "id": "local_11",
+      "masks_hex": [
+        "708191",
+        "868a05",
+        "227288",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_overlaps": {
+        "2": 12,
+        "4": 3
+      },
+      "stabilizer_order": 1
+    }
+  ],
+  "parent_witness_hex": [
+    "708191",
+    "868a05",
+    "125858",
+    "a00d2a",
+    "28c690",
+    "90a246"
+  ]
+}

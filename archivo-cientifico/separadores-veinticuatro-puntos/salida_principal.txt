@@ -1,0 +1,3 @@
+separadores_octadas MAIN 125 PASS
+one-swap completions [4, 12, 24, 4, 12, 32] neighbors 82 M24 classes >= 13
+orbit lower bound 2489034240 C6 rows ['2e04a8', '802b8c', '421962', '90444b', '851231', '1d8806'] four 6-cycles [[0, 20, 19, 7, 8, 12], [1, 18, 3, 11, 5, 23], [2, 17, 9, 6, 16, 10], [4, 14, 15, 21, 13, 22]]

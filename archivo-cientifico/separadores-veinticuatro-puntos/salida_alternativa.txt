@@ -1,0 +1,1 @@
+separadores_octadas INDEPENDENT 119 PASS, 13 M24-orbits, >= 2489034240 readouts

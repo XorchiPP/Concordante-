@@ -1,0 +1,1015 @@
+{
+  "at_least_M24_orbits": 13,
+  "at_least_unordered_minimal_six_octad_readers": 2489034240,
+  "balanced_C6_coordinate_orbits": [
+    [
+      0,
+      20,
+      19,
+      7,
+      8,
+      12
+    ],
+    [
+      1,
+      18,
+      3,
+      11,
+      5,
+      23
+    ],
+    [
+      2,
+      17,
+      9,
+      6,
+      16,
+      10
+    ],
+    [
+      4,
+      14,
+      15,
+      21,
+      13,
+      22
+    ]
+  ],
+  "checks": {
+    "all_13_stabilizers_subgroups_S6": true,
+    "all_parent_octads_weight_eight": true,
+    "balanced_C6_24_signatures_degree_1_2_3": true,
+    "balanced_C6_four_orbits_six_points": true,
+    "balanced_C6_six_pairs_all_intersect_two": true,
+    "balanced_C6_uniform_6_critical_per_reader": true,
+    "conway_24frame_index_external": true,
+    "cyclic_example_all_six_critical_0": true,
+    "cyclic_example_all_six_critical_1": true,
+    "cyclic_example_is_C6_0": true,
+    "cyclic_example_is_C6_1": true,
+    "cyclic_example_resolves_0": true,
+    "cyclic_example_resolves_1": true,
+    "cyclic_example_six_octads_0": true,
+    "cyclic_example_six_octads_1": true,
+    "cyclic_example_stabilizer_order_six_0": true,
+    "cyclic_example_stabilizer_order_six_1": true,
+    "disjoint_orbits_cover_at_least_2489034240_sixpacks": true,
+    "eleven_distinct_invariant_stabilizer_classes_one_swap": true,
+    "every_one_swap_neighbor_has_critical_pairs": true,
+    "frozen_witness_24_distinct_signatures": true,
+    "frozen_witness_six_valid_octads": true,
+    "global_M24_octad_transitivity_blocks_six_reader_selector": true,
+    "local_82_packs_distinct": true,
+    "local_one_swap_count_82": true,
+    "local_orbit_lower_bound": true,
+    "nine_local_trivial_stabilizer_types": true,
+    "octad_759_unique": true,
+    "octadas_sha": true,
+    "one_local_c2_type": true,
+    "one_local_c3_type": true,
+    "original_mask_is_valid_completion_0": true,
+    "original_mask_is_valid_completion_1": true,
+    "original_mask_is_valid_completion_2": true,
+    "original_mask_is_valid_completion_3": true,
+    "original_mask_is_valid_completion_4": true,
+    "original_mask_is_valid_completion_5": true,
+    "parent_five_reader_lower_bound": true,
+    "resolved_neighbor_0_0d8470": true,
+    "resolved_neighbor_0_2542e0": true,
+    "resolved_neighbor_0_584701": true,
+    "resolved_neighbor_1_04701b": true,
+    "resolved_neighbor_1_162843": true,
+    "resolved_neighbor_1_23240b": true,
+    "resolved_neighbor_1_464816": true,
+    "resolved_neighbor_1_54104e": true,
+    "resolved_neighbor_1_611c06": true,
+    "resolved_neighbor_1_832921": true,
+    "resolved_neighbor_1_891885": true,
+    "resolved_neighbor_1_c1112c": true,
+    "resolved_neighbor_1_c4b208": true,
+    "resolved_neighbor_1_cb2088": true,
+    "resolved_neighbor_2_034073": true,
+    "resolved_neighbor_2_03611c": true,
+    "resolved_neighbor_2_03e4a0": true,
+    "resolved_neighbor_2_045174": true,
+    "resolved_neighbor_2_04701b": true,
+    "resolved_neighbor_2_04d4c8": true,
+    "resolved_neighbor_2_0a10cb": true,
+    "resolved_neighbor_2_0a31a4": true,
+    "resolved_neighbor_2_0ab418": true,
+    "resolved_neighbor_2_0d01cc": true,
+    "resolved_neighbor_2_0d20a3": true,
+    "resolved_neighbor_2_0d8470": true,
+    "resolved_neighbor_2_156830": true,
+    "resolved_neighbor_2_1b08e0": true,
+    "resolved_neighbor_2_1c3888": true,
+    "resolved_neighbor_2_227288": true,
+    "resolved_neighbor_2_2542e0": true,
+    "resolved_neighbor_2_2b2230": true,
+    "resolved_neighbor_2_2c1258": true,
+    "resolved_neighbor_2_c27030": true,
+    "resolved_neighbor_2_c54058": true,
+    "resolved_neighbor_2_cb2088": true,
+    "resolved_neighbor_2_cc10e0": true,
+    "resolved_neighbor_3_0a31a4": true,
+    "resolved_neighbor_3_611c06": true,
+    "resolved_neighbor_3_cb2088": true,
+    "resolved_neighbor_4_0149a6": true,
+    "resolved_neighbor_4_0a31a4": true,
+    "resolved_neighbor_4_2542e0": true,
+    "resolved_neighbor_4_3812a1": true,
+    "resolved_neighbor_4_451740": true,
+    "resolved_neighbor_4_489330": true,
+    "resolved_neighbor_4_584701": true,
+    "resolved_neighbor_4_611c06": true,
+    "resolved_neighbor_4_6a6404": true,
+    "resolved_neighbor_4_a1448c": true,
+    "resolved_neighbor_4_c1112c": true,
+    "resolved_neighbor_5_026a64": true,
+    "resolved_neighbor_5_039834": true,
+    "resolved_neighbor_5_042de0": true,
+    "resolved_neighbor_5_04701b": true,
+    "resolved_neighbor_5_05824b": true,
+    "resolved_neighbor_5_0a31a4": true,
+    "resolved_neighbor_5_0c7620": true,
+    "resolved_neighbor_5_0d8470": true,
+    "resolved_neighbor_5_10323c": true,
+    "resolved_neighbor_5_11c06c": true,
+    "resolved_neighbor_5_162843": true,
+    "resolved_neighbor_5_183407": true,
+    "resolved_neighbor_5_230564": true,
+    "resolved_neighbor_5_24b0b0": true,
+    "resolved_neighbor_5_2542e0": true,
+    "resolved_neighbor_5_2d1920": true,
+    "resolved_neighbor_5_3100c7": true,
+    "resolved_neighbor_5_407306": true,
+    "resolved_neighbor_5_418156": true,
+    "resolved_neighbor_5_463482": true,
+    "resolved_neighbor_5_4828c6": true,
+    "resolved_neighbor_5_543121": true,
+    "resolved_neighbor_5_611c06": true,
+    "resolved_neighbor_5_6f0042": true,
+    "resolved_neighbor_5_83084e": true,
+    "resolved_neighbor_5_84e061": true,
+    "resolved_neighbor_5_851231": true,
+    "resolved_neighbor_5_8d140a": true,
+    "resolved_neighbor_5_915016": true,
+    "resolved_neighbor_5_a420ca": true,
+    "resolved_neighbor_5_c1112c": true,
+    "six_completion_counts_4_12_24_4_12_32": true,
+    "testigo_sha": true,
+    "thirteen_certified_distinct_M24_orbit_witnesses": true,
+    "two_cyclic_orbit_types_distinct": true,
+    "witness_six_critical_pairs_positive": true
+  },
+  "checks_passed": 125,
+  "classical_inputs": {
+    "Co0_frame_count": 8292375,
+    "M24_is_Aut_extended_Golay": true,
+    "M24_order": 244823040,
+    "frame_stabilizer": "2^12:M24"
+  },
+  "cut": "separadores_octadas",
+  "cyclic_reader_types": [
+    {
+      "candidate_signature_row_symmetries": 24,
+      "critical_pairs_per_bit": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "id": "cyclic_1",
+      "m24_orbit_size": 40803840,
+      "m24_stabilizer_order": 6,
+      "octads_hex": [
+        "2e04a8",
+        "802b8c",
+        "421962",
+        "90444b",
+        "851231",
+        "1d8806"
+      ],
+      "pair_intersections": {
+        "2": 15
+      },
+      "stabilizer_element_orders": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "6": 2
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          3,
+          0
+        ],
+        [
+          2,
+          4,
+          3,
+          0,
+          5,
+          1
+        ],
+        [
+          3,
+          5,
+          0,
+          2,
+          1,
+          4
+        ],
+        [
+          4,
+          3,
+          5,
+          1,
+          0,
+          2
+        ],
+        [
+          5,
+          0,
+          1,
+          4,
+          2,
+          3
+        ]
+      ],
+      "weight_histogram": [
+        0,
+        6,
+        12,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 12,
+      "critical_pairs_per_bit": [
+        8,
+        8,
+        8,
+        8,
+        4,
+        4
+      ],
+      "id": "cyclic_2",
+      "m24_orbit_size": 40803840,
+      "m24_stabilizer_order": 6,
+      "octads_hex": [
+        "11e103",
+        "c38260",
+        "4d3014",
+        "2a1702",
+        "884e06",
+        "221139"
+      ],
+      "pair_intersections": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "stabilizer_element_orders": {
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "6": 2
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          5,
+          4
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          0,
+          1,
+          3,
+          5,
+          4
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "global_nogo": "No Co0-equivariant section choosing six octads over all frames: a chosen reference frame would require M24-fixed proper six-subset, impossible by octad transitivity.",
+  "inherited_sha256": {
+    "octadas_entrada": "7e681ede31617412963fa9bfa6b1e67ca0da463e7a82d870009e193c70956f48",
+    "testigo_entrada": "23c881905803abd7ccc0439bd7915a5927b16a373b673becf585b803dcb5b76d"
+  },
+  "local_distinct_invariant_triples": 11,
+  "local_orbit_types": [
+    {
+      "candidate_signature_row_symmetries": 8,
+      "critical_pairs_per_bit": [
+        6,
+        6,
+        6,
+        4,
+        6,
+        4
+      ],
+      "id": "local_01",
+      "local_one_swap_representatives_of_type": 1,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "6f0042"
+      ],
+      "pair_intersections": {
+        "2": 14,
+        "4": 1
+      },
+      "source_replacement_hex": "6f0042",
+      "source_replacement_index": 5,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        4,
+        14,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 48,
+      "critical_pairs_per_bit": [
+        8,
+        4,
+        4,
+        4,
+        8,
+        4
+      ],
+      "id": "local_02",
+      "local_one_swap_representatives_of_type": 1,
+      "m24_orbit_size": 81607680,
+      "m24_stabilizer_order": 3,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "4828c6"
+      ],
+      "pair_intersections": {
+        "2": 14,
+        "4": 1
+      },
+      "source_replacement_hex": "4828c6",
+      "source_replacement_index": 5,
+      "stabilizer_element_orders": {
+        "1": 1,
+        "3": 2
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          3,
+          2,
+          5,
+          4,
+          1
+        ],
+        [
+          0,
+          5,
+          2,
+          1,
+          4,
+          3
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        4,
+        14,
+        4,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 2,
+      "critical_pairs_per_bit": [
+        8,
+        6,
+        6,
+        8,
+        4,
+        6
+      ],
+      "id": "local_03",
+      "local_one_swap_representatives_of_type": 5,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "832921",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "source_replacement_hex": "832921",
+      "source_replacement_index": 1,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 12,
+      "critical_pairs_per_bit": [
+        8,
+        8,
+        8,
+        8,
+        4,
+        4
+      ],
+      "id": "local_04",
+      "local_one_swap_representatives_of_type": 1,
+      "m24_orbit_size": 122411520,
+      "m24_stabilizer_order": 2,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "543121"
+      ],
+      "pair_intersections": {
+        "0": 1,
+        "2": 12,
+        "4": 2
+      },
+      "source_replacement_hex": "543121",
+      "source_replacement_index": 5,
+      "stabilizer_element_orders": {
+        "1": 1,
+        "2": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 4,
+      "critical_pairs_per_bit": [
+        8,
+        6,
+        4,
+        6,
+        6,
+        4
+      ],
+      "id": "local_05",
+      "local_one_swap_representatives_of_type": 10,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "891885",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "2": 14,
+        "4": 1
+      },
+      "source_replacement_hex": "891885",
+      "source_replacement_index": 1,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        5,
+        11,
+        7,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 4,
+      "critical_pairs_per_bit": [
+        8,
+        4,
+        6,
+        6,
+        6,
+        4
+      ],
+      "id": "local_06",
+      "local_one_swap_representatives_of_type": 8,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "c27030",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "2": 13,
+        "4": 2
+      },
+      "source_replacement_hex": "c27030",
+      "source_replacement_index": 2,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        5,
+        13,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 2,
+      "critical_pairs_per_bit": [
+        8,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "id": "local_07",
+      "local_one_swap_representatives_of_type": 4,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "162843",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "0": 1,
+        "2": 11,
+        "4": 3
+      },
+      "source_replacement_hex": "162843",
+      "source_replacement_index": 1,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 12,
+      "critical_pairs_per_bit": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        4
+      ],
+      "id": "local_08",
+      "local_one_swap_representatives_of_type": 1,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "83084e"
+      ],
+      "pair_intersections": {
+        "0": 2,
+        "2": 9,
+        "4": 4
+      },
+      "source_replacement_hex": "83084e",
+      "source_replacement_index": 5,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 1,
+      "critical_pairs_per_bit": [
+        8,
+        6,
+        6,
+        8,
+        6,
+        4
+      ],
+      "id": "local_09",
+      "local_one_swap_representatives_of_type": 41,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "0d8470",
+        "868a05",
+        "125858",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "2": 13,
+        "4": 2
+      },
+      "source_replacement_hex": "0d8470",
+      "source_replacement_index": 0,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        6,
+        10,
+        6,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 4,
+      "critical_pairs_per_bit": [
+        6,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "id": "local_10",
+      "local_one_swap_representatives_of_type": 4,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "03e4a0",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "2": 12,
+        "4": 3
+      },
+      "source_replacement_hex": "03e4a0",
+      "source_replacement_index": 2,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        6,
+        11,
+        5,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "candidate_signature_row_symmetries": 4,
+      "critical_pairs_per_bit": [
+        6,
+        6,
+        6,
+        8,
+        4,
+        6
+      ],
+      "id": "local_11",
+      "local_one_swap_representatives_of_type": 6,
+      "m24_orbit_size": 244823040,
+      "m24_stabilizer_order": 1,
+      "octads_hex": [
+        "708191",
+        "868a05",
+        "227288",
+        "a00d2a",
+        "28c690",
+        "90a246"
+      ],
+      "pair_intersections": {
+        "2": 12,
+        "4": 3
+      },
+      "source_replacement_hex": "227288",
+      "source_replacement_index": 2,
+      "stabilizer_element_orders": {
+        "1": 1
+      },
+      "stabilizer_permutations": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "weight_histogram": [
+        1,
+        6,
+        12,
+        2,
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "one_slot_valid_completion_counts_including_original": [
+    4,
+    12,
+    24,
+    4,
+    12,
+    32
+  ],
+  "one_swap_distinct_neighbors": 82,
+  "separador_base": {
+    "candidate_signature_row_symmetries": 1,
+    "critical_pairs_per_bit": [
+      8,
+      6,
+      6,
+      8,
+      6,
+      4
+    ],
+    "m24_orbit_size": 244823040,
+    "m24_stabilizer_order": 1,
+    "octads_hex": [
+      "708191",
+      "868a05",
+      "125858",
+      "a00d2a",
+      "28c690",
+      "90a246"
+    ],
+    "pair_intersections": {
+      "2": 13,
+      "4": 2
+    },
+    "stabilizer_element_orders": {
+      "1": 1
+    },
+    "stabilizer_permutations": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "weight_histogram": [
+      1,
+      6,
+      10,
+      6,
+      1,
+      0,
+      0
+    ]
+  },
+  "state": "EXACT_13_INEQUIVALENT_M24_ORBIT_WITNESSES_PASS / LOCAL_82_NEIGHBORS_EXHAUSTIVE_PASS / C6_READOUT_PASS / GLOBAL_SELECTOR_NOGO",
+  "transport": "For decorated frames (F,R), Co0 acts by conjugating Golay octad sign operators; point-line signatures equivariant. Choice of R and lifts is not Co0-canonical.",
+  "universal_argument": "24 pairwise distinct six-bit signatures imply Stab_M24(R) injects into S6; each bit is essential by the five-octad theorem"
+}
